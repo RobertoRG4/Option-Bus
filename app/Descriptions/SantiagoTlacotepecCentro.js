@@ -5,8 +5,16 @@ import { Info } from "../../Info/SantiagoTlacotepecCentro";
 import Lugares from "../Utilites/Lugares";
 
 const data = [
-  { key: 1, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-  { key: 2, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+  {
+    key: 1,
+    title: "lugar",
+    coords: { latitude: 19.29114, longitude: -99.656531 },
+  },
+  {
+    key: 2,
+    title: "lugar",
+    coords: { latitude: 19.283001, longitude: -99.660879 },
+  },
   { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
