@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
 import { StyleSheet, View, Image } from "react-native";
-import { StandarMap } from "../PropsMap/Props"; // Assuming this holds map styles
-import { router } from "expo-router"; // Assuming this handles navigation
+import { StandarMap } from "../PropsMap/Props";
+import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import { Styles } from "../Utilites/Styles";
 
 const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
   const INITIAL_REGION = coords
     ? {
-        latitude: coords.parsedLatitude, // Parse latitude to number
-        longitude: coords.parsedLongitude, // Parse longitude to number
+        latitude: coords.parsedLatitude,
+        longitude: coords.parsedLongitude,
         latitudeDelta: coordsDelta.latitudeDelta,
         longitudeDelta: coordsDelta.longitudeDelta,
       }
@@ -21,7 +21,7 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         longitudeDelta: 0.1,
       };
 
-  const [markerVisible, setMarkerVisible] = useState(!!coords); // Conditional visibility
+  const [markerVisible, setMarkerVisible] = useState(!!coords);
 
   return (
     <View style={Styles.container}>
@@ -29,7 +29,7 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         provider={PROVIDER_GOOGLE}
         style={StyleSheet.absoluteFill}
         initialRegion={INITIAL_REGION}
-        customMapStyle={StandarMap}
+        //customMapStyle={StandarMap}
         liteMode={true}
       >
         {markerVisible && (

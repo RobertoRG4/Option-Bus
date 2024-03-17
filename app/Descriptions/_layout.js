@@ -9,7 +9,7 @@ const options = {
     title: "Santiago Tlacotepec - Centro",
     headerLeft: () => (
       <TouchableOpacity
-        style={Styles.paddingHorizontal}
+        style={{ paddingHorizontal: 8 }}
         onPress={() => router.back()}
       >
         <Ionicons name="arrow-back" size={24} color="black" />
@@ -31,7 +31,7 @@ const options = {
 
 const descriptionsLayout = () => {
   return (
-    <Stack>
+    <Stack screenOptions={{ headerTitleAlign: "center" }}>
       <Stack.Screen
         name="SantiagoTlacotepecCentro"
         options={options.SantiagoTlacotepec}

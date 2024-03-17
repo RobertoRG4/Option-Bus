@@ -11,7 +11,7 @@ const Places = () => {
     <View style={{ flex: 1 }}>
       <Map
         coords={{ parsedLatitude, parsedLongitude }}
-        icon={require("../../assets/lugar.png")}
+        icon={require("../../assets/marcador-de-posicion.png")}
         stylesMarker={{ width: 50, height: 50 }}
         coordsDelta={{ latitudeDelta: 0.004, longitudeDelta: 0.004 }}
       />

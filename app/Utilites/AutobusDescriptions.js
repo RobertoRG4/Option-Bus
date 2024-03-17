@@ -12,8 +12,8 @@ const AutobusDescriptions = ({ id, titulo, tiempo, costo, img, color }) => {
         <View style={Styles.informacion}>
           <Text style={Styles.titulo}>{titulo}</Text>
           <View style={Styles.caracteristicas}>
-            <Text>Tiempo: {tiempo}</Text>
-            <Text>Costo: {costo}</Text>
+            <Text style={{ paddingHorizontal: 3 }}>Tiempo: {tiempo}</Text>
+            <Text style={{ paddingHorizontal: 3 }}>Costo: {costo}</Text>
           </View>
           <View style={[Styles.lineRouter, { backgroundColor: color }]} />
         </View>

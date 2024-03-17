@@ -35,7 +35,7 @@ export const Styles = StyleSheet.create({
   },
   caracteristicas: {
     flexDirection: "row",
-    gap: 50,
+    alignContent: "flex-end",
   },
   imagen: {
     width: 80,

@@ -4,21 +4,33 @@ import { FontAwesome6, FontAwesome, Feather } from "@expo/vector-icons";
 const options = {
   home: {
     headerShown: false,
-    tabBarIcon: () => <FontAwesome6 name="map-location" size={24} />,
+    tabBarIcon: ({ color }) => (
+      <FontAwesome6 name="map-location" size={24} color={color} />
+    ),
   },
   buses: {
     title: "Buses",
-    tabBarIcon: () => <FontAwesome name="bus" size={24} />,
+    tabBarIcon: ({ color }) => (
+      <FontAwesome name="bus" size={24} color={color} />
+    ),
   },
   settings: {
     title: "Configuracion",
-    tabBarIcon: () => <Feather name="settings" size={24} />,
+    Text: "bold",
+    tabBarIcon: ({ color }) => (
+      <Feather name="settings" size={24} color={color} />
+    ),
   },
 };
 
 const TabsLayout = () => {
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: "#3493db",
+        tabBarInactiveTintColor: "#707579",
+      }}
+    >
       <Tabs.Screen name="Map" options={options.home} />
       <Tabs.Screen name="Buses" options={options.buses} />
       <Tabs.Screen name="Settings" options={options.settings} />

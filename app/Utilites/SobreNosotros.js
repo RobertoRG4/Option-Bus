@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  ScrollView,
-  TouchableOpacity,
-  Linking,
-} from "react-native";
-import { FontAwesome } from "@expo/vector-icons";
+import { View, Text, Image, StyleSheet, ScrollView } from "react-native";
+
 const SobreNosotros = () => {
   return (
     <View style={styles.container}>

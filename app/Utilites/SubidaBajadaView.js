@@ -1,9 +1,7 @@
 import React from "react";
 import { useLocalSearchParams } from "expo-router";
-import { View, StyleSheet, Image } from "react-native";
-import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
+import { View } from "react-native";
 import Map from "../Componets/Map";
-//import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const SubidaBajadaView = () => {
   const { latitude, longitude } = useLocalSearchParams();
