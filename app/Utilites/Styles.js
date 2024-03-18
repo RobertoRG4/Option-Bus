@@ -1,13 +1,110 @@
 import { StyleSheet } from "react-native";
 export const Styles = StyleSheet.create({
+  container: { flex: 1 },
+  containerHorizontal: { paddingHorizontal: 5, flex: 1 },
+  containerBackground: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  containerAboutUs: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+    backgroundColor: "#fff",
+  },
+  containerMargin: {
+    flex: 1,
+    backgroundColor: "#fff",
+    marginTop: 5,
+  },
+  borderSettings: {
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 22,
+    margin: 5,
+  },
   paddingHorizontal: { paddingHorizontal: 15 },
+  iconColor: { color: "black" },
+  fontSizeSettings: { fontSize: 20 },
+  containerButton: {
+    backgroundColor: "#fff",
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 10,
+    padding: 10,
+    margin: 5,
+  },
+  flexCenter: { flexDirection: "row", alignItems: "center" },
+  darkModeButton: {
+    backgroundColor: "#ccc",
+    width: 50,
+    height: 50,
+    borderRadius: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  buttonTimeLine: {
+    width: 100,
+    alignSelf: "flex-end",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 12,
+    borderRadius: 4,
+    backgroundColor: "rgb(45,156,219)",
+    margin: 20,
+  },
+  lugaresContainer: {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  lugaresText: {
+    fontSize: 25,
+    textAlign: "center",
+    padding: 5,
+    backgroundColor: "rgb(45,156,219)",
+    color: "#fff",
+    padding: 10,
+    fontWeight: "bold",
+    width: "100%",
+  },
+  lugaresButton: { width: "48%", marginVertical: 15, margin: 2 },
+  iconText: { fontSize: 20, marginLeft: 5 },
+  titleAboutUs: {
+    fontSize: 22,
+    fontWeight: "bold",
+    margin: 2,
+  },
+  descriptionAboutUs: { margin: 5, fontSize: 18 },
+  footerAboutUs: {
+    marginTop: 20,
+    alignItems: "center",
+  },
+  imageContain: { flexDirection: "row", margin: 1 },
+  imageAboutUs: {
+    width: 150,
+    objectFit: "contain",
+    height: 200,
+    margin: 10,
+    borderRadius: 30,
+  },
+  //===========================================
   tab: {
     flex: 1,
     alignItems: "center",
   },
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
+  textStops: {
+    fontSize: 25,
+    textAlign: "center",
+    padding: 5,
+    backgroundColor: "rgb(45,156,219)",
+    color: "#fff",
+    padding: 10,
+    fontWeight: "bold",
+    marginBottom: 15,
   },
   loading: {
     flex: 1,
@@ -61,6 +158,12 @@ export const Styles = StyleSheet.create({
     fontSize: 15,
     marginBottom: 5,
   },
+  lineaTitle: { fontWeight: "bold", fontSize: 18 },
+  textBold: {
+    fontWeight: "bold",
+    color: "white",
+  },
+  timeLineWidth: { width: 360, alignSelf: "center" },
   lineRouter: {
     marginTop: 5,
     height: 5,
@@ -73,4 +176,5 @@ export const Styles = StyleSheet.create({
   settingText: {
     fontSize: 20,
   },
+  marker: { width: 50, height: 50 },
 });

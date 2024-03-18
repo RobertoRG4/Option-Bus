@@ -1,18 +1,19 @@
 import React from "react";
-import { Link, Stack, router } from "expo-router";
+import { Stack, router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity } from "react-native";
 import { Styles } from "../Utilites/Styles";
 
 const options = {
+  headerCenter: { headerTitleAlign: "center" },
   SantiagoTlacotepec: {
     title: "Santiago Tlacotepec - Centro",
     headerLeft: () => (
       <TouchableOpacity
-        style={{ paddingHorizontal: 8 }}
+        style={Styles.paddingHorizontal}
         onPress={() => router.back()}
       >
-        <Ionicons name="arrow-back" size={24} color="black" />
+        <Ionicons name="arrow-back" size={24} color={Styles.iconColor} />
       </TouchableOpacity>
     ),
   },
@@ -23,7 +24,7 @@ const options = {
         style={Styles.paddingHorizontal}
         onPress={() => router.back()}
       >
-        <Ionicons name="arrow-back" size={24} color="black" />
+        <Ionicons name="arrow-back" size={24} color={Styles.iconColor} />
       </TouchableOpacity>
     ),
   },
@@ -31,7 +32,7 @@ const options = {
 
 const descriptionsLayout = () => {
   return (
-    <Stack screenOptions={{ headerTitleAlign: "center" }}>
+    <Stack screenOptions={options.headerCenter}>
       <Stack.Screen
         name="SantiagoTlacotepecCentro"
         options={options.SantiagoTlacotepec}

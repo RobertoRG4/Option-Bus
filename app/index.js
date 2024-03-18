@@ -1,4 +1,4 @@
-import React, { useEffect, useState, lazy, Suspense } from "react";
+import React, { useEffect, useState } from "react";
 import { Redirect } from "expo-router";
 import { Styles } from "./Utilites/Styles";
 import { View } from "react-native";

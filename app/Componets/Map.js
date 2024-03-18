@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
 import { StyleSheet, View, Image } from "react-native";
-import { StandarMap } from "../PropsMap/Props";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import { Styles } from "../Utilites/Styles";
@@ -29,7 +28,6 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         provider={PROVIDER_GOOGLE}
         style={StyleSheet.absoluteFill}
         initialRegion={INITIAL_REGION}
-        //customMapStyle={StandarMap}
         liteMode={true}
       >
         {markerVisible && (

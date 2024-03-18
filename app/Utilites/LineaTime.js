@@ -3,6 +3,7 @@ import { View, Text, TouchableOpacity, Alert, Modal } from "react-native";
 import Timeline from "react-native-timeline-flatlist";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
+import { Styles } from "./Styles";
 
 const LineaTime = ({ data }) => {
   const handlePress = (item) => {
@@ -18,37 +19,21 @@ const LineaTime = ({ data }) => {
 
   const Render = ({ item }) => {
     return (
-      <View style={{ paddingHorizontal: 5, flex: 1 }}>
-        <Text style={{ fontWeight: "bold", fontSize: 18 }}>{item.title}</Text>
+      <View style={Styles.containerHorizontal}>
+        <Text style={Styles.lineaTitle}>{item.title}</Text>
         <Text>{item.description}</Text>
         <TouchableOpacity
-          style={{
-            width: 120,
-            alignSelf: "flex-end",
-            alignItems: "center",
-            justifyContent: "center",
-            paddingVertical: 12,
-            borderRadius: 4,
-            backgroundColor: "rgb(45,156,219)",
-            margin: 20,
-          }}
+          style={Styles.buttonTimeLine}
           onPress={() => handlePress(item)}
         >
-          <Text
-            style={{
-              fontWeight: "bold",
-              color: "white",
-            }}
-          >
-            Ver Parada
-          </Text>
+          <Text style={Styles.textBold}>Ver Parada</Text>
         </TouchableOpacity>
       </View>
     );
   };
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={Styles.container}>
       <Timeline
         data={data}
         innerCircle="icon"
@@ -58,7 +43,7 @@ const LineaTime = ({ data }) => {
         descriptionStyle={{ color: "gray" }}
         showTime={false}
         options={{
-          style: { width: 355, alignSelf: "center" },
+          style: Styles.timeLineWidth,
         }}
         renderDetail={(item) => <Render item={item} />}
         iconDefault={

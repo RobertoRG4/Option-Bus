@@ -7,7 +7,7 @@ import { Bus } from "../../Info/Bus";
 
 const Buses = () => {
   return (
-    <View style={Styles.container}>
+    <View style={Styles.containerBackground}>
       {Object.values(Bus).map(
         ({ key, titulo, tiempo, costo, img, color, directions }) => (
           <Pressable key={key} onPress={() => router.push(directions)}>

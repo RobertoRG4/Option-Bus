@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 import LineaTime from "../Utilites/LineaTime";
 import { Info } from "../../Info/SantiagoTlacotepecCentro";
 import Lugares from "../Utilites/Lugares";
-
+import { Styles } from "../Utilites/Styles";
 const data = [
   {
     key: 1,
@@ -23,23 +23,10 @@ const data = [
 
 const SantiagoTlacotepecCentro = () => {
   return (
-    <View style={{ flex: 1, backgroundColor: "#fff" }}>
+    <View style={Styles.containerBackground}>
       <Lugares data={data} />
-      <View style={{ flex: 1 }}>
-        <Text
-          style={{
-            fontSize: 25,
-            textAlign: "center",
-            padding: 5,
-            backgroundColor: "rgb(45,156,219)",
-            color: "#fff",
-            padding: 10,
-            fontWeight: "bold",
-            marginBottom: 15,
-          }}
-        >
-          Paradas / Subidas
-        </Text>
+      <View style={Styles.container}>
+        <Text style={Styles.textStops}>Paradas / Subidas</Text>
         <LineaTime data={Info.paradasSubidas} />
       </View>
     </View>
