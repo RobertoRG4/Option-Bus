@@ -1,9 +1,15 @@
-import React, { useState } from "react";
-import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
+import React, { useState, useEffect } from "react";
+import MapView, {
+  Marker,
+  PROVIDER_GOOGLE,
+  Polyline,
+  Text,
+} from "react-native-maps";
 import { StyleSheet, View, Image } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import { Styles } from "../Utilites/Styles";
+import * as Location from "expo-location";
 
 const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
   const INITIAL_REGION = coords
@@ -19,9 +25,21 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         latitudeDelta: 0.1,
         longitudeDelta: 0.1,
       };
-
+  const [currentLocation, setCurrentLocation] = useState(null);
   const [markerVisible, setMarkerVisible] = useState(!!coords);
 
+  useEffect(() => {
+    const getLocation = async () => {
+      let { status } = await Location.requestForegroundPermissionsAsync();
+      if (status != "granted") {
+        console.log("Permission to access location denied");
+        return;
+      }
+      let location = await Location.getCurrentPositionAsync({});
+      setCurrentLocation(location.coords);
+    };
+    getLocation();
+  }, []);
   return (
     <View style={Styles.container}>
       <MapView
@@ -29,6 +47,7 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         style={StyleSheet.absoluteFill}
         initialRegion={INITIAL_REGION}
         liteMode={true}
+        showsUserLocation={true}
       >
         {markerVisible && (
           <Marker
@@ -40,6 +59,7 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
             <Image source={icon} style={stylesMarker} />
           </Marker>
         )}
+
         <Polyline
           coordinates={Bus.SantiagoTlacotepecCentro.marks}
           strokeColor="red"
@@ -53,6 +73,13 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
           strokeWidth={3}
           tappable={true}
           onPress={() => router.push("Descriptions/SanJuanTilapaTerminal")}
+        />
+        <Polyline
+          coordinates={Bus.SanLuisCentro.marks}
+          strokeColor="#AA00FF"
+          strokeWidth={3}
+          tappable={true}
+          onPress={() => router.push("Descriptions/SanLuisCentro")}
         />
       </MapView>
     </View>

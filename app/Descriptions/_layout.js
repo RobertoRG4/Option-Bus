@@ -28,6 +28,17 @@ const options = {
       </TouchableOpacity>
     ),
   },
+  SanLuisCentro: {
+    title: "San Luis - Centro",
+    headerLeft: () => (
+      <TouchableOpacity
+        style={Styles.paddingHorizontal}
+        onPress={() => router.back()}
+      >
+        <Ionicons name="arrow-back" size={24} color={Styles.iconColor} />
+      </TouchableOpacity>
+    ),
+  },
 };
 
 const descriptionsLayout = () => {
@@ -41,6 +52,7 @@ const descriptionsLayout = () => {
         name="SanJuanTilapaTerminal"
         options={options.SanJuanTilapaTerminal}
       />
+      <Stack.Screen name="SanLuisCentro" options={options.SanLuisCentro} />
     </Stack>
   );
 };

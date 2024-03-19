@@ -1,9 +1,23 @@
 import { Stack, router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, useColorScheme } from "react-native";
 import { Styles } from "./Styles";
 const options = {
+  ScreenOptions: {
+    headerCenter: { headerTitleAlign: "center" },
+  },
   SobreNosotros: {
+    title: "Sobre Nosotros",
+    headerLeft: ({ color }) => (
+      <TouchableOpacity
+        style={Styles.paddingHorizontal}
+        onPress={() => router.back()}
+      >
+        <Ionicons name="arrow-back" size={24} color={color} />
+      </TouchableOpacity>
+    ),
+  },
+  SobreNosotrosDar: {
     title: "Sobre Nosotros",
     headerLeft: () => (
       <TouchableOpacity
@@ -39,7 +53,7 @@ const options = {
 };
 const LayoutUtilites = () => {
   return (
-    <Stack>
+    <Stack screenOptions={options.ScreenOptions}>
       <Stack.Screen name="SobreNosotros" options={options.SobreNosotros} />
       <Stack.Screen
         name="SubidaBajadaView"

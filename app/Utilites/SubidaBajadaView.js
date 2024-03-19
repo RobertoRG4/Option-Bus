@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocalSearchParams } from "expo-router";
 import { View } from "react-native";
-import Map from "../Componets/Map";
+import Map from "../Tabs/Map";
 
 const SubidaBajadaView = () => {
   const { latitude, longitude } = useLocalSearchParams();

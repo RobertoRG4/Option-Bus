@@ -1,8 +1,6 @@
-import {
-  SantiagoTlacotepecCentro,
-  SantiagoTlacotepecCentroRuta,
-} from "./SantiagoTlacotepecCentro.js";
+import { SantiagoTlacotepecCentroRuta } from "./SantiagoTlacotepecCentro.js";
 import { SanJuanTilapaTerminal } from "./SanJuanTilapaTerminal.js";
+import { SanLuisCentro } from "./SanLuisCentro.js";
 
 export const Bus = {
   SantiagoTlacotepecCentro: {
@@ -24,5 +22,15 @@ export const Bus = {
     color: "#008000",
     directions: "/Descriptions/SanJuanTilapaTerminal",
     marks: SanJuanTilapaTerminal,
+  },
+  SanLuisCentro: {
+    key: 3,
+    titulo: "San Luis - Centro",
+    tiempo: "4 - 5 min",
+    costo: "Distancia",
+    img: require("../assets/AutobusSanluisCentro.jpg"),
+    color: "#AA00FF",
+    directions: "/Descriptions/SanLuisCentro",
+    marks: SanLuisCentro,
   },
 };

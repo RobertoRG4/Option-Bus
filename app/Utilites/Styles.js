@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+
 export const Styles = StyleSheet.create({
   container: { flex: 1 },
   containerHorizontal: { paddingHorizontal: 5, flex: 1 },
@@ -16,7 +17,6 @@ export const Styles = StyleSheet.create({
   containerMargin: {
     flex: 1,
     backgroundColor: "#fff",
-    marginTop: 5,
   },
   borderSettings: {
     borderWidth: 1,

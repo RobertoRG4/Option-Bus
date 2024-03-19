@@ -24,7 +24,7 @@ const index = () => {
     );
   }
 
-  return <Redirect href="/Componets/Map" />;
+  return <Redirect href="/Tabs/Map" />;
 };
 
 export default index;
