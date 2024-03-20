@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
-import MapView, {
-  Marker,
-  PROVIDER_GOOGLE,
-  Polyline,
-  Text,
-} from "react-native-maps";
-import { StyleSheet, View, Image } from "react-native";
+import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
+import { StyleSheet, Image } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
-import { Styles } from "../Utilites/Styles";
-import * as Location from "expo-location";
+import MarkerCustom from "../Styles/MarkerCustom";
+import MapContainer from "../Styles/Map";
+import {
+  requestForegroundPermissionsAsync,
+  getCurrentPositionAsync,
+} from "expo-location";
 
-const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
+const Map = ({ coords, icon, coordsDelta }) => {
   const INITIAL_REGION = coords
     ? {
         latitude: coords.parsedLatitude,
@@ -30,18 +29,17 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
 
   useEffect(() => {
     const getLocation = async () => {
-      let { status } = await Location.requestForegroundPermissionsAsync();
+      let { status } = await requestForegroundPermissionsAsync();
       if (status != "granted") {
-        console.log("Permission to access location denied");
         return;
       }
-      let location = await Location.getCurrentPositionAsync({});
+      let location = await getCurrentPositionAsync({});
       setCurrentLocation(location.coords);
     };
     getLocation();
   }, []);
   return (
-    <View style={Styles.container}>
+    <MapContainer>
       <MapView
         provider={PROVIDER_GOOGLE}
         style={StyleSheet.absoluteFill}
@@ -50,14 +48,11 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
         showsUserLocation={true}
       >
         {markerVisible && (
-          <Marker
-            coordinate={{
-              latitude: coords.parsedLatitude,
-              longitude: coords.parsedLongitude,
-            }}
-          >
-            <Image source={icon} style={stylesMarker} />
-          </Marker>
+          <MarkerCustom
+            latitude={coords.parsedLatitude}
+            longitude={coords.parsedLongitude}
+            source={icon}
+          />
         )}
 
         <Polyline
@@ -82,7 +77,7 @@ const Map = ({ coords, icon, stylesMarker, coordsDelta }) => {
           onPress={() => router.push("Descriptions/SanLuisCentro")}
         />
       </MapView>
-    </View>
+    </MapContainer>
   );
 };
 
