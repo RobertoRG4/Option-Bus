@@ -3,8 +3,8 @@ import MapView, { PROVIDER_GOOGLE, Polyline } from "react-native-maps";
 import { StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
-import MarkerCustom from "../styles/MarkerCustom";
-import MapContainer from "../styles/Map";
+import MarkerCustom from "../Styles/MarkerCustom";
+import MapContainer from "../Styles/Map";
 import {
   requestForegroundPermissionsAsync,
   getCurrentPositionAsync,

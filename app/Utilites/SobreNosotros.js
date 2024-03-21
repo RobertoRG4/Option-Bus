@@ -4,7 +4,7 @@ import {
   TextDescription,
   Title,
   Footer,
-} from "../styles/SobreNosotros";
+} from "../Styles/SobreNosotros";
 import { ScrollView } from "react-native";
 
 const SobreNosotros = () => {

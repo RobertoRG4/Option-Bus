@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocalSearchParams } from "expo-router";
-import Container from "../styles/Container";
+import Container from "../Styles/Container";
 import Map from "../Tabs/Map";
 
 const SubidaBajadaView = () => {
