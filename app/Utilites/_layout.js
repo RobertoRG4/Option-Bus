@@ -1,6 +1,6 @@
 import { Stack, router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import { TouchableOpacity, useColorScheme } from "react-native";
+import { TouchableOpacity } from "react-native";
 import { Styles } from "./Styles";
 const options = {
   ScreenOptions: {

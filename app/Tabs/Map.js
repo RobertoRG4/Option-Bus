@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import MapView, { Marker, PROVIDER_GOOGLE, Polyline } from "react-native-maps";
-import { StyleSheet, Image } from "react-native";
+import MapView, { PROVIDER_GOOGLE, Polyline } from "react-native-maps";
+import { StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
-import MarkerCustom from "../Styles/MarkerCustom";
-import MapContainer from "../Styles/Map";
+import MarkerCustom from "../styles/MarkerCustom";
+import MapContainer from "../styles/Map";
 import {
   requestForegroundPermissionsAsync,
   getCurrentPositionAsync,

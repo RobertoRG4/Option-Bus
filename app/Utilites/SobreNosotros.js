@@ -1,11 +1,10 @@
-import React from "react";
 import {
   AboutUSContainer,
   ContainerImage,
   TextDescription,
   Title,
   Footer,
-} from "../Styles/SobreNosotros";
+} from "../styles/SobreNosotros";
 import { ScrollView } from "react-native";
 
 const SobreNosotros = () => {

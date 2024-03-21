@@ -2,7 +2,7 @@ import React from "react";
 import { useLocalSearchParams } from "expo-router";
 import Map from "../Tabs/Map";
 import { Styles } from "./Styles";
-import Container from "../Styles/Container";
+import Container from "../styles/Container";
 
 const Places = () => {
   const { latitude, longitude } = useLocalSearchParams();

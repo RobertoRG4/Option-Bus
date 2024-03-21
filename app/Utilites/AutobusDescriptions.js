@@ -3,7 +3,7 @@ import {
   Container,
   ContentImage,
   Description,
-} from "../Styles/AutobusDescriptions";
+} from "../styles/AutobusDescriptions";
 
 const AutobusDescriptions = ({ id, titulo, tiempo, costo, img, color }) => {
   const theme = useColorScheme();

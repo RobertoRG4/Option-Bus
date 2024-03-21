@@ -1,10 +1,10 @@
 import React from "react";
-import { View, Text, TouchableOpacity, Alert, Modal } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
 import Timeline from "react-native-timeline-flatlist";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { Styles } from "./Styles";
-import Container from "../Styles/Container";
+import Container from "../styles/Container";
 
 const LineaTime = ({ data }) => {
   const handlePress = (item) => {
