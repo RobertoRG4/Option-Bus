@@ -9,6 +9,7 @@ import {
   requestForegroundPermissionsAsync,
   getCurrentPositionAsync,
 } from "expo-location";
+import { store } from "../state/store";
 
 const Map = ({ coords, icon, coordsDelta }) => {
   const INITIAL_REGION = coords
@@ -26,18 +27,20 @@ const Map = ({ coords, icon, coordsDelta }) => {
       };
   const [currentLocation, setCurrentLocation] = useState(null);
   const [markerVisible, setMarkerVisible] = useState(!!coords);
+  const [showUserLocation, setShowUserLocation] = useState(false);
 
   useEffect(() => {
-    const getLocation = async () => {
-      let { status } = await requestForegroundPermissionsAsync();
-      if (status != "granted") {
-        return;
+    let unsubscribe;
+    unsubscribe = store.subscribe(() => {
+      setShowUserLocation(store.getState().location.value);
+    });
+    return () => {
+      if (unsubscribe) {
+        unsubscribe();
       }
-      let location = await getCurrentPositionAsync({});
-      setCurrentLocation(location.coords);
     };
-    getLocation();
   }, []);
+
   return (
     <MapContainer>
       <MapView
@@ -45,7 +48,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
         style={StyleSheet.absoluteFill}
         initialRegion={INITIAL_REGION}
         liteMode={true}
-        showsUserLocation={true}
+        showsUserLocation={showUserLocation}
       >
         {markerVisible && (
           <MarkerCustom
