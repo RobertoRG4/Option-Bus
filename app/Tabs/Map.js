@@ -5,11 +5,8 @@ import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import MarkerCustom from "../Styles/MarkerCustom";
 import MapContainer from "../Styles/Map";
-import {
-  requestForegroundPermissionsAsync,
-  getCurrentPositionAsync,
-} from "expo-location";
 import { store } from "../state/store";
+import { Prueba } from "../../Info/Prueba";
 
 const Map = ({ coords, icon, coordsDelta }) => {
   const INITIAL_REGION = coords
@@ -25,7 +22,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
         latitudeDelta: 0.1,
         longitudeDelta: 0.1,
       };
-  const [currentLocation, setCurrentLocation] = useState(null);
+  //const [currentLocation, setCurrentLocation] = useState(null);
   const [markerVisible, setMarkerVisible] = useState(!!coords);
   const [showUserLocation, setShowUserLocation] = useState(false);
 
@@ -61,24 +58,32 @@ const Map = ({ coords, icon, coordsDelta }) => {
         <Polyline
           coordinates={Bus.SantiagoTlacotepecCentro.marks}
           strokeColor="red"
-          strokeWidth={3}
+          strokeWidth={5}
           tappable={true}
           onPress={() => router.push("Descriptions/SantiagoTlacotepecCentro")}
         />
         <Polyline
           coordinates={Bus.SanJuanTilapaTerminal.marks}
           strokeColor="#008000"
-          strokeWidth={3}
+          strokeWidth={5}
           tappable={true}
           onPress={() => router.push("Descriptions/SanJuanTilapaTerminal")}
         />
         <Polyline
           coordinates={Bus.SanLuisCentro.marks}
           strokeColor="#AA00FF"
-          strokeWidth={3}
+          strokeWidth={5}
           tappable={true}
           onPress={() => router.push("Descriptions/SanLuisCentro")}
         />
+        <Polyline
+          coordinates={Bus.SantiagoChapultepec.marks}
+          strokeColor="#ff8000"
+          tappable={true}
+          strokeWidth={5}
+          onPress={() => router.push("Descriptions/SantiagoChapultepec")}
+        />
+        <Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />
       </MapView>
     </MapContainer>
   );

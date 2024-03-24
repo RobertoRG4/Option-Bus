@@ -1,6 +1,7 @@
 import { SantiagoTlacotepecCentroRuta } from "./SantiagoTlacotepecCentro.js";
 import { SanJuanTilapaTerminal } from "./SanJuanTilapaTerminal.js";
 import { SanLuisCentro } from "./SanLuisCentro.js";
+import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
 
 export const Bus = {
   SantiagoTlacotepecCentro: {
@@ -32,5 +33,15 @@ export const Bus = {
     color: "#AA00FF",
     directions: "/Descriptions/SanLuisCentro",
     marks: SanLuisCentro,
+  },
+  SantiagoChapultepec: {
+    key: 4,
+    titulo: "Santiago - Chapultepec",
+    tiempo: "8 - 14 min",
+    costo: "$14",
+    img: require("../assets/SantiagoChapultepecBus.png"),
+    color: "#ff8000",
+    directions: "/Descriptions/SantiagoChapultepec",
+    marks: SantiagoChapultepec,
   },
 };

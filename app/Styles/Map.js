@@ -6,7 +6,7 @@ const MapContainer = ({ children }) => {
 };
 
 const Styles = StyleSheet.create({
-  MapContainer: { flex: 1, marginTop: Constants.statusBarHeight },
+  MapContainer: { flex: 1 },
 });
 
 export default MapContainer;

@@ -1,4 +1,3 @@
-import { useColorScheme } from "react-native";
 import {
   Container,
   ContentImage,
@@ -6,17 +5,10 @@ import {
 } from "../Styles/AutobusDescriptions";
 
 const AutobusDescriptions = ({ id, titulo, tiempo, costo, img, color }) => {
-  const theme = useColorScheme();
   return (
-    <Container key={id} theme>
+    <Container key={id}>
       <ContentImage source={img} />
-      <Description
-        title={titulo}
-        time={tiempo}
-        price={costo}
-        color={color}
-        theme={theme}
-      />
+      <Description title={titulo} time={tiempo} price={costo} color={color} />
     </Container>
   );
 };

@@ -1,11 +1,15 @@
-import React from "react";
-import { View, Text, TouchableOpacity } from "react-native";
 import Timeline from "react-native-timeline-flatlist";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
-import { Styles } from "./Styles";
 import Container from "../Styles/Container";
-
+import {
+  Title,
+  ContainerHorizontal,
+  Description,
+  TextButton,
+  Button,
+} from "../Styles/LineaTime";
+import { StyleSheet } from "react-native";
 const LineaTime = ({ data }) => {
   const handlePress = (item) => {
     router.push({
@@ -20,16 +24,13 @@ const LineaTime = ({ data }) => {
 
   const Render = ({ item }) => {
     return (
-      <View style={Styles.containerHorizontal}>
-        <Text style={Styles.lineaTitle}>{item.title}</Text>
-        <Text>{item.description}</Text>
-        <TouchableOpacity
-          style={Styles.buttonTimeLine}
-          onPress={() => handlePress(item)}
-        >
-          <Text style={Styles.textBold}>Ver Parada</Text>
-        </TouchableOpacity>
-      </View>
+      <ContainerHorizontal>
+        <Title>{item.title}</Title>
+        <Description>{item.description}</Description>
+        <Button onPress={() => handlePress(item)}>
+          <TextButton>Ver Parada</TextButton>
+        </Button>
+      </ContainerHorizontal>
     );
   };
 
@@ -41,22 +42,25 @@ const LineaTime = ({ data }) => {
         circleSize={40}
         circleColor="rgb(45,156,219)"
         lineColor="rgb(45,156,219)"
-        descriptionStyle={{ color: "gray" }}
+        descriptionStyle="#ccc"
         showTime={false}
         options={{
-          style: Styles.timeLineWidth,
+          style: Styles.TimeLine,
         }}
         renderDetail={(item) => <Render item={item} />}
         iconDefault={
           <MaterialCommunityIcons
             name="bus-stop-covered"
             size={20}
-            color="white"
+            color="#fff"
           />
         }
       />
     </Container>
   );
 };
+const Styles = StyleSheet.create({
+  TimeLine: { width: 360, alignSelf: "center" },
+});
 
 export default LineaTime;

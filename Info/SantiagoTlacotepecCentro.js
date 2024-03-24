@@ -140,7 +140,7 @@ export const SantiagoTlacotepecCentroRuta = [
   { latitude: 19.216926, longitude: -99.672568 },
 ];
 
-export const Info = {
+export const Data = {
   paradasSubidas: [
     {
       title: "Parada 1",
@@ -171,6 +171,38 @@ export const Info = {
       title: "Parada 7",
       coords: { latitude: 19.233983, longitude: -99.669539 },
       description: "Descripción de la parada 7",
+    },
+  ],
+  Lugares: [
+    {
+      key: 1,
+      title: "Lugar 1",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
+    },
+    {
+      key: 2,
+      title: "Lugar 2",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
+    },
+    {
+      key: 3,
+      title: "Lugar 3",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
+    },
+    {
+      key: 4,
+      title: "Lugar 4",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
+    },
+    {
+      key: 5,
+      title: "Lugar 5",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
+    },
+    {
+      key: 6,
+      title: "Lugar 6",
+      coords: { latitude: 19.219948, longitude: -99.670889 },
     },
   ],
 };

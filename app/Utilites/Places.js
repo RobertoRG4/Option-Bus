@@ -1,7 +1,5 @@
-import React from "react";
-import { useLocalSearchParams } from "expo-router";
 import Map from "../Tabs/Map";
-import { Styles } from "./Styles";
+import { useLocalSearchParams } from "expo-router";
 import Container from "../Styles/Container";
 
 const Places = () => {
@@ -14,8 +12,7 @@ const Places = () => {
       <Map
         coords={{ parsedLatitude, parsedLongitude }}
         icon={require("../../assets/marcador-de-posicion.png")}
-        stylesMarker={Styles.marker}
-        coordsDelta={{ latitudeDelta: 0.004, longitudeDelta: 0.004 }}
+        coordsDelta={{ latitudeDelta: 0.03, longitudeDelta: 0.03 }}
       />
     </Container>
   );

@@ -1,9 +1,6 @@
-import React from "react";
-import { View, Text, Pressable } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
-import { Styles } from "./Styles";
-
+import { Container, Title, Content, IconText, Button } from "../Styles/Lugares";
 const Lugares = ({ data }) => {
   const handlePress = (item) => {
     router.push({
@@ -15,21 +12,17 @@ const Lugares = ({ data }) => {
     });
   };
   return (
-    <View style={Styles.lugaresContainer}>
-      <Text style={Styles.lugaresText}>Lugares:</Text>
+    <Container>
+      <Title>Lugares:</Title>
       {data.map((item, index) => (
-        <Pressable
-          key={index}
-          style={Styles.lugaresButton}
-          onPress={() => handlePress(item)}
-        >
-          <View style={Styles.flexCenter}>
+        <Button key={index} onPress={() => handlePress(item)}>
+          <Content>
             <MaterialIcons name="place" size={24} color="rgb(45,156,219)" />
-            <Text style={Styles.iconText}>{item.title}</Text>
-          </View>
-        </Pressable>
+            <IconText>{item.title}</IconText>
+          </Content>
+        </Button>
       ))}
-    </View>
+    </Container>
   );
 };
 

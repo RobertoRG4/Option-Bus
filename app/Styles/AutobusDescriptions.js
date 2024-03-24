@@ -1,6 +1,6 @@
 import { View, StyleSheet, Image, Text } from "react-native";
 
-export const Container = ({ children, key, theme }) => {
+export const Container = ({ children, key }) => {
   return (
     <View style={styles.Container} key={key}>
       <View style={styles.Content}>{children}</View>
@@ -15,7 +15,7 @@ export const ContentImage = ({ source }) => {
   );
 };
 
-export const Description = ({ title, price, time, color, theme }) => {
+export const Description = ({ title, price, time, color }) => {
   return (
     <View style={styles.ContainerInformation}>
       <Text style={styles.Title}>{title}</Text>
