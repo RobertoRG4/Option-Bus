@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import MapView, { PROVIDER_GOOGLE, Polyline } from "react-native-maps";
 import { StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import MarkerCustom from "../Styles/MarkerCustom";
-import MapContainer from "../Styles/Map";
+import { MapContainer, MyLocationButton } from "../Styles/Map";
 import { store } from "../state/store";
 import { Prueba } from "../../Info/Prueba";
 
@@ -22,14 +22,15 @@ const Map = ({ coords, icon, coordsDelta }) => {
         latitudeDelta: 0.1,
         longitudeDelta: 0.1,
       };
-  //const [currentLocation, setCurrentLocation] = useState(null);
   const [markerVisible, setMarkerVisible] = useState(!!coords);
   const [showUserLocation, setShowUserLocation] = useState(false);
+  const [itsMyLocation, setItsMyLocation] = useState({});
 
   useEffect(() => {
     let unsubscribe;
     unsubscribe = store.subscribe(() => {
       setShowUserLocation(store.getState().location.value);
+      setItsMyLocation(store.getState().userLocation.value);
     });
     return () => {
       if (unsubscribe) {
@@ -37,15 +38,30 @@ const Map = ({ coords, icon, coordsDelta }) => {
       }
     };
   }, []);
+  const mapViewRef = useRef(null);
+
+  const goToUserLocation = () => {
+    if (itsMyLocation) {
+      mapViewRef.current.animateToRegion({
+        latitude: itsMyLocation.latitude,
+        longitude: itsMyLocation.longitude,
+        latitudeDelta: 0.01,
+        longitudeDelta: 0.01,
+      });
+    }
+  };
 
   return (
     <MapContainer>
       <MapView
+        ref={mapViewRef}
         provider={PROVIDER_GOOGLE}
         style={StyleSheet.absoluteFill}
         initialRegion={INITIAL_REGION}
         liteMode={true}
         showsUserLocation={showUserLocation}
+        showsMyLocationButton={false}
+        showsCompass={false}
       >
         {markerVisible && (
           <MarkerCustom
@@ -85,6 +101,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
         />
         <Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />
       </MapView>
+      {showUserLocation && <MyLocationButton onPress={goToUserLocation} />}
     </MapContainer>
   );
 };

@@ -1,18 +1,17 @@
-import { View, Text } from "react-native";
-import { Styles } from "../Utilites/Styles";
 import Lugares from "../Utilites/Lugares";
 import LineaTime from "../Utilites/LineaTime";
 import { Data } from "../../Info/SantiagoChapultepec";
+import { Container, Content, Title } from "../Styles/Descriptions";
 
 const SantiagoChapultepec = () => {
   return (
-    <View style={Styles.containerBackground}>
+    <Container>
       <Lugares data={Data.Lugares} />
-      <View style={Styles.container}>
-        <Text style={Styles.textStops}>Paradas / Subidas</Text>
+      <Content>
+        <Title />
         <LineaTime data={Data.paradasSubidas} />
-      </View>
-    </View>
+      </Content>
+    </Container>
   );
 };
 export default SantiagoChapultepec;

@@ -1,11 +1,16 @@
-import React from "react";
-import { View, Text } from "react-native";
-import { Styles } from "../Utilites/Styles";
+import { Container, Content, Title } from "../Styles/Descriptions";
+import Lugares from "../Utilites/Lugares";
+import { Data } from "../../Info/SanJuanTilapaTerminal";
+import LineaTime from "../Utilites/LineaTime";
 const SanJuanTilapaTerminal = () => {
   return (
-    <View style={Styles.containerBackground}>
-      <Text>San Juan Tilapa - Terminal</Text>
-    </View>
+    <Container>
+      <Lugares data={Data.Lugares} />
+      <Content>
+        <Title />
+        <LineaTime data={Data.paradasSubidas} />
+      </Content>
+    </Container>
   );
 };
 export default SanJuanTilapaTerminal;

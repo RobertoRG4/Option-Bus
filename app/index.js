@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Redirect } from "expo-router";
-import { Styles } from "./Utilites/Styles";
-import { View } from "react-native";
-import LottieView from "lottie-react-native";
+import Loading from "./Styles/Loading";
 
 const index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -12,16 +10,7 @@ const index = () => {
     }, 3000);
   }, []);
   if (isLoading) {
-    return (
-      <View style={Styles.loading}>
-        <LottieView
-          style={Styles.animation}
-          source={require("../assets/loader.json")}
-          autoPlay
-          loop
-        />
-      </View>
-    );
+    return <Loading />;
   }
 
   return <Redirect href="/Tabs/Map" />;

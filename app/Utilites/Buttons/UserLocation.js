@@ -1,13 +1,17 @@
-import { View, Text, Pressable } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons";
-import { Styles } from "../Styles";
 import { useDispatch, useSelector } from "react-redux";
 import { setLocation } from "../../state/locationSlice";
 import {
   requestForegroundPermissionsAsync,
   getCurrentPositionAsync,
 } from "expo-location";
-
+import { setUserLocation } from "../../state/userLocationSlice";
+import {
+  Button,
+  Container,
+  Content,
+  Title,
+  Space,
+} from "../../Styles/userLocation";
 const UserLocation = () => {
   const dispatch = useDispatch();
   const status = useSelector((state) => state.location.value);
@@ -27,23 +31,18 @@ const UserLocation = () => {
       return;
     }
     let location = await getCurrentPositionAsync({});
+    dispatch(setUserLocation(location.coords));
     dispatch(setLocation(true));
   };
 
   return (
-    <View style={Styles.containerButton}>
-      <View style={Styles.flexCenter}>
-        <Text style={Styles.fontSizeSettings}>Localizacion</Text>
-        <View style={Styles.container} />
-        <Pressable onPress={toggleLocation} style={Styles.darkModeButton}>
-          {status === true ? (
-            <MaterialIcons name="location-on" size={24} color="black" />
-          ) : (
-            <MaterialIcons name="location-off" size={24} color="black" />
-          )}
-        </Pressable>
-      </View>
-    </View>
+    <Container>
+      <Content>
+        <Title>Localizacion</Title>
+        <Space />
+        <Button onPress={toggleLocation} status={status} />
+      </Content>
+    </Container>
   );
 };
 

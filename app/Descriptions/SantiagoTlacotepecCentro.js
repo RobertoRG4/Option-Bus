@@ -1,19 +1,17 @@
-import React from "react";
-import { View, Text } from "react-native";
 import LineaTime from "../Utilites/LineaTime";
 import { Data } from "../../Info/SantiagoTlacotepecCentro";
 import Lugares from "../Utilites/Lugares";
-import { Styles } from "../Utilites/Styles";
+import { Container, Content, Title } from "../Styles/Descriptions";
 
 const SantiagoTlacotepecCentro = () => {
   return (
-    <View style={Styles.containerBackground}>
+    <Container>
       <Lugares data={Data.Lugares} />
-      <View style={Styles.container}>
-        <Text style={Styles.textStops}>Paradas / Subidas</Text>
+      <Content>
+        <Title />
         <LineaTime data={Data.paradasSubidas} />
-      </View>
-    </View>
+      </Content>
+    </Container>
   );
 };
 

@@ -1,8 +1,4 @@
-import {
-  Container,
-  ContentImage,
-  Description,
-} from "../Styles/AutobusDescriptions";
+import { Container, ContentImage, Description } from "../Styles/Bus";
 
 const AutobusDescriptions = ({ id, titulo, tiempo, costo, img, color }) => {
   return (

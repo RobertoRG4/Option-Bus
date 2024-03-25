@@ -1,6 +1,7 @@
 import { MaterialIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
 import { Container, Title, Content, IconText, Button } from "../Styles/Lugares";
+
 const Lugares = ({ data }) => {
   const handlePress = (item) => {
     router.push({
