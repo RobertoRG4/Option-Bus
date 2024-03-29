@@ -1,20 +1,28 @@
 export const SantiagoChapultepec = [
   { latitude: 19.276209, longitude: -99.645038 },
-  { latitude: 19.276247, longitude: -99.641728 },
-  { latitude: 19.272653, longitude: -99.641719 },
+  { latitude: 19.276249, longitude: -99.641733 },
+  { latitude: 19.272695, longitude: -99.641736 },
   { latitude: 19.27269, longitude: -99.643681 },
   { latitude: 19.272577, longitude: -99.643845 },
   { latitude: 19.272368, longitude: -99.64388 },
+  { latitude: 19.272, longitude: -99.643391 },
+
   { latitude: 19.270747, longitude: -99.641939 },
   { latitude: 19.270091, longitude: -99.64125 },
-  { latitude: 19.269848, longitude: -99.640911 },
-  { latitude: 19.268786, longitude: -99.639685 },
-  { latitude: 19.268581, longitude: -99.639503 },
-  { latitude: 19.267167, longitude: -99.637843 },
-  { latitude: 19.266922, longitude: -99.637595 },
-  { latitude: 19.2662, longitude: -99.636803 },
-  { latitude: 19.265543, longitude: -99.635886 },
-  { latitude: 19.264751, longitude: -99.634628 },
+
+  { latitude: 19.269887, longitude: -99.64091 },
+
+  { latitude: 19.268786, longitude: -99.63966 },
+
+  { latitude: 19.268581, longitude: -99.639449 },
+
+  { latitude: 19.267167, longitude: -99.637809 },
+  { latitude: 19.266922, longitude: -99.63756 },
+  { latitude: 19.2662, longitude: -99.636759 },
+
+  { latitude: 19.265543, longitude: -99.63585 },
+
+  { latitude: 19.264751, longitude: -99.634599 },
   { latitude: 19.263959, longitude: -99.63361 },
   { latitude: 19.262575, longitude: -99.63153 },
   { latitude: 19.260507, longitude: -99.628484 },

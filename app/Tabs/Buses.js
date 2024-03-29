@@ -1,13 +1,12 @@
-import React from "react";
-import { View, Pressable } from "react-native";
+import { Pressable } from "react-native";
 import AutobusDescriptions from "../Utilites/AutobusDescriptions";
-import { Styles } from "../Utilites/Styles";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
+import { Container } from "../Styles/Buses";
 
 const Buses = () => {
   return (
-    <View style={Styles.containerBackground}>
+    <Container>
       {Object.values(Bus).map(
         ({ key, titulo, tiempo, costo, img, color, directions }) => (
           <Pressable key={key} onPress={() => router.push(directions)}>
@@ -21,7 +20,7 @@ const Buses = () => {
           </Pressable>
         )
       )}
-    </View>
+    </Container>
   );
 };
 

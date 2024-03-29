@@ -2,6 +2,8 @@ import { SantiagoTlacotepecCentroRuta } from "./SantiagoTlacotepecCentro.js";
 import { SanJuanTilapaTerminal } from "./SanJuanTilapaTerminal.js";
 import { SanLuisCentro } from "./SanLuisCentro.js";
 import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
+import { VillaFabrica } from "./VillaFabrica.js";
+import { TenangoMexicaltzingo } from "./TenangoMexicaltzingo.js";
 
 export const Bus = {
   SantiagoTlacotepecCentro: {
@@ -40,8 +42,58 @@ export const Bus = {
     tiempo: "8 - 14 min",
     costo: "$14",
     img: require("../assets/SantiagoChapultepecBus.png"),
-    color: "#ff8000",
+    color: "#00ffbf",
     directions: "/Descriptions/SantiagoChapultepec",
     marks: SantiagoChapultepec,
+  },
+  VillaFabrica: {
+    key: 5,
+    titulo: "Villa - Fabrica",
+    tiempo: "7 - 12 min",
+    costo: "Distancia",
+    img: require("../assets/VillaFabricaCentralDeAbastos.png"),
+    color: "#572364",
+    directions: "/Descriptions/VillaFabrica",
+    marks: VillaFabrica,
+  },
+  TenangoMexicaltzingo: {
+    key: 6,
+    titulo: "Tenango - Mexicaltzingo",
+    tiempo: "9 - 12 min",
+    costo: "Distancia",
+    img: require("../assets/TenangoDelValle.png"),
+    color: "#f542b3",
+    directions: "/Descriptions/TenangoMexicaltzingo",
+    marks: TenangoMexicaltzingo,
+  },
+  CentroLasTorresLaPila: {
+    key: 7,
+    titulo: "Centro - Las Torres - La Pila",
+    tiempo: "5 - 7 min",
+    costo: "$12",
+    img: require("../assets/CentroTerminalTorresPila.jpg"),
+    color: "#42ddf5",
+    directions: "",
+    marks: [],
+  },
+  ValleDelNevado: {
+    key: 8,
+    titulo: "Valle del Nevado",
+    tiempo: "25 - 30 min",
+    costo: "Distancia",
+    img: require("../assets/ValleDelNevado.jpeg"),
+    color: "#b3f542",
+    directions: "",
+    marks: [],
+  },
+  SanFelipeCentro: {
+    key: 9,
+    titulo: "San Felipe - Centro",
+    tiempo: "8 - 15 min",
+    costo: "$12",
+    img: require("../assets/CentroSanFelipe.png"),
+    color: "#f6ff00",
+    directions: "",
+    marks: [],
   },
 };

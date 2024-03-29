@@ -70,7 +70,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             source={icon}
           />
         )}
-
+        <Polyline
+          coordinates={Bus.SantiagoChapultepec.marks}
+          strokeColor="#00ffbf"
+          tappable={true}
+          strokeWidth={5}
+          onPress={() => router.push("Descriptions/SantiagoChapultepec")}
+        />
         <Polyline
           coordinates={Bus.SantiagoTlacotepecCentro.marks}
           strokeColor="red"
@@ -85,6 +91,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
           tappable={true}
           onPress={() => router.push("Descriptions/SanJuanTilapaTerminal")}
         />
+
         <Polyline
           coordinates={Bus.SanLuisCentro.marks}
           strokeColor="#AA00FF"
@@ -92,14 +99,27 @@ const Map = ({ coords, icon, coordsDelta }) => {
           tappable={true}
           onPress={() => router.push("Descriptions/SanLuisCentro")}
         />
+
         <Polyline
-          coordinates={Bus.SantiagoChapultepec.marks}
-          strokeColor="#ff8000"
-          tappable={true}
+          coordinates={Bus.VillaFabrica.marks}
+          strokeColor="#572364"
           strokeWidth={5}
-          onPress={() => router.push("Descriptions/SantiagoChapultepec")}
+          tappable={true}
+          onPress={() => router.push("Descriptions/VillaFabrica")}
         />
-        <Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />
+        <Polyline
+          coordinates={Bus.TenangoMexicaltzingo.marks}
+          strokeColor="#f542b3"
+          strokeWidth={5}
+          tappable={true}
+          onPress={() => router.push("Descriptions/TenangoMexicaltzingo")}
+        />
+        <Polyline
+          coordinates={Bus.CentroLasTorresLaPila.marks}
+          strokeColor="#42ddf5"
+          strokeWidth={5}
+        />
+        {/*<Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />*/}
       </MapView>
       {showUserLocation && <MyLocationButton onPress={goToUserLocation} />}
     </MapContainer>

@@ -19,6 +19,14 @@ const options = {
     title: "Santiago - Chapultepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
   },
+  VillaFabrica: {
+    title: "Villa - Fabrica",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+  },
+  TenangoMexicaltzingo: {
+    title: "Tenango - Mexicaltzingo",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+  },
 };
 
 const descriptionsLayout = () => {
@@ -36,6 +44,11 @@ const descriptionsLayout = () => {
       <Stack.Screen
         name="SantiagoChapultepec"
         options={options.SantiagoChapultepec}
+      />
+      <Stack.Screen name="VillaFabrica" options={options.VillaFabrica} />
+      <Stack.Screen
+        name="TenangoMexicaltzingo"
+        options={options.TenangoMexicaltzingo}
       />
     </Stack>
   );
