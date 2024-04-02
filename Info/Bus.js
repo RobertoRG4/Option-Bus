@@ -1,10 +1,13 @@
 import { SantiagoTlacotepecCentroRuta } from "./SantiagoTlacotepecCentro.js";
 import { SanJuanTilapaTerminal } from "./SanJuanTilapaTerminal.js";
-import { SanLuisCentro } from "./SanLuisCentro.js";
+import { PilaresCentro } from "./PilaresCentro.js";
 import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
 import { VillaFabrica } from "./VillaFabrica.js";
 import { TenangoMexicaltzingo } from "./TenangoMexicaltzingo.js";
-
+import { SanLuisCentroZinacantepec } from "./SanLuisCentroZinacantepec.js";
+import { CentroSanFelipe } from "./CentroSanFelipe.js";
+import { ElRefugioTerminal } from "./ElRefugioSantiagoTlacotepec.js";
+import { TerminalLaJet } from "./TerminalLaJet.js";
 export const Bus = {
   SantiagoTlacotepecCentro: {
     key: 1,
@@ -26,15 +29,15 @@ export const Bus = {
     directions: "/Descriptions/SanJuanTilapaTerminal",
     marks: SanJuanTilapaTerminal,
   },
-  SanLuisCentro: {
+  PilaresCentro: {
     key: 3,
-    titulo: "San Luis - Centro",
+    titulo: "Pilares - Centro ",
     tiempo: "4 - 5 min",
     costo: "Distancia",
-    img: require("../assets/AutobusSanluisCentro.jpg"),
+    img: require("../assets/PilaresCentro.jpg"),
     color: "#AA00FF",
-    directions: "/Descriptions/SanLuisCentro",
-    marks: SanLuisCentro,
+    directions: "/Descriptions/PilaresCentro",
+    marks: PilaresCentro,
   },
   SantiagoChapultepec: {
     key: 4,
@@ -73,27 +76,57 @@ export const Bus = {
     costo: "$12",
     img: require("../assets/CentroTerminalTorresPila.jpg"),
     color: "#42ddf5",
-    directions: "",
+    directions: "/Descriptions/CentroLasTorresLaPila",
     marks: [],
   },
   ValleDelNevado: {
     key: 8,
-    titulo: "Valle del Nevado",
+    titulo: "Valle del Nevado - Centro",
     tiempo: "25 - 30 min",
     costo: "Distancia",
     img: require("../assets/ValleDelNevado.jpeg"),
     color: "#b3f542",
-    directions: "",
+    directions: "/Descriptions/ValleDelNevado",
     marks: [],
   },
   SanFelipeCentro: {
     key: 9,
-    titulo: "San Felipe - Centro",
+    titulo: "San Felipe - Centro - La Joya",
     tiempo: "8 - 15 min",
     costo: "$12",
     img: require("../assets/CentroSanFelipe.png"),
-    color: "#f6ff00",
-    directions: "",
-    marks: [],
+    color: "#365915",
+    directions: "/Descriptions/CentroSanFelipe",
+    marks: CentroSanFelipe,
+  },
+  ElRefugioSantiagoTlacotepec: {
+    key: 10,
+    titulo: "El Refugio - Santiago Tlacotepec",
+    tiempo: "6 - 9 min",
+    costo: "$12",
+    img: require("../assets/ElRefugioTerminal.png"),
+    color: "#c9c567",
+    directions: "/Descriptions/ElRefugioSantiagoTlacotepec",
+    marks: ElRefugioTerminal,
+  },
+  SanLuisCentroZinacantepec: {
+    key: 11,
+    titulo: "San Luis - Centro - Zinacantepec",
+    tiempo: "8 - 14 min",
+    costo: "Distancia",
+    img: require("../assets/AutobusSanluisCentro.jpg"),
+    color: "#8f8c8c",
+    directions: "/Descriptions/SanLuisCentroZinacantepec",
+    marks: SanLuisCentroZinacantepec,
+  },
+  TerminalJet: {
+    key: 12,
+    titulo: "Terminal - Jet",
+    tiempo: "4 - 8 min",
+    costo: "$12",
+    img: require("../assets/TerminalLaJet.png"),
+    color: "#d192a7",
+    directions: "/Descriptions/TerminalLaJet",
+    marks: TerminalLaJet,
   },
 };

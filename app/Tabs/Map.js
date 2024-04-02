@@ -6,7 +6,6 @@ import { Bus } from "../../Info/Bus";
 import MarkerCustom from "../Styles/MarkerCustom";
 import { MapContainer, MyLocationButton } from "../Styles/Map";
 import { store } from "../state/store";
-import { Prueba } from "../../Info/Prueba";
 
 const Map = ({ coords, icon, coordsDelta }) => {
   const INITIAL_REGION = coords
@@ -72,53 +71,87 @@ const Map = ({ coords, icon, coordsDelta }) => {
         )}
         <Polyline
           coordinates={Bus.SantiagoChapultepec.marks}
-          strokeColor="#00ffbf"
+          strokeColor={Bus.SantiagoChapultepec.color}
           tappable={true}
           strokeWidth={5}
-          onPress={() => router.push("Descriptions/SantiagoChapultepec")}
+          onPress={() => router.push(Bus.SantiagoChapultepec.directions)}
         />
         <Polyline
           coordinates={Bus.SantiagoTlacotepecCentro.marks}
-          strokeColor="red"
+          strokeColor={Bus.SantiagoTlacotepecCentro.color}
           strokeWidth={5}
           tappable={true}
-          onPress={() => router.push("Descriptions/SantiagoTlacotepecCentro")}
+          onPress={() => router.push(Bus.SantiagoTlacotepecCentro.directions)}
         />
-        <Polyline
+        {/*<Polyline
           coordinates={Bus.SanJuanTilapaTerminal.marks}
           strokeColor="#008000"
           strokeWidth={5}
           tappable={true}
           onPress={() => router.push("Descriptions/SanJuanTilapaTerminal")}
-        />
+        />*/}
 
         <Polyline
-          coordinates={Bus.SanLuisCentro.marks}
-          strokeColor="#AA00FF"
+          coordinates={Bus.PilaresCentro.marks}
+          strokeColor={Bus.PilaresCentro.color}
           strokeWidth={5}
           tappable={true}
-          onPress={() => router.push("Descriptions/SanLuisCentro")}
+          onPress={() => router.push(Bus.PilaresCentro.directions)}
         />
 
         <Polyline
           coordinates={Bus.VillaFabrica.marks}
-          strokeColor="#572364"
+          strokeColor={Bus.VillaFabrica.color}
           strokeWidth={5}
           tappable={true}
-          onPress={() => router.push("Descriptions/VillaFabrica")}
+          onPress={() => router.push(Bus.VillaFabrica.directions)}
+        />
+        <Polyline
+          coordinates={Bus.ElRefugioSantiagoTlacotepec.marks}
+          strokeColor={Bus.ElRefugioSantiagoTlacotepec.color}
+          strokeWidth={5}
+          tappable={true}
+          onPress={() =>
+            router.push(Bus.ElRefugioSantiagoTlacotepec.directions)
+          }
         />
         <Polyline
           coordinates={Bus.TenangoMexicaltzingo.marks}
-          strokeColor="#f542b3"
+          strokeColor={Bus.TenangoMexicaltzingo.color}
           strokeWidth={5}
           tappable={true}
-          onPress={() => router.push("Descriptions/TenangoMexicaltzingo")}
+          onPress={() => router.push(Bus.TenangoMexicaltzingo.directions)}
         />
         <Polyline
           coordinates={Bus.CentroLasTorresLaPila.marks}
-          strokeColor="#42ddf5"
+          strokeColor={Bus.CentroLasTorresLaPila.color}
           strokeWidth={5}
+          tappable={true}
+          onPress={() => router.push(Bus.CentroLasTorresLaPila.directions)}
         />
+        <Polyline
+          coordinates={Bus.SanLuisCentroZinacantepec.marks}
+          strokeColor={Bus.SanLuisCentroZinacantepec.color}
+          strokeWidth={5}
+          tappable={true}
+          onPress={() => router.push(Bus.SanLuisCentroZinacantepec.directions)}
+        />
+        <Polyline
+          coordinates={Bus.SanFelipeCentro.marks}
+          strokeColor={Bus.SanFelipeCentro.color}
+          strokeWidth={5}
+          tappable={true}
+          onPress={() => router.push(Bus.SanFelipeCentro.directions)}
+        />
+
+        <Polyline
+          coordinates={Bus.TerminalJet.marks}
+          strokeColor={Bus.TerminalJet.color}
+          strokeWidth={5}
+          tappable={true}
+          onPress={() => router.push(Bus.TerminalJet.directions)}
+        />
+
         {/*<Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />*/}
       </MapView>
       {showUserLocation && <MyLocationButton onPress={goToUserLocation} />}

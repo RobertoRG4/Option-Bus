@@ -1,6 +1,6 @@
 import { Container, Content, Title } from "../Styles/Lugares";
 import LineaTime from "../Utilites/LineaTime";
-const TenangoMexicaltzingo = () => {
+const CentersSanFelipe = () => {
   return (
     <Container>
       <Content>
@@ -10,5 +10,4 @@ const TenangoMexicaltzingo = () => {
     </Container>
   );
 };
-
-export default TenangoMexicaltzingo;
+export default CentersSanFelipe;

@@ -1,6 +1,6 @@
 import Lugares from "../Utilites/Lugares";
 import LineaTime from "../Utilites/LineaTime";
-import { Data } from "../../Info/SanLuisCentro";
+import { Data } from "../../Info/PilaresCentro";
 import { Container, Content, Title } from "../Styles/Descriptions";
 
 const SanLuisCentro = () => {

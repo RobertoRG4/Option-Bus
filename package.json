@@ -2,6 +2,7 @@
   "name": "app",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "author": "Roberto RG",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

@@ -80,6 +80,6 @@ const styles = StyleSheet.create({
     alignContent: "flex-end",
   },
   Text: {
-    paddingHorizontal: 5,
+    paddingHorizontal: 2,
   },
 });
