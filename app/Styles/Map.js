@@ -6,22 +6,20 @@ export const MapContainer = ({ children }) => {
 
 export const MyLocationButton = ({ onPress }) => {
   return (
-    <TouchableOpacity
-      style={{
-        position: "absolute",
-        top: "90%",
-        right: "4%",
-        padding: 10,
-        backgroundColor: "#fff",
-        borderRadius: 20,
-      }}
-      onPress={onPress}
-    >
-      <MaterialCommunityIcons name="crosshairs-gps" size={34} color="#3493db" />
+    <TouchableOpacity style={Styles.Button} onPress={onPress}>
+      <MaterialCommunityIcons name="crosshairs-gps" size={25} color="#3493db" />
     </TouchableOpacity>
   );
 };
 
 const Styles = StyleSheet.create({
+  Button: {
+    position: "absolute",
+    top: "90%",
+    right: "4%",
+    padding: 15,
+    backgroundColor: "#fff",
+    borderRadius: 20,
+  },
   MapContainer: { flex: 1 },
 });

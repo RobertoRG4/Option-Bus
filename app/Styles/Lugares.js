@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
     width: "100%",
   },
   Content: { flexDirection: "row", alignItems: "center" },
-  IconText: { fontSize: 20, marginLeft: 5 },
+  IconText: { fontSize: 20, marginLeft: 5, maxWidth: "80%" },
   Button: { width: "48%", marginVertical: 15, margin: 2 },
 });

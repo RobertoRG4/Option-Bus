@@ -6,6 +6,8 @@ import { Bus } from "../../Info/Bus";
 import MarkerCustom from "../Styles/MarkerCustom";
 import { MapContainer, MyLocationButton } from "../Styles/Map";
 import { store } from "../state/store";
+import Loading from "../Styles/Loading";
+import { setMapReady } from "../state/mapReadySlice";
 
 const Map = ({ coords, icon, coordsDelta }) => {
   const INITIAL_REGION = coords
@@ -24,12 +26,20 @@ const Map = ({ coords, icon, coordsDelta }) => {
   const [markerVisible, setMarkerVisible] = useState(!!coords);
   const [showUserLocation, setShowUserLocation] = useState(false);
   const [itsMyLocation, setItsMyLocation] = useState({});
+  const [mapReady, setMapOnReady] = useState(false);
+
+  useEffect(() => {
+    if (mapReady) {
+      store.dispatch(setMapReady(true));
+    }
+  }, [mapReady]);
 
   useEffect(() => {
     let unsubscribe;
     unsubscribe = store.subscribe(() => {
       setShowUserLocation(store.getState().location.value);
       setItsMyLocation(store.getState().userLocation.value);
+      setMapReady(mapReady);
     });
     return () => {
       if (unsubscribe) {
@@ -61,6 +71,11 @@ const Map = ({ coords, icon, coordsDelta }) => {
         showsUserLocation={showUserLocation}
         showsMyLocationButton={false}
         showsCompass={false}
+        onMapReady={() => {
+          setTimeout(() => {
+            setMapOnReady(true);
+          }, 3000);
+        }}
       >
         {markerVisible && (
           <MarkerCustom
@@ -151,9 +166,19 @@ const Map = ({ coords, icon, coordsDelta }) => {
           tappable={true}
           onPress={() => router.push(Bus.TerminalJet.directions)}
         />
+        <Polyline
+          coordinates={Bus.CentroSanBartolome.marks}
+          strokeColor={Bus.CentroSanBartolome.color}
+          strokeWidth={5}
+        />
 
-        {/*<Polyline coordinates={Prueba} strokeColor="blue" strokeWidth={5} />*/}
+        <Polyline
+          coordinates={Bus.Prepa1Pilares.marks}
+          strokeColor={Bus.Prepa1Pilares.color}
+          strokeWidth={5}
+        />
       </MapView>
+      {!mapReady && <Loading />}
       {showUserLocation && <MyLocationButton onPress={goToUserLocation} />}
     </MapContainer>
   );

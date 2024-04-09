@@ -8,6 +8,8 @@ import { SanLuisCentroZinacantepec } from "./SanLuisCentroZinacantepec.js";
 import { CentroSanFelipe } from "./CentroSanFelipe.js";
 import { ElRefugioTerminal } from "./ElRefugioSantiagoTlacotepec.js";
 import { TerminalLaJet } from "./TerminalLaJet.js";
+import { CentroSanBartolo } from "./CentroSanBartolo.js";
+import { Prepa1Pilares } from "./Prepa1Pilares.js";
 export const Bus = {
   SantiagoTlacotepecCentro: {
     key: 1,
@@ -128,5 +130,25 @@ export const Bus = {
     color: "#d192a7",
     directions: "/Descriptions/TerminalLaJet",
     marks: TerminalLaJet,
+  },
+  CentroSanBartolome: {
+    key: 13,
+    titulo: "Centro - San Bartolomé",
+    tiempo: "8 - 14 min",
+    costo: "$12",
+    img: "",
+    color: "#0000FF",
+    directions: "/Descriptions/bus1",
+    marks: CentroSanBartolo,
+  },
+  Prepa1Pilares: {
+    key: 14,
+    titulo: "Prepa 1 - Pilares",
+    tiempo: "8 - 9 min",
+    costo: "$12",
+    img: require("../assets/Prepa1Pilares.png"),
+    color: "#b0df56",
+    directions: "/Descriptions/bus1",
+    marks: Prepa1Pilares,
   },
 };

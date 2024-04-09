@@ -19,6 +19,7 @@ const Styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#fff",
+    zIndex: 1000,
   },
   Animation: {
     flex: 1,

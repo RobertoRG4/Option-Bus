@@ -18,12 +18,20 @@ export const ContainerImage = ({ source1, source2 }) => {
     </View>
   );
 };
-
 export const Footer = ({ children }) => {
   return (
     <View style={styles.Footer}>
       <Text style={styles.Text}>{children}</Text>
     </View>
+  );
+};
+export const VersionText = ({ children }) => {
+  return (
+    <Text style={styles.VersionText}>
+      <Text style={styles.Adorno}>* * </Text>
+      {children}
+      <Text style={styles.Adorno}> * * </Text>
+    </Text>
   );
 };
 const styles = StyleSheet.create({
@@ -52,5 +60,12 @@ const styles = StyleSheet.create({
   Footer: {
     marginTop: 20,
     alignItems: "center",
+  },
+  VersionText: {
+    paddingVertical: 10,
+    color: "#9b9b9b",
+  },
+  Adorno: {
+    color: "#3b83bd",
   },
 });

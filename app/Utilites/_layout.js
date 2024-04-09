@@ -18,6 +18,10 @@ const options = {
     title: "Lugares",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
   },
+  Actualizaciones: {
+    title: "Actualizaciones",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+  },
 };
 const LayoutUtilites = () => {
   return (
@@ -28,6 +32,7 @@ const LayoutUtilites = () => {
         options={options.SubidaBajadaView}
       />
       <Stack.Screen name="Places" options={options.Places} />
+      <Stack.Screen name="Actualizaciones" options={options.Actualizaciones} />
     </Stack>
   );
 };
