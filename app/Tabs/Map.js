@@ -39,7 +39,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
     unsubscribe = store.subscribe(() => {
       setShowUserLocation(store.getState().location.value);
       setItsMyLocation(store.getState().userLocation.value);
-      setMapReady(mapReady);
+      setMapOnReady(store.getState().mapReady.value);
     });
     return () => {
       if (unsubscribe) {
@@ -73,7 +73,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
         showsCompass={false}
         onMapReady={() => {
           setTimeout(() => {
-            setMapOnReady(true);
+            store.dispatch(setMapReady(true));
           }, 3000);
         }}
       >
