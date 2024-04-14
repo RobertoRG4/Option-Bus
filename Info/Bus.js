@@ -11,7 +11,7 @@ import { TerminalLaJet } from "./TerminalLaJet.js";
 import { CentroSanBartolo } from "./CentroSanBartolo.js";
 import { Prepa1Pilares } from "./Prepa1Pilares.js";
 export const Bus = {
-  SantiagoTlacotepecCentro: {
+  1: {
     key: 1,
     titulo: "Santiago Tlacotepec - Centro",
     tiempo: "2 - 5 min",
@@ -21,7 +21,7 @@ export const Bus = {
     directions: "/Descriptions/SantiagoTlacotepecCentro",
     marks: SantiagoTlacotepecCentroRuta,
   },
-  SanJuanTilapaTerminal: {
+  2: {
     key: 2,
     titulo: "San Juan Tilapa - Terminal",
     tiempo: "2 - 6 min",
@@ -31,7 +31,7 @@ export const Bus = {
     directions: "/Descriptions/SanJuanTilapaTerminal",
     marks: SanJuanTilapaTerminal,
   },
-  PilaresCentro: {
+  3: {
     key: 3,
     titulo: "Pilares - Centro ",
     tiempo: "4 - 5 min",
@@ -41,7 +41,7 @@ export const Bus = {
     directions: "/Descriptions/PilaresCentro",
     marks: PilaresCentro,
   },
-  SantiagoChapultepec: {
+  4: {
     key: 4,
     titulo: "Santiago - Chapultepec",
     tiempo: "8 - 14 min",
@@ -51,7 +51,7 @@ export const Bus = {
     directions: "/Descriptions/SantiagoChapultepec",
     marks: SantiagoChapultepec,
   },
-  VillaFabrica: {
+  5: {
     key: 5,
     titulo: "Villa - Fabrica",
     tiempo: "7 - 12 min",
@@ -61,7 +61,7 @@ export const Bus = {
     directions: "/Descriptions/VillaFabrica",
     marks: VillaFabrica,
   },
-  TenangoMexicaltzingo: {
+  6: {
     key: 6,
     titulo: "Tenango - Mexicaltzingo",
     tiempo: "9 - 12 min",
@@ -71,7 +71,7 @@ export const Bus = {
     directions: "/Descriptions/TenangoMexicaltzingo",
     marks: TenangoMexicaltzingo,
   },
-  CentroLasTorresLaPila: {
+  7: {
     key: 7,
     titulo: "Centro - Las Torres - La Pila",
     tiempo: "5 - 7 min",
@@ -91,7 +91,7 @@ export const Bus = {
     directions: "/Descriptions/ValleDelNevado",
     marks: [],
   },
-  SanFelipeCentro: {
+  9: {
     key: 9,
     titulo: "San Felipe - Centro - La Joya",
     tiempo: "8 - 15 min",
@@ -101,7 +101,7 @@ export const Bus = {
     directions: "/Descriptions/CentroSanFelipe",
     marks: CentroSanFelipe,
   },
-  ElRefugioSantiagoTlacotepec: {
+  10: {
     key: 10,
     titulo: "El Refugio - Santiago Tlacotepec",
     tiempo: "6 - 9 min",
@@ -111,7 +111,7 @@ export const Bus = {
     directions: "/Descriptions/ElRefugioSantiagoTlacotepec",
     marks: ElRefugioTerminal,
   },
-  SanLuisCentroZinacantepec: {
+  11: {
     key: 11,
     titulo: "San Luis - Centro - Zinacantepec",
     tiempo: "8 - 14 min",
@@ -121,7 +121,7 @@ export const Bus = {
     directions: "/Descriptions/SanLuisCentroZinacantepec",
     marks: SanLuisCentroZinacantepec,
   },
-  TerminalJet: {
+  12: {
     key: 12,
     titulo: "Terminal - Jet",
     tiempo: "4 - 8 min",
@@ -131,24 +131,24 @@ export const Bus = {
     directions: "/Descriptions/TerminalLaJet",
     marks: TerminalLaJet,
   },
-  CentroSanBartolome: {
+  13: {
     key: 13,
     titulo: "Centro - San Bartolomé",
     tiempo: "8 - 14 min",
     costo: "$12",
     img: "",
     color: "#0000FF",
-    directions: "/Descriptions/bus1",
+    directions: "/Descriptions/13",
     marks: CentroSanBartolo,
   },
-  Prepa1Pilares: {
+  14: {
     key: 14,
     titulo: "Prepa 1 - Pilares",
     tiempo: "8 - 9 min",
     costo: "$12",
     img: require("../assets/Prepa1Pilares.png"),
     color: "#b0df56",
-    directions: "/Descriptions/bus1",
+    directions: "/Descriptions/14",
     marks: Prepa1Pilares,
   },
 };

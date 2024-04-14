@@ -1,7 +1,14 @@
-import { StyleSheet, ScrollView } from "react-native";
+import { StyleSheet, FlatList } from "react-native";
 
-export const Container = ({ children }) => {
-  return <ScrollView style={styles.Container}>{children}</ScrollView>;
+export const Container = ({ data, renderItem, keyExtractor }) => {
+  return (
+    <FlatList
+      data={data}
+      renderItem={renderItem}
+      keyExtractor={keyExtractor}
+      style={styles.Container}
+    />
+  );
 };
 
 const styles = StyleSheet.create({

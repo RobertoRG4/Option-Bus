@@ -7,11 +7,23 @@ const Actualizaciones = () => {
         <Title>Versión 1.0</Title>
         <VersionText>20 - Abril - 2024</VersionText>
         <Text>
-          Esta primera versión cuenta con 20 rutas dividas alrededor del valle
-          de toluca, se integró la posiblidad de ver la ubicación del usuario,
-          ademas de tener la posiblidad de alternar entre tener activa y
-          desactivarla, se considero el echo de que las rutas sean visibles sin
-          la necesidad de tener internet.
+          Incluye 20 rutas en el valle de Toluca, cuidadosamente seleccionadas
+          para ofrecer una experiencia diversa.
+        </Text>
+        <Text></Text>
+        <Text>
+          Introducción de la función de ubicación del usuario para una
+          navegación más precisa.
+        </Text>
+        <Text></Text>
+        <Text>
+          Posibilidad de activar o desactivar la función de ubicación según las
+          preferencias del usuario.
+        </Text>
+        <Text></Text>
+        <Text>
+          Optimización para permitir la visualización de rutas sin conexión a
+          internet, garantizando accesibilidad en todas las circunstancias.
         </Text>
       </ScrollView>
     </AboutUSContainer>
