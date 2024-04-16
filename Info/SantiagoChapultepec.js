@@ -247,6 +247,34 @@ export const SantiagoChapultepec = [
   { latitude: 19.187957, longitude: -99.414284 },
 ];
 export const Data = {
+  Lugares: [
+    {
+      key: 1,
+      title: "San Lorenzo Coacalco",
+      coords: { latitude: 19.242106, longitude: -99.597725 },
+    },
+    {
+      key: 2,
+      title: "San Mateo Mexicaltzingo",
+      coords: { latitude: 19.213156, longitude: -99.585506 },
+    },
+    {
+      key: 3,
+      title: "Chapultepec",
+      coords: { latitude: 19.203683, longitude: -99.547743 },
+    },
+    {
+      key: 4,
+      title: "Santiago Tianguistenco",
+      coords: { latitude: 19.182367, longitude: -99.46784 },
+    },
+    {
+      key: 5,
+      title: "Santiago Tilapa",
+      coords: { latitude: 19.187682, longitude: -99.419378 },
+    },
+    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+  ],
   paradasSubidas: [
     {
       title: "Parada 1",
@@ -278,33 +306,5 @@ export const Data = {
       coords: { latitude: 19.233983, longitude: -99.669539 },
       description: "Descripción de la parada 7",
     },
-  ],
-  Lugares: [
-    {
-      key: 1,
-      title: "San Lorenzo Coacalco",
-      coords: { latitude: 19.242106, longitude: -99.597725 },
-    },
-    {
-      key: 2,
-      title: "San Mateo Mexicaltzingo",
-      coords: { latitude: 19.213156, longitude: -99.585506 },
-    },
-    {
-      key: 3,
-      title: "Chapultepec",
-      coords: { latitude: 19.203683, longitude: -99.547743 },
-    },
-    {
-      key: 4,
-      title: "Santiago Tianguistenco",
-      coords: { latitude: 19.182367, longitude: -99.46784 },
-    },
-    {
-      key: 5,
-      title: "Santiago Tilapa",
-      coords: { latitude: 19.187682, longitude: -99.419378 },
-    },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   ],
 };

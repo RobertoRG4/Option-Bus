@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import MapView, { PROVIDER_GOOGLE, Polyline } from "react-native-maps";
+import MapView, { PROVIDER_GOOGLE, Polyline, Marker } from "react-native-maps";
 import { StyleSheet } from "react-native";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
@@ -8,6 +8,8 @@ import { MapContainer, MyLocationButton } from "../Styles/Map";
 import { store } from "../state/store";
 import Loading from "../Styles/Loading";
 import { setMapReady } from "../state/mapReadySlice";
+import { View, Text } from "react-native";
+import MarkerPoint from "../Styles/MarkerPoint";
 
 const Map = ({ coords, icon, coordsDelta }) => {
   const [markerVisible, setMarkerVisible] = useState(!!coords);
@@ -96,13 +98,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[1].directions)}
           />
-          <Polyline
+          {/*<Polyline
             coordinates={Bus[2].marks}
             strokeColor={Bus[2].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[2].directions)}
-          />
+          />*/}
           <Polyline
             coordinates={Bus[3].marks}
             strokeColor={Bus[3].color}
@@ -221,6 +223,11 @@ const Map = ({ coords, icon, coordsDelta }) => {
             strokeWidth={5}
             onPress={() => router.push(Bus[renderMapId].directions)}
           />
+          <MarkerPoint
+            cordinates={Bus[renderMapId].points.inicio}
+            Title={"Inicio"}
+          />
+          <MarkerPoint cordinates={Bus[renderMapId].points.fin} Title={"Fin"} />
         </MapView>
         {!mapReady && <Loading />}
         {showUserLocation && <MyLocationButton onPress={goToUserLocation} />}

@@ -1,4 +1,4 @@
-export const PilaresCentro = [
+export const Bus3 = [
   { latitude: 19.282891, longitude: -99.73587 },
   { latitude: 19.283294, longitude: -99.735746 },
   { latitude: 19.284286, longitude: -99.735501 },
@@ -55,14 +55,12 @@ export const PilaresCentro = [
   { latitude: 19.288183, longitude: -99.651454 },
   { latitude: 19.288164, longitude: -99.650055 },
   { latitude: 19.288237, longitude: -99.6487 },
-  //
   { latitude: 19.288297, longitude: -99.647218 },
   { latitude: 19.288254, longitude: -99.644621 },
   { latitude: 19.28823, longitude: -99.643001 },
   { latitude: 19.288282, longitude: -99.639915 },
   { latitude: 19.288283, longitude: -99.639901 },
   { latitude: 19.288467, longitude: -99.638735 },
-  //
   { latitude: 19.287467, longitude: -99.637333 },
   { latitude: 19.284372, longitude: -99.633554 },
   { latitude: 19.284111, longitude: -99.633158 },

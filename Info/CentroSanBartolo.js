@@ -137,3 +137,7 @@ export const CentroSanBartolo = [
   { latitude: 19.245713, longitude: -99.612737 },
   { latitude: 19.24511, longitude: -99.61329 },
 ];
+export const Data = {
+  Lugares: [{ key: 1, title: "", coords: {} }],
+  paradasSubidas: [{ title: "", coords: {}, description: "" }],
+};

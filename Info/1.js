@@ -1,4 +1,4 @@
-export const SantiagoTlacotepecCentroRuta = [
+export const Bus1 = [
   { latitude: 19.217271, longitude: -99.671036 },
   { latitude: 19.218187, longitude: -99.67101 },
   { latitude: 19.218995, longitude: -99.670967 },
@@ -15,10 +15,7 @@ export const SantiagoTlacotepecCentroRuta = [
   { latitude: 19.224939, longitude: -99.670786 },
   { latitude: 19.225601, longitude: -99.670736 },
   { latitude: 19.227068, longitude: -99.670619 },
-  //
   { latitude: 19.228668, longitude: -99.670453 },
-  //{ latitude: 19.2277801, longitude: -99.6704492 },
-  //{ latitude: 19.22943, longitude: -99.670435 },
   { latitude: 19.230091, longitude: -99.670369 },
   { latitude: 19.232382, longitude: -99.670079 },
   { latitude: 19.23299, longitude: -99.670004 },
@@ -60,7 +57,6 @@ export const SantiagoTlacotepecCentroRuta = [
   { latitude: 19.260909, longitude: -99.659529 },
   { latitude: 19.261914, longitude: -99.659499 },
   { latitude: 19.262849, longitude: -99.659422 },
-
   { latitude: 19.263913, longitude: -99.659325 },
   { latitude: 19.264628, longitude: -99.659292 },
   { latitude: 19.265483, longitude: -99.659199 },
@@ -79,7 +75,6 @@ export const SantiagoTlacotepecCentroRuta = [
   { latitude: 19.280905, longitude: -99.657456 },
   { latitude: 19.282622, longitude: -99.657461 },
   { latitude: 19.283499, longitude: -99.657362 },
-
   { latitude: 19.284058, longitude: -99.65736 },
   { latitude: 19.284267, longitude: -99.657375 },
   { latitude: 19.285265, longitude: -99.657628 },

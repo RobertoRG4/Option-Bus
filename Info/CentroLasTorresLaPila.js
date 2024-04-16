@@ -1,6 +1,22 @@
 const bus2 = [{}];
 
 export const Data = {
+  Lugares: [
+    {
+      key: 1,
+      title: "lugar",
+      coords: { latitude: 19.29114, longitude: -99.656531 },
+    },
+    {
+      key: 2,
+      title: "lugar",
+      coords: { latitude: 19.283001, longitude: -99.660879 },
+    },
+    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+  ],
   paradasSubidas: [
     {
       title: "Parada 1",
@@ -32,21 +48,5 @@ export const Data = {
       coords: { latitude: 19.233983, longitude: -99.669539 },
       description: "Descripción de la parada 7",
     },
-  ],
-  Lugares: [
-    {
-      key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
-    },
-    {
-      key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
-    },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   ],
 };

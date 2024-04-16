@@ -4,17 +4,17 @@ import AboutRoutes from "../Styles/AboutRoutes";
 
 const options = {
   headerCenter: { headerTitleAlign: "center" },
-  SantiagoTlacotepec: {
+  Bus1: {
     title: "Santiago Tlacotepec - Centro",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  SanJuanTilapaTerminal: {
+  Bus2: {
     title: "San Juan Tilapa - Terminal",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  PilaresCentro: {
+  Bus3: {
     title: "Pilares - Centro",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
@@ -69,15 +69,9 @@ const options = {
 const descriptionsLayout = () => {
   return (
     <Stack screenOptions={options.headerCenter}>
-      <Stack.Screen
-        name="SantiagoTlacotepecCentro"
-        options={options.SantiagoTlacotepec}
-      />
-      <Stack.Screen
-        name="SanJuanTilapaTerminal"
-        options={options.SanJuanTilapaTerminal}
-      />
-      <Stack.Screen name="PilaresCentro" options={options.PilaresCentro} />
+      <Stack.Screen name="1" options={options.Bus1} />
+      <Stack.Screen name="2" options={options.Bus2} />
+      <Stack.Screen name="3" options={options.Bus3} />
       <Stack.Screen
         name="SantiagoChapultepec"
         options={options.SantiagoChapultepec}

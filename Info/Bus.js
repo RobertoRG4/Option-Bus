@@ -1,6 +1,6 @@
-import { SantiagoTlacotepecCentroRuta } from "./SantiagoTlacotepecCentro.js";
-import { SanJuanTilapaTerminal } from "./SanJuanTilapaTerminal.js";
-import { PilaresCentro } from "./PilaresCentro.js";
+import { Bus1 } from "./1.js";
+import { Bus2 } from "./2.js";
+import { Bus3 } from "./3.js";
 import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
 import { VillaFabrica } from "./VillaFabrica.js";
 import { TenangoMexicaltzingo } from "./TenangoMexicaltzingo.js";
@@ -19,8 +19,12 @@ export const Bus = {
     costo: "$12",
     color: "#ff0000",
     img: require("../assets/Santiago-Tlacotepec-Centro-Capultitlan.jpg"),
-    directions: "/Descriptions/SantiagoTlacotepecCentro",
-    marks: SantiagoTlacotepecCentroRuta,
+    directions: "/Descriptions/1",
+    marks: Bus1,
+    points: {
+      inicio: { latitude: 19.217271, longitude: -99.671036 },
+      fin: { latitude: 19.216914, longitude: -99.672564 },
+    },
   },
   2: {
     key: 2,
@@ -29,8 +33,9 @@ export const Bus = {
     costo: "$12",
     img: require("../assets/SanJuanTilapaTerminal.jpeg"),
     color: "#008000",
-    directions: "/Descriptions/SanJuanTilapaTerminal",
-    marks: SanJuanTilapaTerminal,
+    directions: "/Descriptions/2",
+    marks: Bus2,
+    points: { inicio: {}, fin: {} },
   },
   3: {
     key: 3,
@@ -39,8 +44,12 @@ export const Bus = {
     costo: "Distancia",
     img: require("../assets/PilaresCentro.jpg"),
     color: "#AA00FF",
-    directions: "/Descriptions/PilaresCentro",
-    marks: PilaresCentro,
+    directions: "/Descriptions/3",
+    marks: Bus3,
+    points: {
+      inicio: { latitude: 19.282891, longitude: -99.73587 },
+      fin: { latitude: 19.287825, longitude: -99.594828 },
+    },
   },
   4: {
     key: 4,
@@ -51,6 +60,7 @@ export const Bus = {
     color: "#00ffbf",
     directions: "/Descriptions/SantiagoChapultepec",
     marks: SantiagoChapultepec,
+    points: { inicio: {}, fin: {} },
   },
   5: {
     key: 5,
@@ -61,6 +71,7 @@ export const Bus = {
     color: "#572364",
     directions: "/Descriptions/VillaFabrica",
     marks: VillaFabrica,
+    points: { inicio: {}, fin: {} },
   },
   6: {
     key: 6,
@@ -71,6 +82,7 @@ export const Bus = {
     color: "#f542b3",
     directions: "/Descriptions/TenangoMexicaltzingo",
     marks: TenangoMexicaltzingo,
+    points: { inicio: {}, fin: {} },
   },
   7: {
     key: 7,
@@ -81,6 +93,7 @@ export const Bus = {
     color: "#42ddf5",
     directions: "/Descriptions/CentroLasTorresLaPila",
     marks: [],
+    points: { inicio: {}, fin: {} },
   },
   ValleDelNevado: {
     key: 8,
@@ -91,6 +104,7 @@ export const Bus = {
     color: "#b3f542",
     directions: "/Descriptions/ValleDelNevado",
     marks: [],
+    points: { inicio: {}, fin: {} },
   },
   9: {
     key: 9,
@@ -101,6 +115,10 @@ export const Bus = {
     color: "#365915",
     directions: "/Descriptions/CentroSanFelipe",
     marks: CentroSanFelipe,
+    points: {
+      inicio: { latitude: 19.230404, longitude: -99.670316 },
+      fin: { latitude: 19.231467, longitude: -99.670234 },
+    },
   },
   10: {
     key: 10,
@@ -111,6 +129,10 @@ export const Bus = {
     color: "#c9c567",
     directions: "/Descriptions/ElRefugioSantiagoTlacotepec",
     marks: ElRefugioTerminal,
+    points: {
+      inicio: { latitude: 19.276931, longitude: -99.64172 },
+      fin: { latitude: 19.227776, longitude: -99.703287 },
+    },
   },
   11: {
     key: 11,
@@ -121,6 +143,10 @@ export const Bus = {
     color: "#8f8c8c",
     directions: "/Descriptions/SanLuisCentroZinacantepec",
     marks: SanLuisCentroZinacantepec,
+    points: {
+      inicio: { latitude: 19.287828, longitude: -99.594839 },
+      fin: { latitude: 19.282878, longitude: -99.735932 },
+    },
   },
   12: {
     key: 12,
@@ -131,6 +157,10 @@ export const Bus = {
     color: "#d192a7",
     directions: "/Descriptions/TerminalLaJet",
     marks: TerminalLaJet,
+    points: {
+      inicio: { latitude: 19.227631, longitude: -99.703318 },
+      fin: { latitude: 19.278505, longitude: -99.641707 },
+    },
   },
   13: {
     key: 13,
@@ -141,6 +171,7 @@ export const Bus = {
     color: "#0000FF",
     directions: "/Descriptions/13",
     marks: CentroSanBartolo,
+    points: { inicio: {}, fin: {} },
   },
   14: {
     key: 14,
@@ -151,5 +182,6 @@ export const Bus = {
     color: "#b0df56",
     directions: "/Descriptions/14",
     marks: Prepa1Pilares,
+    points: { inicio: {}, fin: {} },
   },
 };

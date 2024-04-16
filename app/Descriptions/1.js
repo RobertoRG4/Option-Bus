@@ -1,5 +1,5 @@
 import LineaTime from "../Utilites/LineaTime";
-import { Data } from "../../Info/SantiagoTlacotepecCentro";
+import { Data } from "../../Info/1";
 import Lugares from "../Utilites/Lugares";
 import { Container, Content, Title } from "../Styles/Descriptions";
 

@@ -1,4 +1,4 @@
-export const SanJuanTilapaTerminal = [
+export const Bus2 = [
   { latitude: 19.246814, longitude: -99.663387 },
   { latitude: 19.246837, longitude: -99.660808 },
   { latitude: 19.244968, longitude: -99.66085 },

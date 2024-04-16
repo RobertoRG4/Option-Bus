@@ -1,8 +1,9 @@
-import { Container, Content, Title } from "../Styles/Descriptions";
 import Lugares from "../Utilites/Lugares";
-import { Data } from "../../Info/SanJuanTilapaTerminal";
 import LineaTime from "../Utilites/LineaTime";
-const SanJuanTilapaTerminal = () => {
+import { Data } from "../../Info/3";
+import { Container, Content, Title } from "../Styles/Descriptions";
+
+const SanLuisCentro = () => {
   return (
     <Container>
       <Lugares data={Data.Lugares} />
@@ -13,4 +14,4 @@ const SanJuanTilapaTerminal = () => {
     </Container>
   );
 };
-export default SanJuanTilapaTerminal;
+export default SanLuisCentro;

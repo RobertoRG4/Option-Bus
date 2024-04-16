@@ -125,3 +125,8 @@ export const Prepa1Pilares = [
   { latitude: 19.280568, longitude: -99.584077 },
   { latitude: 19.280139, longitude: -99.584088 },
 ];
+
+export const Data = {
+  Lugares: [{ key: 1, title: "", coords: {} }],
+  paradasSubidas: [{ title: "", coords: {}, description: "" }],
+};

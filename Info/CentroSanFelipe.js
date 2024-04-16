@@ -58,7 +58,6 @@ export const CentroSanFelipe = [
   { latitude: 19.235591, longitude: -99.645431 },
   { latitude: 19.235714, longitude: -99.645331 },
   { latitude: 19.23581, longitude: -99.645281 },
-  //{ latitude: 19.236199, longitude: -99.645152 },
   { latitude: 19.236362, longitude: -99.64513 },
   { latitude: 19.236399, longitude: -99.643739 },
   { latitude: 19.236406, longitude: -99.642289 },
@@ -79,7 +78,6 @@ export const CentroSanFelipe = [
   { latitude: 19.245393, longitude: -99.641409 },
   { latitude: 19.245695, longitude: -99.64132 },
   { latitude: 19.245933, longitude: -99.64127 },
-  //
   { latitude: 19.246169, longitude: -99.641259 },
   { latitude: 19.246489, longitude: -99.641287 },
   { latitude: 19.247041, longitude: -99.64134 },
@@ -97,7 +95,6 @@ export const CentroSanFelipe = [
   { latitude: 19.257734, longitude: -99.642964 },
   { latitude: 19.258588, longitude: -99.64322 },
   { latitude: 19.259829, longitude: -99.643668 },
-  //{ latitude: 19.259553, longitude: -99.643555 },
   { latitude: 19.260272, longitude: -99.64381 },
   { latitude: 19.260909, longitude: -99.644014 },
   { latitude: 19.262979, longitude: -99.644769 },
@@ -293,6 +290,22 @@ export const CentroSanFelipe = [
 ];
 
 export const Data = {
+  Lugares: [
+    {
+      key: 1,
+      title: "lugar",
+      coords: { latitude: 19.29114, longitude: -99.656531 },
+    },
+    {
+      key: 2,
+      title: "lugar",
+      coords: { latitude: 19.283001, longitude: -99.660879 },
+    },
+    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+  ],
   paradasSubidas: [
     {
       title: "Parada 1",
@@ -324,21 +337,5 @@ export const Data = {
       coords: { latitude: 19.233983, longitude: -99.669539 },
       description: "Descripción de la parada 7",
     },
-  ],
-  Lugares: [
-    {
-      key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
-    },
-    {
-      key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
-    },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   ],
 };
