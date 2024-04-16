@@ -23,7 +23,7 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
   },
 };
-const LayoutUtilites = () => {
+export default function LayoutUtilites() {
   return (
     <Stack screenOptions={options.ScreenOptions}>
       <Stack.Screen name="SobreNosotros" options={options.SobreNosotros} />
@@ -35,5 +35,4 @@ const LayoutUtilites = () => {
       <Stack.Screen name="Actualizaciones" options={options.Actualizaciones} />
     </Stack>
   );
-};
-export default LayoutUtilites;
+}

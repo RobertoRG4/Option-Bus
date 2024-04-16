@@ -4,7 +4,7 @@ const options = {
   headerHidden: { headerShown: false, animation: "none" },
 };
 
-const RootLayout = () => {
+export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen name="index" options={options.headerHidden} />
@@ -13,5 +13,4 @@ const RootLayout = () => {
       <Stack.Screen name="Utilites" options={options.headerHidden} />
     </Stack>
   );
-};
-export default RootLayout;
+}

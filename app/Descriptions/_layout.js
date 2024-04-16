@@ -66,7 +66,7 @@ const options = {
   },
 };
 
-const descriptionsLayout = () => {
+export default function descriptionsLayout() {
   return (
     <Stack screenOptions={options.headerCenter}>
       <Stack.Screen name="1" options={options.Bus1} />
@@ -98,6 +98,4 @@ const descriptionsLayout = () => {
       <Stack.Screen name="TerminalLaJet" options={options.TerminalLaJet} />
     </Stack>
   );
-};
-
-export default descriptionsLayout;
+}

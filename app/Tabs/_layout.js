@@ -3,7 +3,7 @@ import { FontAwesome6, FontAwesome, Feather } from "@expo/vector-icons";
 import { useEffect, useState } from "react";
 import { store } from "../state/store";
 
-const TabsLayout = () => {
+export default function TabsLayout() {
   const [mapReady, setMapReady] = useState(false);
   useEffect(() => {
     let unsubscribe = store.subscribe(() => {
@@ -51,6 +51,4 @@ const TabsLayout = () => {
       <Tabs.Screen name="Settings" options={options.settings} />
     </Tabs>
   );
-};
-
-export default TabsLayout;
+}
