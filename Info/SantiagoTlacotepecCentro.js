@@ -219,38 +219,6 @@ export const SantiagoTlacotepecCentroRuta = [
 ];
 
 export const Data = {
-  paradasSubidas: [
-    {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
-    },
-    {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
-    },
-    {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
-    },
-    {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
-    },
-    {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
-    },
-    {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
-    },
-  ],
   Lugares: [
     {
       key: 1,
@@ -281,6 +249,172 @@ export const Data = {
       key: 6,
       title: "Centro",
       coords: { latitude: 19.290616, longitude: -99.65527 },
+    },
+  ],
+  paradasSubidas: [
+    {
+      title: "Enfrente de 'El señor del calvario'",
+      coords: { latitude: 19.223645, longitude: -99.670664 },
+      description:
+        "16 de Sept. 113, Santiago Tlacotepec, 50256 Santiago Tlacotepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Paleteria Y Neveria Tocumbo'",
+      coords: { latitude: 19.225601, longitude: -99.670694 },
+      description:
+        "Manzana 001, Santiago Tlacotepec, 50256 Santiago Tlacotepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Laboratorio De Analisis Clinicos Union'",
+      coords: { latitude: 19.229813, longitude: -99.6704125 },
+      description:
+        "Libertad Manzana 032, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'OXXO Capultitlán'",
+      coords: { latitude: 19.246686, longitude: -99.663657 },
+      description:
+        "P.º Cristóbal Colón 301, Delegación Capultitlán, 50264 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Kinder Niños Heroes'",
+      coords: { latitude: 19.254174, longitude: -99.662278 },
+      description:
+        "C. Hidalgo 442-462, Delegación Capultitlán, 50263 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de ' Tienda Telcel '",
+      coords: { latitude: 19.264674, longitude: -99.659323 },
+      description:
+        "C. Gral. Marcelino García Barragán, Moderna de la Cruz, 50180 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Facultad de Enfermeria y Obstetricia, UAEMéx'",
+      coords: { latitude: 19.272615, longitude: -99.658536 },
+      description:
+        "Cd Altamirano - Toluca 317-782, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Facultad de Odontología, UAEMéx'",
+      coords: { latitude: 19.273701, longitude: -99.658443 },
+      description:
+        "Av. Paseo Tollocan Manzana 005, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title:
+        "Enfrente de 'Hospital Veterinario de Pequeñas Especies de la Universidad Autonoma del Estado de México'",
+      coords: { latitude: 19.278674, longitude: -99.658095 },
+      description:
+        "C. Jesús Carranza 203, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title:
+        "Enfrente de 'Plantel Lic. Adolfo López Mateos de la Escuela Preparatoria de la UAEMéx | Prepa 1'",
+      coords: { latitude: 19.279396, longitude: -99.658038 },
+      description:
+        "Calle Gral. Venustiano Carranza 20 Pte. 300, Francisco I. Madero, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Rehability Center'",
+      coords: { latitude: 19.280834, longitude: -99.657475 },
+      description:
+        "C. Gral. Francisco Murguía 601, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Óptica Roma'",
+      coords: { latitude: 19.286169, longitude: -99.657719 },
+      description:
+        "Calle Nicolás Bravo Sur 308, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Monumento a los Maestros'",
+      coords: { latitude: 19.286066, longitude: -99.654251 },
+      description:
+        "Av. Benito Juárez Garcia Sur 300B, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Computer System Mafer'",
+      coords: { latitude: 19.284287, longitude: -99.654231 },
+      description:
+        "Av. Benito Juárez Garcia Sur 414-A, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Relojería Certina'",
+      coords: { latitude: 19.279091, longitude: -99.654019 },
+      description:
+        "Av. Benito Juárez Garcia Sur 760-814, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oxxo Emiliano Zapata'",
+      coords: { latitude: 19.275623, longitude: -99.65393 },
+      description:
+        "Av. Benito Juárez Garcia Sur Manzana 019, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oxxo Juarez'",
+      coords: { latitude: 19.272659, longitude: -99.653822 },
+      description:
+        "Av. Benito Juárez Garcia Sur 1200B, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Torre Colón'",
+      coords: { latitude: 19.273134, longitude: -99.658404 },
+      description:
+        "Toluca - Cd Altamirano, Residencial Colón y Col Ciprés, Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Uniformes Gallantfale'",
+      coords: { latitude: 19.273203, longitude: -99.659123 },
+      description:
+        "Avenida Paseo Tollocan 504 Col. Universidad, Residencial Colón y Col Ciprés, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Dif del Estado de México'",
+      coords: { latitude: 19.272823, longitude: -99.660022 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hospital del Niño'",
+      coords: { latitude: 19.271528, longitude: -99.660256 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Diforoma'",
+      coords: { latitude: 19.264954, longitude: -99.661553 },
+      description:
+        "Toluca - Cd Altamirano 620-670, Villa Hogar, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Registro Civil'",
+      coords: { latitude: 19.263007, longitude: -99.661925 },
+      description:
+        "Calle Gral Eduardo Hernández Cházaro Manzana 036, Col del Parque, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Papeleria Gomita'",
+      coords: { latitude: 19.254686, longitude: -99.663519 },
+      description:
+        "P.º Cristóbal Colón, Delegación Capultitlán, 50263 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Coppel Canada Colón'",
+      coords: { latitude: 19.24712, longitude: -99.663666 },
+      description:
+        "P.º Cristóbal Colón 220-276, Delegación Capultitlán, 50264 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Esc. Prim. Josefa Ortiz de Domínguez'",
+      coords: { latitude: 19.230215, longitude: -99.670381 },
+      description:
+        "Libertad, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Miscelanea Chuy'",
+      coords: { latitude: 19.225661, longitude: -99.673034 },
+      description:
+        "C. Cuauhtémoc, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
   ],
 };

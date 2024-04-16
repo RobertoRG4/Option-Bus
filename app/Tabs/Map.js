@@ -86,6 +86,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
               latitude={coords.parsedLatitude}
               longitude={coords.parsedLongitude}
               source={icon}
+              size={25}
             />
           )}
           <Polyline
@@ -210,6 +211,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
               latitude={coords.parsedLatitude}
               longitude={coords.parsedLongitude}
               source={icon}
+              size={25}
             />
           )}
           <Polyline

@@ -10,6 +10,7 @@ import { ElRefugioTerminal } from "./ElRefugioSantiagoTlacotepec.js";
 import { TerminalLaJet } from "./TerminalLaJet.js";
 import { CentroSanBartolo } from "./CentroSanBartolo.js";
 import { Prepa1Pilares } from "./Prepa1Pilares.js";
+
 export const Bus = {
   1: {
     key: 1,

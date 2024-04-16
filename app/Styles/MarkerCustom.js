@@ -1,14 +1,12 @@
 import { Marker } from "react-native-maps";
-import { Image, StyleSheet } from "react-native";
+import { Image } from "react-native";
 
-const MarkerCustom = ({ latitude, longitude, source }) => {
+const MarkerCustom = ({ latitude, longitude, source, size }) => {
   return (
     <Marker coordinate={{ latitude: latitude, longitude: longitude }}>
-      <Image source={source} style={Styles.Icon} />
+      <Image source={source} style={{ width: size, height: size }} />
     </Marker>
   );
 };
-
-const Styles = StyleSheet.create({ Icon: { width: 26, height: 26 } });
 
 export default MarkerCustom;

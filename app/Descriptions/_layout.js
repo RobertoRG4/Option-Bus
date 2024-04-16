@@ -1,55 +1,68 @@
 import { Stack, router } from "expo-router";
 import { Arrow } from "../Styles/Arrow";
+import AboutRoutes from "../Styles/AboutRoutes";
 
 const options = {
   headerCenter: { headerTitleAlign: "center" },
   SantiagoTlacotepec: {
     title: "Santiago Tlacotepec - Centro",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   SanJuanTilapaTerminal: {
     title: "San Juan Tilapa - Terminal",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   PilaresCentro: {
     title: "Pilares - Centro",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   SantiagoChapultepec: {
     title: "Santiago - Chapultepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   VillaFabrica: {
     title: "Villa - Fabrica",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   TenangoMexicaltzingo: {
     title: "Tenango - Mexicaltzingo",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   ValleDelNevado: {
     title: "Valle del Nevado",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   CentroSanFelipe: {
     title: "Centro -  San Felipe - La Joya",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   CentroLasTorresLaPila: {
     title: "Centro - Las Torres -  La Pila",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   ElRefugioSantiagoTlacotepec: {
     title: "El Refugio - Santiago Tlacotepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   SanLuisCentroZinacantepec: {
     title: "San Luis - Centro - Zinacantepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
   TerminalLaJet: {
     title: "Terminal - La  Jet",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
   },
 };
 

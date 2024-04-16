@@ -28,7 +28,7 @@ const LineaTime = ({ data }) => {
         <Title>{item.title}</Title>
         <Description>{item.description}</Description>
         <Button onPress={() => handlePress(item)}>
-          <TextButton>Ver Parada</TextButton>
+          <TextButton>Ver</TextButton>
         </Button>
       </ContainerHorizontal>
     );
