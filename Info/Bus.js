@@ -4,12 +4,12 @@ import { Bus3 } from "./3.js";
 import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
 import { VillaFabrica } from "./VillaFabrica.js";
 import { TenangoMexicaltzingo } from "./TenangoMexicaltzingo.js";
-import { SanLuisCentroZinacantepec } from "./SanLuisCentroZinacantepec.js";
-import { CentroSanFelipe } from "./CentroSanFelipe.js";
-import { ElRefugioTerminal } from "./ElRefugioSantiagoTlacotepec.js";
-import { TerminalLaJet } from "./TerminalLaJet.js";
-import { CentroSanBartolo } from "./CentroSanBartolo.js";
-import { Prepa1Pilares } from "./Prepa1Pilares.js";
+import { Bus11 } from "./11.js";
+import { Bus9 } from "./9.js";
+import { Bus10 } from "./10.js";
+import { Bus12 } from "./12.js";
+import { Bus13 } from "./13.js";
+import { Bus14 } from "./14.js";
 
 export const Bus = {
   1: {
@@ -26,7 +26,7 @@ export const Bus = {
       fin: { latitude: 19.216914, longitude: -99.672564 },
     },
   },
-  2: {
+  /*2: {
     key: 2,
     titulo: "San Juan Tilapa - Terminal",
     tiempo: "2 - 6 min",
@@ -36,7 +36,7 @@ export const Bus = {
     directions: "/Descriptions/2",
     marks: Bus2,
     points: { inicio: {}, fin: {} },
-  },
+  },*/
   3: {
     key: 3,
     titulo: "Pilares - Centro ",
@@ -51,7 +51,7 @@ export const Bus = {
       fin: { latitude: 19.287825, longitude: -99.594828 },
     },
   },
-  4: {
+  /*4: {
     key: 4,
     titulo: "Santiago - Chapultepec",
     tiempo: "8 - 14 min",
@@ -105,7 +105,7 @@ export const Bus = {
     directions: "/Descriptions/ValleDelNevado",
     marks: [],
     points: { inicio: {}, fin: {} },
-  },
+  },*/
   9: {
     key: 9,
     titulo: "San Felipe - Centro - La Joya",
@@ -113,8 +113,8 @@ export const Bus = {
     costo: "$12",
     img: require("../assets/CentroSanFelipe.png"),
     color: "#365915",
-    directions: "/Descriptions/CentroSanFelipe",
-    marks: CentroSanFelipe,
+    directions: "/Descriptions/9",
+    marks: Bus9,
     points: {
       inicio: { latitude: 19.230404, longitude: -99.670316 },
       fin: { latitude: 19.231467, longitude: -99.670234 },
@@ -127,8 +127,8 @@ export const Bus = {
     costo: "$12",
     img: require("../assets/ElRefugioTerminal.png"),
     color: "#c9c567",
-    directions: "/Descriptions/ElRefugioSantiagoTlacotepec",
-    marks: ElRefugioTerminal,
+    directions: "/Descriptions/10",
+    marks: Bus10,
     points: {
       inicio: { latitude: 19.276931, longitude: -99.64172 },
       fin: { latitude: 19.227776, longitude: -99.703287 },
@@ -141,8 +141,8 @@ export const Bus = {
     costo: "Distancia",
     img: require("../assets/AutobusSanluisCentro.jpg"),
     color: "#8f8c8c",
-    directions: "/Descriptions/SanLuisCentroZinacantepec",
-    marks: SanLuisCentroZinacantepec,
+    directions: "/Descriptions/11",
+    marks: Bus11,
     points: {
       inicio: { latitude: 19.287828, longitude: -99.594839 },
       fin: { latitude: 19.282878, longitude: -99.735932 },
@@ -155,14 +155,14 @@ export const Bus = {
     costo: "$12",
     img: require("../assets/TerminalLaJet.png"),
     color: "#d192a7",
-    directions: "/Descriptions/TerminalLaJet",
-    marks: TerminalLaJet,
+    directions: "/Descriptions/12  ",
+    marks: Bus12,
     points: {
       inicio: { latitude: 19.227631, longitude: -99.703318 },
       fin: { latitude: 19.278505, longitude: -99.641707 },
     },
   },
-  13: {
+  /*13: {
     key: 13,
     titulo: "Centro - San Bartolomé",
     tiempo: "8 - 14 min",
@@ -170,18 +170,21 @@ export const Bus = {
     img: "",
     color: "#0000FF",
     directions: "/Descriptions/13",
-    marks: CentroSanBartolo,
+    marks: Bus13,
     points: { inicio: {}, fin: {} },
-  },
+  },*/
   14: {
     key: 14,
-    titulo: "Prepa 1 - Pilares",
+    titulo: "Cacalomacán - Pilares",
     tiempo: "8 - 9 min",
     costo: "$12",
     img: require("../assets/Prepa1Pilares.png"),
     color: "#b0df56",
     directions: "/Descriptions/14",
-    marks: Prepa1Pilares,
-    points: { inicio: {}, fin: {} },
+    marks: Bus14,
+    points: {
+      inicio: { latitude: 19.244907, longitude: -99.713075 },
+      fin: { latitude: 19.280139, longitude: -99.584088 },
+    },
   },
 };

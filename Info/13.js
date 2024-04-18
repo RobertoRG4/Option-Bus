@@ -1,4 +1,4 @@
-export const CentroSanBartolo = [
+export const Bus13 = [
   { latitude: 19.28627, longitude: -99.656366 },
   { latitude: 19.28622, longitude: -99.655708 },
   { latitude: 19.286191, longitude: -99.654986 },

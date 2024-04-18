@@ -1,16 +1,17 @@
-import { Data } from "../../Info/ElRefugioSantiagoTlacotepec";
 import { Container, Content, Title } from "../Styles/Descriptions";
-import LineaTime from "../Utilites/LineaTime";
+import LineaTime from "../Utilites/Componets/LineaTime";
 import Lugares from "../Utilites/Lugares";
-const ElRefugioTerminal = () => {
+import { Data } from "../../Info/12";
+
+const TerminalLaJet = () => {
   return (
     <Container>
-      <Lugares data={Data.Lugares} />
       <Content>
+        <Lugares data={Data.Lugares} />
         <Title />
         <LineaTime data={Data.paradasSubidas} />
       </Content>
     </Container>
   );
 };
-export default ElRefugioTerminal;
+export default TerminalLaJet;

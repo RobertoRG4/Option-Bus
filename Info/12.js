@@ -1,4 +1,4 @@
-export const TerminalLaJet = [
+export const Bus12 = [
   { latitude: 19.227631, longitude: -99.703318 },
   { latitude: 19.22835, longitude: -99.702915 },
   { latitude: 19.22875, longitude: -99.702644 },
@@ -152,49 +152,95 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
+      title: "El Refugio",
+      coords: { latitude: 19.226514, longitude: -99.696837 },
     },
     {
       key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
+      title: "Santiago Tlacotepec",
+      coords: { latitude: 19.227003, longitude: -99.670377 },
     },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    {
+      key: 3,
+      title: "Capultitlán",
+      coords: { latitude: 19.25067, longitude: -99.664702 },
+    },
+    {
+      key: 4,
+      title: "Hospital Materno",
+      coords: { latitude: 19.272581, longitude: -99.657106 },
+    },
+    {
+      key: 5,
+      title: "Ferretería Carredana",
+      coords: { latitude: 19.274559, longitude: -99.646771 },
+    },
+    {
+      key: 6,
+      title: "Terminal",
+      coords: { latitude: 19.278086, longitude: -99.642692 },
+    },
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "",
+      coords: {},
+      description: "",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "",
+      coords: {},
+      description: "",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "",
+      coords: {},
+      description: "",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de 'Laboratorio De Analisis Clinicos Union'",
+      coords: { latitude: 19.229813, longitude: -99.6704125 },
+      description:
+        "Libertad Manzana 032, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'OXXO Capultitlán'",
+      coords: { latitude: 19.246686, longitude: -99.663657 },
+      description:
+        "P.º Cristóbal Colón 301, Delegación Capultitlán, 50264 Capultitlán, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Kinder Niños Heroes'",
+      coords: { latitude: 19.254174, longitude: -99.662278 },
+      description:
+        "C. Hidalgo 442-462, Delegación Capultitlán, 50263 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de ' Tienda Telcel '",
+      coords: { latitude: 19.264674, longitude: -99.659323 },
+      description:
+        "C. Gral. Marcelino García Barragán, Moderna de la Cruz, 50180 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Facultad de Enfermeria y Obstetricia, UAEMéx'",
+      coords: { latitude: 19.272615, longitude: -99.658536 },
+      description:
+        "Cd Altamirano - Toluca 317-782, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "",
+      coords: {},
+      description: "",
+    },
+    {
+      title: "",
+      coords: {},
+      description: "",
+    },
+    {
+      title: "",
+      coords: {},
+      description: "",
     },
   ],
 };

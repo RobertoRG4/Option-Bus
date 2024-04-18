@@ -1,18 +1,17 @@
-import LineaTime from "../Utilites/Componets/LineaTime";
-import { Data } from "../../Info/VillaFabrica";
-import Lugares from "../Utilites/Lugares";
 import { Container, Content, Title } from "../Styles/Descriptions";
+import LineaTime from "../Utilites/Componets/LineaTime";
+import Lugares from "../Utilites/Lugares";
+import { Data } from "../../Info/9";
 
-const VillaFabrica = () => {
+const CentroSanFelipe = () => {
   return (
     <Container>
-      <Lugares data={Data.Lugares} />
       <Content>
+        <Lugares data={Data.Lugares} />
         <Title />
         <LineaTime data={Data.paradasSubidas} />
       </Content>
     </Container>
   );
 };
-
-export default VillaFabrica;
+export default CentroSanFelipe;

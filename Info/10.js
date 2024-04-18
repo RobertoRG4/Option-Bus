@@ -1,4 +1,4 @@
-export const ElRefugioTerminal = [
+export const Bus10 = [
   { latitude: 19.276931, longitude: -99.64172 },
   { latitude: 19.276246, longitude: -99.641722 },
   { latitude: 19.275363, longitude: -99.641724 },
@@ -172,49 +172,104 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
+      title: "Terminal",
+      coords: { latitude: 19.278557, longitude: -99.64276 },
     },
     {
       key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
+      title: "Falcultad de Odontología",
+      coords: { latitude: 19.274159, longitude: -99.657387 },
     },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    {
+      key: 3,
+      title: "Hospital del niño",
+      coords: { latitude: 19.27181, longitude: -99.661167 },
+    },
+
+    {
+      key: 4,
+      title: "Capultitlán",
+      coords: { latitude: 19.2536774, longitude: -99.662718 },
+    },
+    {
+      key: 5,
+      title: "Santiago Tlacotepec",
+      coords: { latitude: 19.226807, longitude: -99.670392 },
+    },
+    {
+      key: 6,
+      title: "Colonia el Refugio",
+      coords: { latitude: 19.227494, longitude: -99.696836 },
+    },
   ],
   paradasSubidas: [
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Enfrente de 'Oxxo Juarez'",
+      coords: { latitude: 19.272659, longitude: -99.653822 },
+      description:
+        "Av. Benito Juárez Garcia Sur 1200B, Universidad, 50130 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Enfrente de 'Torre Colón'",
+      coords: { latitude: 19.273134, longitude: -99.658404 },
+      description:
+        "Toluca - Cd Altamirano, Residencial Colón y Col Ciprés, Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'Uniformes Gallantfale'",
+      coords: { latitude: 19.273203, longitude: -99.659123 },
+      description:
+        "Avenida Paseo Tollocan 504 Col. Universidad, Residencial Colón y Col Ciprés, 50130 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de 'Dif del Estado de México'",
+      coords: { latitude: 19.272823, longitude: -99.660022 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'Hospital del Niño'",
+      coords: { latitude: 19.271528, longitude: -99.660256 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Diforoma'",
+      coords: { latitude: 19.264954, longitude: -99.661553 },
+      description:
+        "Toluca - Cd Altamirano 620-670, Villa Hogar, 50170 Toluca de Lerdo, Méx.",
     },
+    {
+      title: "Enfrente de 'Registro Civil'",
+      coords: { latitude: 19.263007, longitude: -99.661925 },
+      description:
+        "Calle Gral Eduardo Hernández Cházaro Manzana 036, Col del Parque, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Papeleria Gomita'",
+      coords: { latitude: 19.254686, longitude: -99.663519 },
+      description:
+        "P.º Cristóbal Colón, Delegación Capultitlán, 50263 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Coppel Canada Colón'",
+      coords: { latitude: 19.24712, longitude: -99.663666 },
+      description:
+        "P.º Cristóbal Colón 220-276, Delegación Capultitlán, 50264 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Esc. Prim. Josefa Ortiz de Domínguez'",
+      coords: { latitude: 19.230215, longitude: -99.670381 },
+      description:
+        "Libertad, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
+    },
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
+    { title: "", coords: {}, description: "" },
   ],
 };

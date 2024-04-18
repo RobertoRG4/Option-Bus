@@ -1,14 +1,14 @@
 import Timeline from "react-native-timeline-flatlist";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { router } from "expo-router";
-import Container from "../Styles/Container";
+import Container from "../../Styles/Container";
 import {
   Title,
   ContainerHorizontal,
   Description,
   TextButton,
   Button,
-} from "../Styles/LineaTime";
+} from "../../Styles/LineaTime";
 import { StyleSheet } from "react-native";
 const LineaTime = ({ data }) => {
   const handlePress = (item) => {

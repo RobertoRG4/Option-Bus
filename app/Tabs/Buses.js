@@ -1,6 +1,6 @@
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { Pressable } from "react-native";
-import AutobusDescriptions from "../Utilites/AutobusDescriptions";
+import AutobusDescriptions from "../Utilites/Componets/AutobusDescriptions";
 import { router } from "expo-router";
 import { Bus } from "../../Info/Bus";
 import { Container } from "../Styles/Buses";

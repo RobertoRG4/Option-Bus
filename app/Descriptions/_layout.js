@@ -39,7 +39,7 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  CentroSanFelipe: {
+  Bus9: {
     title: "Centro -  San Felipe - La Joya",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
@@ -49,18 +49,28 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  ElRefugioSantiagoTlacotepec: {
+  Bus10: {
     title: "El Refugio - Santiago Tlacotepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  SanLuisCentroZinacantepec: {
+  Bus11: {
     title: "San Luis - Centro - Zinacantepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  TerminalLaJet: {
+  Bus12: {
     title: "Terminal - La  Jet",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
+  Bus13: {
+    title: "Centro - San Bartolomé",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
+  Bus14: {
+    title: "Cacalomacán - Pilares",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
@@ -82,20 +92,16 @@ export default function descriptionsLayout() {
         options={options.TenangoMexicaltzingo}
       />
       <Stack.Screen name="ValleDelNevado" options={options.ValleDelNevado} />
-      <Stack.Screen name="CentroSanFelipe" options={options.CentroSanFelipe} />
+      <Stack.Screen name="9" options={options.Bus9} />
       <Stack.Screen
         name="CentroLasTorresLaPila"
         options={options.CentroLasTorresLaPila}
       />
-      <Stack.Screen
-        name="ElRefugioSantiagoTlacotepec"
-        options={options.ElRefugioSantiagoTlacotepec}
-      />
-      <Stack.Screen
-        name="SanLuisCentroZinacantepec"
-        options={options.SanLuisCentroZinacantepec}
-      />
-      <Stack.Screen name="TerminalLaJet" options={options.TerminalLaJet} />
+      <Stack.Screen name="10" options={options.Bus10} />
+      <Stack.Screen name="11" options={options.Bus11} />
+      <Stack.Screen name="12" options={options.Bus12} />
+      <Stack.Screen name="13" options={options.Bus13} />
+      <Stack.Screen name="14" options={options.Bus14} />
     </Stack>
   );
 }

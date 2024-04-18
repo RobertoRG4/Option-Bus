@@ -71,10 +71,10 @@ export const Bus2 = [
   { latitude: 19.243032, longitude: -99.660984 },
   { latitude: 19.244968, longitude: -99.66085 },
   { latitude: 19.246837, longitude: -99.660808 },
-  //{ latitude: 19.246814, longitude: -99.663387 },
-  { latitude: 19.252243, longitude: -99.660874 }, //regreso
+
+  { latitude: 19.252243, longitude: -99.660874 },
   { latitude: 19.253566, longitude: -99.660809 },
-  { latitude: 19.254223, longitude: -99.660601 }, //santiagoTlacotepec
+  { latitude: 19.254223, longitude: -99.660601 },
   { latitude: 19.25649, longitude: -99.660013 },
   { latitude: 19.258945, longitude: -99.659697 },
   { latitude: 19.259109, longitude: -99.659727 },
@@ -83,7 +83,7 @@ export const Bus2 = [
   { latitude: 19.264633, longitude: -99.659336 },
   { latitude: 19.266956, longitude: -99.65914 },
   { latitude: 19.268872, longitude: -99.658921 },
-  { latitude: 19.272829, longitude: -99.658532 }, //fin
+  { latitude: 19.272829, longitude: -99.658532 },
   { latitude: 19.271843, longitude: -99.650309 },
   { latitude: 19.271911, longitude: -99.649814 },
   { latitude: 19.272005, longitude: -99.649509 },
@@ -99,6 +99,38 @@ export const Bus2 = [
 ];
 
 export const Data = {
+  Lugares: [
+    {
+      key: 1,
+      title: "San Juan Tilapa",
+      coords: { latitude: 19.220408, longitude: -99.65964 },
+    },
+    {
+      key: 2,
+      title: "Capultitlán",
+      coords: { latitude: 19.250424, longitude: -99.664704 },
+    },
+    {
+      key: 3,
+      title: "Hospital Materno",
+      coords: { latitude: 19.272244, longitude: -99.657619 },
+    },
+    {
+      key: 4,
+      title: "Terminal",
+      coords: { latitude: 19.27814, longitude: -99.642789 },
+    },
+    {
+      key: 5,
+      title: "Facultad de Odontologia",
+      coords: { latitude: 19.273686, longitude: -99.657384 },
+    },
+    {
+      key: 6,
+      title: "Hospital del niño",
+      coords: { latitude: 19.271982, longitude: -99.661243 },
+    },
+  ],
   paradasSubidas: [
     {
       title: "Parada 1",
@@ -130,21 +162,5 @@ export const Data = {
       coords: { latitude: 19.233983, longitude: -99.669539 },
       description: "Descripción de la parada 7",
     },
-  ],
-  Lugares: [
-    {
-      key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
-    },
-    {
-      key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
-    },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   ],
 };

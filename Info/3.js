@@ -98,52 +98,170 @@ export const Bus3 = [
 ];
 
 export const Data = {
-  paradasSubidas: [
-    {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
-    },
-    {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
-    },
-    {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
-    },
-    {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
-    },
-    {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
-    },
-    {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
-    },
-  ],
   Lugares: [
     {
       key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
+      title: "Zinacantepec",
+      coords: { latitude: 19.283068, longitude: -99.731989 },
     },
+
     {
       key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
+      title: "Estadio Nemesio Díez",
+      coords: { latitude: 19.287485, longitude: -99.666592 },
     },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    {
+      key: 3,
+      title: "CU",
+      coords: { latitude: 19.28553, longitude: -99.677912 },
+    },
+    {
+      key: 4,
+      title: "Centro",
+      coords: { latitude: 19.291029, longitude: -99.655493 },
+    },
+    {
+      key: 5,
+      title: "Panteon General de Toluca",
+      coords: { latitude: 19.287587, longitude: -99.634758 },
+    },
+    {
+      key: 6,
+      title: "Pilares",
+      coords: { latitude: 19.285134, longitude: -99.595462 },
+    },
+  ],
+  paradasSubidas: [
+    {
+      title: "Enfrente de 'Museo Virreinal de Zinacantepec'",
+      coords: { latitude: 19.284059, longitude: -99.73559 },
+      description:
+        "Av. 16 de Septiembre, San Miguel, 51354 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tacos Banderas'",
+      coords: { latitude: 19.288573, longitude: -99.734419 },
+      description:
+        "Av. 16 de Septiembre, Vista Nevado I, 51354 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Protesis Dentales'",
+      coords: { latitude: 19.294631, longitude: -99.73276 },
+      description:
+        "Av. 16 de Septiembre Manzana 013, Vista Nevado I, 51350 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Mundo de Tornillos",
+      coords: { latitude: 19.294534, longitude: -99.728617 },
+      description:
+        "Cda. López Mateos 403, Vista Nevado I, 51350 San Luis Mextepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Estafeta'",
+      coords: { latitude: 19.291264, longitude: -99.712001 },
+      description:
+        "Cda. López Mateos 201-A, Col. Amado Nervo, 51357 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Productos Metálicos'",
+      coords: { latitude: 19.288541, longitude: -99.692993 },
+      description:
+        "Adolfo López Mateos 1525 E, Miguel Hidalgo, 50100 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Soriana Híper'",
+      coords: { latitude: 19.288221, longitude: -99.688685 },
+      description:
+        "Adolfo López Mateos 1619-1611, Delegación San Mateo Oxtotitlán, 50100 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'CU'",
+      coords: { latitude: 19.288112, longitude: -99.678346 },
+      description:
+        "Adolfo López Mateos, Universitaria, 50110 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Similares'",
+      coords: { latitude: 19.287606, longitude: -99.672587 },
+      description:
+        "Av. José Ma. Morelos 1803-1571, Barrio de San Bernardino, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Proveedora de Hospitales ",
+      coords: { latitude: 19.287693, longitude: -99.670179 },
+      description:
+        "Motolinía, Barrio de San Bernardino, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Modelo Ramas'",
+      coords: { latitude: 19.287782, longitude: -99.667707 },
+      description:
+        "Av. José Ma. Morelos 1211-1191, Barrio de San Bernardino, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Museo de la Fama Deportivo Toluca FC'",
+      coords: { latitude: 19.287838, longitude: -99.665935 },
+      description:
+        "Av. J. M. Morelos Y P. 1102, Barrio de San Bernardino, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Mini Pagos'",
+      coords: { latitude: 19.287867, longitude: -99.662867 },
+      description:
+        "Av. J. M. Morelos Y P. 902-LOCAL A, Barrio de la Merced, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Credito Familiar'",
+      coords: { latitude: 19.2879078, longitude: -99.6587015 },
+      description:
+        "José Vicente Villada 701 PONIENTE, esq. con Villada, Barrio de la Merced, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Cofrepris'",
+      coords: { latitude: 19.2882782, longitude: -99.6473611 },
+      description:
+        "Avenida José María Morelos y Pavón, Calle Josefa Ortiz de D. &, 5 de Mayo, 50090 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias Guadalajara'",
+      coords: { latitude: 19.288202, longitude: -99.640213 },
+      description: "Morelia - Toluca 920, Vértice, 50090 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'McDonald's Diaz Miron'",
+      coords: { latitude: 19.2846181, longitude: -99.6321849 },
+      description:
+        "Jose Maria Pino Suarez 130, Izcalli Toluca, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'El Puente'",
+      coords: { latitude: 19.2874138, longitude: -99.6176179 },
+      description:
+        "Av. Paseo Tollocan 2001, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Office Club Muebles'",
+      coords: { latitude: 19.2872554, longitude: -99.611009 },
+      description:
+        "Av. Paseo Tollocan 1586, Delegación Sta Ana Tlapaltitlán, 52160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Talleres de verano'",
+      coords: { latitude: 19.287136, longitude: -99.605447 },
+      description:
+        "Av Baja Velocidad 49-52, Casa Blanca, 52175 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Andamios y Apuntalamientos'",
+      coords: { latitude: 19.2869904, longitude: -99.6018666 },
+      description:
+        "Av Baja Velocidad 40-1, Casa Blanca, 52175 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'SIPRO'",
+      coords: { latitude: 19.2869389, longitude: -99.5978878 },
+      description:
+        "Ezequiel Montes 2 Av. Baja Velocidad, Ezequiel Montes Esq, Pilares, 52179 San Jerónimo Chicahualco, Méx.",
+    },
   ],
 };

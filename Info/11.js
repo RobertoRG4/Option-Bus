@@ -1,4 +1,4 @@
-export const SanLuisCentroZinacantepec = [
+export const Bus11 = [
   { latitude: 19.287828, longitude: -99.594839 },
   { latitude: 19.287831, longitude: -99.596838 },
   { latitude: 19.28786, longitude: -99.597325 },
@@ -178,18 +178,34 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
+      title: "Pilares",
+      coords: { latitude: 19.285533, longitude: -99.59437 },
     },
     {
       key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
+      title: "Unitec",
+      coords: { latitude: 19.289575, longitude: -99.612721 },
     },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    {
+      key: 3,
+      title: "Galerias Toluca",
+      coords: { latitude: 19.290291, longitude: -99.622589 },
+    },
+    {
+      key: 4,
+      title: "Centro",
+      coords: { latitude: 19.290645, longitude: -99.655248 },
+    },
+    {
+      key: 5,
+      title: "CU",
+      coords: { latitude: 19.285842, longitude: -99.678046 },
+    },
+    {
+      key: 6,
+      title: "San Miguel",
+      coords: { latitude: 19.282505, longitude: -99.731697 },
+    },
   ],
   paradasSubidas: [
     {

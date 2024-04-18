@@ -1,11 +1,15 @@
-import { Container, Content, Title } from "../Styles/Lugares";
-import LineaTime from "../Utilites/LineaTime";
+import { Container, Content, Title } from "../Styles/Descriptions";
+import LineaTime from "../Utilites/Componets/LineaTime";
+import { Data } from "../../Info/13";
+import Lugares from "../Utilites/Lugares";
+
 const Descriptions = () => {
   return (
     <Container>
       <Content>
+        <Lugares data={Data.Lugares} />
         <Title />
-        <LineaTime />
+        <LineaTime data={Data.paradasSubidas} />
       </Content>
     </Container>
   );

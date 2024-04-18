@@ -1,4 +1,4 @@
-export const CentroSanFelipe = [
+export const Bus9 = [
   { latitude: 19.231467, longitude: -99.670234 },
   { latitude: 19.231263, longitude: -99.670256 },
   { latitude: 19.230079, longitude: -99.670398 },
@@ -293,18 +293,34 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "lugar",
-      coords: { latitude: 19.29114, longitude: -99.656531 },
+      title: "Santiago Tlacotepec",
+      coords: { latitude: 19.226938, longitude: -99.670403 },
     },
     {
       key: 2,
-      title: "lugar",
-      coords: { latitude: 19.283001, longitude: -99.660879 },
+      title: "San Juan Tilapa",
+      coords: { latitude: 19.220174, longitude: -99.659644 },
     },
-    { key: 3, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 4, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 5, title: "lugar", coords: { latitude: 12, longitude: 12 } },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
+    {
+      key: 3,
+      title: "San Felipe",
+      coords: { latitude: 19.23998, longitude: -99.642134 },
+    },
+    {
+      key: 4,
+      title: "Prepa No.5",
+      coords: { latitude: 19.260769, longitude: -99.644749 },
+    },
+    {
+      key: 5,
+      title: "Prepa No.1",
+      coords: { latitude: 19.279597, longitude: -99.657125 },
+    },
+    {
+      key: 6,
+      title: "Centro",
+      coords: { latitude: 19.290754, longitude: -99.655148 },
+    },
   ],
   paradasSubidas: [
     {

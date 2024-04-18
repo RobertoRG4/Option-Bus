@@ -1,4 +1,4 @@
-import LineaTime from "../Utilites/LineaTime";
+import LineaTime from "../Utilites/Componets/LineaTime";
 import { Data } from "../../Info/1";
 import Lugares from "../Utilites/Lugares";
 import { Container, Content, Title } from "../Styles/Descriptions";

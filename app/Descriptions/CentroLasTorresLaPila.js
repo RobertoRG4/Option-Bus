@@ -1,5 +1,5 @@
 import { Container, Content, Title } from "../Styles/Lugares";
-import LineaTime from "../Utilites/LineaTime";
+import LineaTime from "../Utilites/Componets/LineaTime";
 const CentersSanFelipe = () => {
   return (
     <Container>
