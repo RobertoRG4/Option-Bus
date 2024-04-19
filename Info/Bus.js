@@ -116,8 +116,8 @@ export const Bus = {
     directions: "/Descriptions/9",
     marks: Bus9,
     points: {
-      inicio: { latitude: 19.230404, longitude: -99.670316 },
-      fin: { latitude: 19.231467, longitude: -99.670234 },
+      fin: { latitude: 19.230404, longitude: -99.670316 },
+      inicio: { latitude: 19.231467, longitude: -99.670234 },
     },
   },
   10: {

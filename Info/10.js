@@ -203,10 +203,24 @@ export const Data = {
     },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de '%100 Farma'",
+      coords: { latitude: 19.276554, longitude: -99.6419455 },
+      description:
+        "Blvd. Isidro Fabela 828, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Centro de rehabilitación física'",
+      coords: { latitude: 19.274723, longitude: -99.647321 },
+      description:
+        "Toluca - Cd Altamirano, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Santo Domingo'",
+      coords: { latitude: 19.2725819, longitude: -99.6534012 },
+      description:
+        "Av. Paseo Tollocan 101-LOCAL 4, entre PABLO SIDAR Y AV. JUÁREZ, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
     {
       title: "Enfrente de 'Oxxo Juarez'",
       coords: { latitude: 19.272659, longitude: -99.653822 },
@@ -267,9 +281,16 @@ export const Data = {
       description:
         "Libertad, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'Base de taxis Los Panfilos'",
+      coords: { latitude: 19.2305622, longitude: -99.6722069 },
+      description:
+        "Josefa Ortiz de Domínguez Manzana 009, Santiago Tlacotepec, 50255 Tlacotepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Totilleria Leo'",
+      coords: { latitude: 19.227412, longitude: -99.697127 },
+      description: "Cam. A La Hacienda, 50255 El Refugio, Méx.",
+    },
   ],
 };

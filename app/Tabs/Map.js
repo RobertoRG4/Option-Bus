@@ -72,7 +72,6 @@ const Map = ({ coords, icon, coordsDelta }) => {
           provider={PROVIDER_GOOGLE}
           style={StyleSheet.absoluteFill}
           initialRegion={INITIAL_REGION}
-          liteMode={true}
           showsUserLocation={showUserLocation}
           showsMyLocationButton={false}
           showsCompass={false}
@@ -197,7 +196,6 @@ const Map = ({ coords, icon, coordsDelta }) => {
           provider={PROVIDER_GOOGLE}
           style={StyleSheet.absoluteFill}
           initialRegion={INITIAL_REGION}
-          liteMode={true}
           showsUserLocation={showUserLocation}
           showsMyLocationButton={false}
           showsCompass={false}

@@ -324,34 +324,105 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Enfrente de 'Herbalife Club Clau'",
+      coords: { latitude: 19.2299256, longitude: -99.670065 },
+      description: "Libertad 2, Centro, 50255 Santiago Tlacotepec, Méx.",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Enfrente de 'Genericos Farmacia 'Cristo Rey''",
+      coords: { latitude: 19.2256192, longitude: -99.6678106 },
+      description:
+        "A S. Juan Tilapa José Ma. Morelos Manzana 025, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'Tortas Los Volcanes'",
+      coords: { latitude: 19.23725, longitude: -99.642257 },
+      description:
+        "Independencia 13-10, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de 'Oxxo San Javier'",
+      coords: { latitude: 19.2614426, longitude: -99.6441993 },
+      description:
+        "Privada Lote 2 C Y Ceboruco SN, Paseo, Real San Javier, 52169 San Jorge Pueblo Nuevo, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de Farmacia Santo Domingo",
+      coords: { latitude: 19.2725726, longitude: -99.6537587 },
+      description:
+        "Av. Paseo Tollocan 101-LOCAL 4, entre PABLO SIDAR Y AV. JUÁREZ, Universidad, 50130 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Dental Rey'",
+      coords: { latitude: 19.279567, longitude: -99.65629 },
+      description:
+        "C. Mariano Matamoros 822-868, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Rehability Center'",
+      coords: { latitude: 19.280834, longitude: -99.657475 },
+      description:
+        "C. Gral. Francisco Murguía 601, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Óptica Roma'",
+      coords: { latitude: 19.286169, longitude: -99.657719 },
+      description:
+        "Calle Nicolás Bravo Sur 308, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Monumento a los Maestros'",
+      coords: { latitude: 19.286066, longitude: -99.654251 },
+      description:
+        "Av. Benito Juárez Garcia Sur 300B, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Computer System Mafer'",
+      coords: { latitude: 19.284287, longitude: -99.654231 },
+      description:
+        "Av. Benito Juárez Garcia Sur 414-A, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Relojería Certina'",
+      coords: { latitude: 19.279091, longitude: -99.654019 },
+      description:
+        "Av. Benito Juárez Garcia Sur 760-814, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Montoneras'",
+      coords: { latitude: 19.277858, longitude: -99.653977 },
+      description:
+        "Av. Benito Juárez Garcia Sur 858-998, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega Aurrera'",
+      coords: { latitude: 19.262731, longitude: -99.644767 },
+      description:
+        "Av. Prof. Heriberto Enríquez 4 Sur, Amp Lázaro Cárdenas, 50180 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pulqueria del Sur'",
+      coords: { latitude: 19.2417218, longitude: -99.6420843 },
+      description:
+        "Independencia 217, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Taco Eat'",
+      coords: { latitude: 19.2407786, longitude: -99.6433937 },
+      description:
+        "Adolfo López Mateos 4, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pulimentos de Toluca'",
+      coords: { latitude: 19.239311, longitude: -99.643535 },
+      description:
+        "Libertad 15-24, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Esc. Prim. Josefa Ortiz de Domínguez'",
+      coords: { latitude: 19.230091, longitude: -99.670265 },
+      description:
+        "Josefa Ortiz de Domínguez, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
   ],
 };

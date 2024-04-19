@@ -209,34 +209,171 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Enfrente de 'Heineken México Toluca'",
+      coords: { latitude: 19.287882, longitude: -99.598031 },
+      description:
+        "Av. Paseo Tollocan, Delegación Santa María Totoltepec, 50245 Santa María Totoltepec, Méx.",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Enfrente de 'Paqutería Trasguerras'",
+      coords: { latitude: 19.288, longitude: -99.601361 },
+      description:
+        "Av. Paseo Tollocan 1005, Delegación Santa María Totoltepec, 50240 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'Stellantis TAP'",
+      coords: { latitude: 19.288092, longitude: -99.606386 },
+      description:
+        "Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Parada Caminante - Comonfort",
+      coords: { latitude: 19.2881854, longitude: -99.6098459 },
+      description:
+        "C. Alberto Einstein 281, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'Nescafé'",
+      coords: { latitude: 19.288415, longitude: -99.61768 },
+      description:
+        "Av. Paseo Tollocan, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Radio Taxis'",
+      coords: { latitude: 19.288439, longitude: -99.619694 },
+      description:
+        "Av. Paseo Tollocan 1195, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Galerias Toluca'",
+      coords: { latitude: 19.288528, longitude: -99.623053 },
+      description:
+        "Av. Paseo Tollocan 267, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pfizer'",
+      coords: { latitude: 19.288584, longitude: -99.626128 },
+      description:
+        "Héroe de Nacozari, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Henkel'",
+      coords: { latitude: 19.288717, longitude: -99.629701 },
+      description:
+        "Héroe de Nacozari, Reforma y FFCC Nacionales, 50070 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Suspenciones Pepe'",
+      coords: { latitude: 19.289996, longitude: -99.641353 },
+      description: "50150, Vértice, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bordados Hidalgo Toluca'",
+      coords: { latitude: 19.2899792, longitude: -99.6428767 },
+      description:
+        "Miguel Hidalgo 901 ote Esquina, Isabel la Católica, Reforma y FFCC Nacionales, 50070 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Jardín 5 de Mayo'",
+      coords: { latitude: 19.289957, longitude: -99.648513 },
+      description:
+        "Av. Miguel Hidalgo Ote. 434-500, 5 de Mayo, 50090 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Entrende de 'Hospital de ginecologiá'",
+      coords: { latitude: 19.292855, longitude: -99.658459 },
+      description:
+        "Av. Sebastián Lerdo de Tejada 224, Centro, 50050 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Prestamo Feliz'",
+      coords: { latitude: 19.292606, longitude: -99.659653 },
+      description:
+        "unos metros de Palacio de Gobierno, Av. Sebastián Lerdo de Tejada 222-A, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Diego Estudio Fotografico'",
+      coords: { latitude: 19.2925298, longitude: -99.660058 },
+      description:
+        "Av. Sebastián Lerdo de Tejada 270-A, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oficinas Administrativas'",
+      coords: { latitude: 19.2920185, longitude: -99.66277 },
+      description:
+        "Av. Sebastián Lerdo de Tejada, Barrio de la Retama, 50040 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Vals Karts'",
+      coords: { latitude: 19.291588, longitude: -99.665555 },
+      description:
+        "Sebastián, Av. Sebastián Lerdo de Tejada 569, Barrio de la Merced, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Consultorio Dental DentAli'",
+      coords: { latitude: 19.291049, longitude: -99.667745 },
+      description:
+        "Av. Sebastián Lerdo de Tejada 765-653, Barrio de San Bernardino, 50080 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tiendas Cuprum'",
+      coords: { latitude: 19.289906, longitude: -99.672242 },
+      description:
+        "Calle Sebastian, Av. Sebastián Lerdo de Tejada 864, Electricistas Locales, 50040 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Fonda de lerdo comida Argentina'",
+      coords: { latitude: 19.289223, longitude: -99.674835 },
+      description: "",
+    },
+    {
+      title:
+        "Enfrente de 'Cordinación Estatal de Servicio Profesional Docente'",
+      coords: { latitude: 19.288735, longitude: -99.676576 },
+      description:
+        "Av. Sebastián Lerdo de Tejada Pte. 916, Electricistas, 50040 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Base de taxis Excama de Piedra'",
+      coords: { latitude: 19.288236, longitude: -99.67841 },
+      description:
+        "Adolfo López Mateos 1204, Electricistas Locales, 50040 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Barbacoa El Güero'",
+      coords: { latitude: 19.287921, longitude: -99.683654 },
+      description:
+        "Delegación San Mateo Oxtotitlán, 50100 San Mateo Oxtotitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Grupo Inova'",
+      coords: { latitude: 19.291336, longitude: -99.711394 },
+      description:
+        "Lic. Adolfo López Mateos, Las Joyas, 51355 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Funko Mania Toluca'",
+      coords: { latitude: 19.294913, longitude: -99.732942 },
+      description:
+        "Av. 16 de Septiembre 2543, Vista Nevado I, 51355 San Luis Mextepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega Aurrera'",
+      coords: { latitude: 19.291564, longitude: -99.733822 },
+      description:
+        "Av. 16 de Septiembre, Vista Nevado I, 51354 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'BBVA'",
+      coords: { latitude: 19.290969, longitude: -99.733988 },
+      description:
+        "Av. 16 de Septiembre, Vista Nevado I, 51354 San Miguel Zinacantepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tacos Don Oscar'",
+      coords: { latitude: 19.284205, longitude: -99.735566 },
+      description:
+        "Av. 16 de Septiembre, San Miguel, 51354 San Miguel Zinacantepec, Méx.",
     },
   ],
 };

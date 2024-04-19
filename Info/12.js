@@ -183,19 +183,22 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Ferretera SILL'",
+      coords: { latitude: 19.2286229, longitude: -99.7010744 },
+      description:
+        "Av Del Refugio S/N Colonia Del Refugio, Santiago Tlacotepec, 50255 Toluca de Lerdo, Méx.",
     },
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Burger Zone'",
+      coords: { latitude: 19.2294236, longitude: -99.6728801 },
+      description:
+        "C. Ermita 11, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Tienda Telcel'",
+      coords: { latitude: 19.2286869, longitude: -99.6705426 },
+      description:
+        "Libertad 228, Santiago Tlacotepec, 50255 Santiago Tlacotepec, Méx.",
     },
     {
       title: "Enfrente de 'Laboratorio De Analisis Clinicos Union'",
@@ -228,19 +231,40 @@ export const Data = {
         "Cd Altamirano - Toluca 317-782, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
     },
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Hospital Materno Mónica Pretilini'",
+      coords: { latitude: 19.272619, longitude: -99.657113 },
+      description:
+        "Av. Paseo Tollocan 1926, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
     },
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Bicentenario'",
+      coords: { latitude: 19.272279, longitude: -99.654155 },
+      description:
+        "Av. Paseo Tollocan ＃131, Universidad, 50130 Toluca de Lerdo, Méx.",
     },
     {
-      title: "",
-      coords: {},
-      description: "",
+      title: "Enfrente de 'Ferretería Carredana'",
+      coords: { latitude: 19.274558, longitude: -99.647048 },
+      description:
+        "Av. Paseo Tollocan Sn, Sta María de las Rosas, 50140 Toluca de Lerdo, 50140 México, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias del ahorro Juárez'",
+      coords: { latitude: 19.2810535, longitude: -99.6419928 },
+      description:
+        "Av. Paseo Tollocan 520 A, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Parisina'",
+      coords: { latitude: 19.280777, longitude: -99.641708 },
+      description:
+        "Av. Paseo Tollocan 520, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pastes kikos'",
+      coords: { latitude: 19.278481, longitude: -99.64174 },
+      description:
+        "Pico de Orizaba 202-222, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
     },
   ],
 };

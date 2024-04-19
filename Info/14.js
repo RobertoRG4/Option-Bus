@@ -279,10 +279,16 @@ export const Data = {
     },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'Simulador EGEL'",
+      coords: { latitude: 19.2460322, longitude: -99.7121671 },
+      description: "El Nevado, Cacalomacan, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Mangueras y Conexiones Pacifico'",
+      coords: { latitude: 19.2565977, longitude: -99.7040776 },
+      description: "Manzana 012, La Palma, 50265 Cacalomacán, Méx.",
+    },
     {
       title: "Enfrente de ' Tienda Telcel '",
       coords: { latitude: 19.264674, longitude: -99.659323 },
@@ -308,8 +314,88 @@ export const Data = {
       description:
         "C. Jesús Carranza 203, Universidad, 50130 Toluca de Lerdo, Méx.",
     },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'Autotrnasportes Flecha'",
+      coords: { latitude: 19.278994, longitude: -99.648593 },
+      description:
+        "Calle Gral. Venustiano Carranza 20 Pte., Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias del ahorro Juárez'",
+      coords: { latitude: 19.2810535, longitude: -99.6419928 },
+      description:
+        "Av. Paseo Tollocan 520 A, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Instituto de Investigación'",
+      coords: { latitude: 19.283857, longitude: -99.637746 },
+      description: "Urawa 629, Progreso, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'McDonald's Diaz Miron'",
+      coords: { latitude: 19.2846181, longitude: -99.6321849 },
+      description:
+        "Jose Maria Pino Suarez 130, Izcalli Toluca, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'El Puente'",
+      coords: { latitude: 19.2874138, longitude: -99.6176179 },
+      description:
+        "Av. Paseo Tollocan 2001, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Office Club Muebles'",
+      coords: { latitude: 19.2872554, longitude: -99.611009 },
+      description:
+        "Av. Paseo Tollocan 1586, Delegación Sta Ana Tlapaltitlán, 52160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Talleres de verano'",
+      coords: { latitude: 19.287136, longitude: -99.605447 },
+      description:
+        "Av Baja Velocidad 49-52, Casa Blanca, 52175 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Andamios y Apuntalamientos'",
+      coords: { latitude: 19.2869904, longitude: -99.6018666 },
+      description:
+        "Av Baja Velocidad 40-1, Casa Blanca, 52175 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'SIPRO'",
+      coords: { latitude: 19.2869389, longitude: -99.5978878 },
+      description:
+        "Ezequiel Montes 2 Av. Baja Velocidad, Ezequiel Montes Esq, Pilares, 52179 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Caminante Pilares'",
+      coords: { latitude: 19.286813, longitude: -99.593995 },
+      description:
+        "Av. Paseo Tollocan 22, Pilares, 52179 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Walmart y Toks'",
+      coords: { latitude: 19.286697, longitude: -99.590632 },
+      description:
+        "Av Baja Velocidad 1617, San Jeronimo Chicahualco, 52179 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Delegación Tollocan II'",
+      coords: { latitude: 19.286653, longitude: -99.589384 },
+      description:
+        "Av Baja Velocidad 1617, San Jeronimo Chicahualco, 52179 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Centro Médico ISSEMyM Toluca'",
+      coords: { latitude: 19.286598, longitude: -99.586321 },
+      description:
+        "Av Baja Velocidad KM. 57.5, San Jeronimo Chicahualco, 52170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Imtex'",
+      coords: { latitude: 19.280995, longitude: -99.584106 },
+      description:
+        "C. Puerto de México 29, San Jeronimo Chicahualco, 52170 Toluca de Lerdo, Méx.",
+    },
   ],
 };
