@@ -1,9 +1,9 @@
-import LineaTime from "../Utilites/Componets/LineaTime";
-import { Data } from "../../Info/VillaFabrica";
 import Lugares from "../Utilites/Lugares";
+import LineaTime from "../Utilites/Componets/LineaTime";
+import { Data } from "../../Info/4";
 import { Container, Content, Title } from "../Styles/Descriptions";
 
-const VillaFabrica = () => {
+const SantiagoChapultepec = () => {
   return (
     <Container>
       <Lugares data={Data.Lugares} />
@@ -14,5 +14,4 @@ const VillaFabrica = () => {
     </Container>
   );
 };
-
-export default VillaFabrica;
+export default SantiagoChapultepec;

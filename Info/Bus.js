@@ -1,16 +1,16 @@
 import { Bus1 } from "./1.js";
 import { Bus2 } from "./2.js";
 import { Bus3 } from "./3.js";
-import { SantiagoChapultepec } from "./SantiagoChapultepec.js";
-import { VillaFabrica } from "./VillaFabrica.js";
-import { TenangoMexicaltzingo } from "./TenangoMexicaltzingo.js";
+import { Bus4 } from "./4.js";
+import { Bus5 } from "./5.js";
+import { Bus6 } from "./6.js";
 import { Bus11 } from "./11.js";
 import { Bus9 } from "./9.js";
 import { Bus10 } from "./10.js";
 import { Bus12 } from "./12.js";
 import { Bus13 } from "./13.js";
 import { Bus14 } from "./14.js";
-
+import { Bus15 } from "./15.js";
 export const Bus = {
   1: {
     key: 1,
@@ -26,7 +26,7 @@ export const Bus = {
       fin: { latitude: 19.216914, longitude: -99.672564 },
     },
   },
-  /*2: {
+  2: {
     key: 2,
     titulo: "San Juan Tilapa - Terminal",
     tiempo: "2 - 6 min",
@@ -35,8 +35,11 @@ export const Bus = {
     color: "#008000",
     directions: "/Descriptions/2",
     marks: Bus2,
-    points: { inicio: {}, fin: {} },
-  },*/
+    points: {
+      inicio: { latitude: 19.216523, longitude: -99.657372 },
+      fin: { latitude: 19.216236, longitude: -99.659155 },
+    },
+  },
   3: {
     key: 3,
     titulo: "Pilares - Centro ",
@@ -51,15 +54,15 @@ export const Bus = {
       fin: { latitude: 19.287825, longitude: -99.594828 },
     },
   },
-  /*4: {
+  4: {
     key: 4,
     titulo: "Santiago - Chapultepec",
     tiempo: "8 - 14 min",
     costo: "$14",
     img: require("../assets/SantiagoChapultepecBus.png"),
     color: "#00ffbf",
-    directions: "/Descriptions/SantiagoChapultepec",
-    marks: SantiagoChapultepec,
+    directions: "/Descriptions/4",
+    marks: Bus4,
     points: { inicio: {}, fin: {} },
   },
   5: {
@@ -69,9 +72,12 @@ export const Bus = {
     costo: "Distancia",
     img: require("../assets/VillaFabricaCentralDeAbastos.png"),
     color: "#572364",
-    directions: "/Descriptions/VillaFabrica",
-    marks: VillaFabrica,
-    points: { inicio: {}, fin: {} },
+    directions: "/Descriptions/5",
+    marks: Bus5,
+    points: {
+      inicio: { latitude: 19.276934, longitude: -99.641701 },
+      fin: { latitude: 19.461716, longitude: -99.551512 },
+    },
   },
   6: {
     key: 6,
@@ -80,10 +86,13 @@ export const Bus = {
     costo: "Distancia",
     img: require("../assets/TenangoDelValle.png"),
     color: "#f542b3",
-    directions: "/Descriptions/TenangoMexicaltzingo",
-    marks: TenangoMexicaltzingo,
-    points: { inicio: {}, fin: {} },
-  },
+    directions: "/Descriptions/6",
+    marks: Bus6,
+    points: {
+      inicio: { latitude: 19.100703, longitude: -99.586628 },
+      fin: { latitude: 19.100695, longitude: -99.586727 },
+    },
+  } /*
   7: {
     key: 7,
     titulo: "Centro - Las Torres - La Pila",
@@ -105,7 +114,7 @@ export const Bus = {
     directions: "/Descriptions/ValleDelNevado",
     marks: [],
     points: { inicio: {}, fin: {} },
-  },*/
+  },*/,
   9: {
     key: 9,
     titulo: "San Felipe - Centro - La Joya",
@@ -185,6 +194,20 @@ export const Bus = {
     points: {
       inicio: { latitude: 19.244907, longitude: -99.713075 },
       fin: { latitude: 19.280139, longitude: -99.584088 },
+    },
+  },
+  15: {
+    key: 15,
+    titulo: "San Marcos - San Felipe",
+    tiempo: "4 - 9 min",
+    costo: "$12",
+    img: require("../assets/15.png"),
+    color: "#4287f5",
+    directions: "/Descriptions/15",
+    marks: Bus15,
+    points: {
+      inicio: { latitude: 19.327376, longitude: -99.680288 },
+      fin: { latitude: 19.237363, longitude: -99.643624 },
     },
   },
 };

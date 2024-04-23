@@ -96,13 +96,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[1].directions)}
           />
-          {/*<Polyline
+          <Polyline
             coordinates={Bus[2].marks}
             strokeColor={Bus[2].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[2].directions)}
-          />*/}
+          />
           <Polyline
             coordinates={Bus[3].marks}
             strokeColor={Bus[3].color}
@@ -110,7 +110,7 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[3].directions)}
           />
-          {/*<Polyline
+          <Polyline
             coordinates={Bus[4].marks}
             strokeColor={Bus[4].color}
             tappable={true}
@@ -131,14 +131,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[6].directions)}
           />
-          <Polyline
+          {/*<Polyline
             coordinates={Bus[7].marks}
             strokeColor={Bus[7].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[7].directions)}
           />*/}
-          {/* <Polyline /> --> nevado del valle*/}
           <Polyline
             coordinates={Bus[9].marks}
             strokeColor={Bus[9].color}
@@ -160,7 +159,6 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[11].directions)}
           />
-
           <Polyline
             coordinates={Bus[12].marks}
             strokeColor={Bus[12].color}
@@ -175,13 +173,19 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[13].directions)}
           />*/}
-
           <Polyline
             coordinates={Bus[14].marks}
             strokeColor={Bus[14].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[14].directions)}
+          />
+          <Polyline
+            coordinates={Bus[15].marks}
+            strokeColor={Bus[15].color}
+            strokeWidth={5}
+            tappable={true}
+            onPress={() => router.push(Bus[15].directions)}
           />
         </MapView>
         {!mapReady && <Loading />}

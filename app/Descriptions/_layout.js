@@ -19,17 +19,17 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  SantiagoChapultepec: {
+  Bus4: {
     title: "Santiago - Chapultepec",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  VillaFabrica: {
+  Bus5: {
     title: "Villa - Fabrica",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  TenangoMexicaltzingo: {
+  Bus6: {
     title: "Tenango - Mexicaltzingo",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
@@ -74,6 +74,11 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
+  Bus15: {
+    title: "San Marcos - San Felipe",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
 };
 
 export default function descriptionsLayout() {
@@ -82,15 +87,9 @@ export default function descriptionsLayout() {
       <Stack.Screen name="1" options={options.Bus1} />
       <Stack.Screen name="2" options={options.Bus2} />
       <Stack.Screen name="3" options={options.Bus3} />
-      <Stack.Screen
-        name="SantiagoChapultepec"
-        options={options.SantiagoChapultepec}
-      />
-      <Stack.Screen name="VillaFabrica" options={options.VillaFabrica} />
-      <Stack.Screen
-        name="TenangoMexicaltzingo"
-        options={options.TenangoMexicaltzingo}
-      />
+      <Stack.Screen name="4" options={options.Bus4} />
+      <Stack.Screen name="5" options={options.Bus5} />
+      <Stack.Screen name="6" options={options.Bus6} />
       <Stack.Screen name="ValleDelNevado" options={options.ValleDelNevado} />
       <Stack.Screen name="9" options={options.Bus9} />
       <Stack.Screen
@@ -102,6 +101,7 @@ export default function descriptionsLayout() {
       <Stack.Screen name="12" options={options.Bus12} />
       <Stack.Screen name="13" options={options.Bus13} />
       <Stack.Screen name="14" options={options.Bus14} />
+      <Stack.Screen name="15" options={options.Bus15} />
     </Stack>
   );
 }
