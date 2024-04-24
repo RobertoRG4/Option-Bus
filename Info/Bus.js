@@ -4,13 +4,15 @@ import { Bus3 } from "./3.js";
 import { Bus4 } from "./4.js";
 import { Bus5 } from "./5.js";
 import { Bus6 } from "./6.js";
-import { Bus11 } from "./11.js";
+import { Bus7 } from "./7.js";
 import { Bus9 } from "./9.js";
 import { Bus10 } from "./10.js";
+import { Bus11 } from "./11.js";
 import { Bus12 } from "./12.js";
 import { Bus13 } from "./13.js";
 import { Bus14 } from "./14.js";
 import { Bus15 } from "./15.js";
+import { Bus16 } from "./16.js";
 export const Bus = {
   1: {
     key: 1,
@@ -92,29 +94,18 @@ export const Bus = {
       inicio: { latitude: 19.100703, longitude: -99.586628 },
       fin: { latitude: 19.100695, longitude: -99.586727 },
     },
-  } /*
+  },
   7: {
     key: 7,
     titulo: "Centro - Las Torres - La Pila",
     tiempo: "5 - 7 min",
     costo: "$12",
-    img: require("../assets/CentroTerminalTorresPila.jpg"),
+    img: "",
     color: "#42ddf5",
-    directions: "/Descriptions/CentroLasTorresLaPila",
-    marks: [],
+    directions: "/Descriptions/7",
+    marks: Bus7,
     points: { inicio: {}, fin: {} },
   },
-  ValleDelNevado: {
-    key: 8,
-    titulo: "Valle del Nevado - Centro",
-    tiempo: "25 - 30 min",
-    costo: "Distancia",
-    img: require("../assets/ValleDelNevado.jpeg"),
-    color: "#b3f542",
-    directions: "/Descriptions/ValleDelNevado",
-    marks: [],
-    points: { inicio: {}, fin: {} },
-  },*/,
   9: {
     key: 9,
     titulo: "San Felipe - Centro - La Joya",
@@ -171,7 +162,7 @@ export const Bus = {
       fin: { latitude: 19.278505, longitude: -99.641707 },
     },
   },
-  /*13: {
+  13: {
     key: 13,
     titulo: "Centro - San Bartolomé",
     tiempo: "8 - 14 min",
@@ -181,7 +172,7 @@ export const Bus = {
     directions: "/Descriptions/13",
     marks: Bus13,
     points: { inicio: {}, fin: {} },
-  },*/
+  },
   14: {
     key: 14,
     titulo: "Cacalomacán - Pilares",
@@ -208,6 +199,20 @@ export const Bus = {
     points: {
       inicio: { latitude: 19.327376, longitude: -99.680288 },
       fin: { latitude: 19.237363, longitude: -99.643624 },
+    },
+  },
+  16: {
+    key: 16,
+    titulo: "Pilares - CU - Terminal",
+    tiempo: "9 - 14 min",
+    costo: "$12",
+    img: require("../assets/16.png"),
+    color: "#eb8c34",
+    directions: "/Descriptions/16",
+    marks: Bus16,
+    points: {
+      inicio: { latitude: 19.261508, longitude: -99.7160746 },
+      fin: { latitude: 19.243351, longitude: -99.578242 },
     },
   },
 };

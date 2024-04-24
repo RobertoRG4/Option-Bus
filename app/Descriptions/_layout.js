@@ -34,18 +34,13 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
-  ValleDelNevado: {
-    title: "Valle del Nevado",
+  Bus7: {
+    title: "Centro - Las Torres -  La Pila",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
   Bus9: {
     title: "Centro -  San Felipe - La Joya",
-    headerLeft: () => <Arrow onPress={() => router.back()} />,
-    headerRight: () => <AboutRoutes />,
-  },
-  CentroLasTorresLaPila: {
-    title: "Centro - Las Torres -  La Pila",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
@@ -90,12 +85,8 @@ export default function descriptionsLayout() {
       <Stack.Screen name="4" options={options.Bus4} />
       <Stack.Screen name="5" options={options.Bus5} />
       <Stack.Screen name="6" options={options.Bus6} />
-      <Stack.Screen name="ValleDelNevado" options={options.ValleDelNevado} />
+      <Stack.Screen name="7" options={options.Bus7} />
       <Stack.Screen name="9" options={options.Bus9} />
-      <Stack.Screen
-        name="CentroLasTorresLaPila"
-        options={options.CentroLasTorresLaPila}
-      />
       <Stack.Screen name="10" options={options.Bus10} />
       <Stack.Screen name="11" options={options.Bus11} />
       <Stack.Screen name="12" options={options.Bus12} />

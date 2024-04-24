@@ -131,13 +131,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[6].directions)}
           />
-          {/*<Polyline
+          <Polyline
             coordinates={Bus[7].marks}
             strokeColor={Bus[7].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[7].directions)}
-          />*/}
+          />
           <Polyline
             coordinates={Bus[9].marks}
             strokeColor={Bus[9].color}
@@ -166,13 +166,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             tappable={true}
             onPress={() => router.push(Bus[12].directions)}
           />
-          {/*<Polyline
+          <Polyline
             coordinates={Bus[13].marks}
             strokeColor={Bus[13].color}
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[13].directions)}
-          />*/}
+          />
           <Polyline
             coordinates={Bus[14].marks}
             strokeColor={Bus[14].color}
@@ -186,6 +186,13 @@ const Map = ({ coords, icon, coordsDelta }) => {
             strokeWidth={5}
             tappable={true}
             onPress={() => router.push(Bus[15].directions)}
+          />
+          <Polyline
+            coordinates={Bus[16].marks}
+            strokeColor={Bus[16].color}
+            strokeWidth={5}
+            tappable={true}
+            onPress={() => router.push(Bus[16].directions)}
           />
         </MapView>
         {!mapReady && <Loading />}
