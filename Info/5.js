@@ -250,33 +250,33 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "Lugar 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "Valle Verde y Terminal",
+      coords: { latitude: 19.276645, longitude: -99.641119 },
     },
     {
       key: 2,
-      title: "Lugar 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "Delegacion de San Lorenzo",
+      coords: { latitude: 19.317488, longitude: -99.625853 },
     },
     {
       key: 3,
-      title: "Lugar 3",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "Colonia Guadalupe Victoria",
+      coords: { latitude: 19.386175, longitude: -99.582666 },
     },
     {
       key: 4,
-      title: "Lugar 4",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "Villa Cuauhtemoc",
+      coords: { latitude: 19.40936, longitude: -99.55913 },
     },
     {
       key: 5,
-      title: "Lugar 5",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "Santa Mariá Tetilan",
+      coords: { latitude: 19.42566, longitude: -99.557486 },
     },
     {
       key: 6,
-      title: "Lugar 6",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
+      title: "San Agustín Mimbres",
+      coords: { latitude: 19.454339, longitude: -99.555201 },
     },
   ],
   paradasSubidas: [

@@ -321,12 +321,36 @@ export const Bus16 = [
 ];
 export const Data = {
   Lugares: [
-    { key: 1, title: "", coords: {} },
-    { key: 2, title: "", coords: {} },
-    { key: 3, title: "", coords: {} },
-    { key: 4, title: "", coords: {} },
-    { key: 5, title: "", coords: {} },
-    { key: 6, title: "", coords: {} },
+    {
+      key: 1,
+      title: "San Antonio Buenavista",
+      coords: { latitude: 19.265594, longitude: -99.714794 },
+    },
+    {
+      key: 2,
+      title: "Instituto Tecnológico y de Estudios Superiores",
+      coords: { latitude: 19.273287, longitude: -99.703622 },
+    },
+    {
+      key: 3,
+      title: "Nueva Oxtotitlán",
+      coords: { latitude: 19.283466, longitude: -99.682963 },
+    },
+    {
+      key: 4,
+      title: "Terminal",
+      coords: { latitude: 19.27884, longitude: -99.6405459 },
+    },
+    {
+      key: 5,
+      title: "San Jeronimo Chicahualco",
+      coords: { latitude: 19.282655, longitude: -99.588299 },
+    },
+    {
+      key: 6,
+      title: "Infonavit San Francisco",
+      coords: { latitude: 19.264802, longitude: -99.596979 },
+    },
   ],
   paradasSubidas: [
     { title: "", coords: {}, description: "" },

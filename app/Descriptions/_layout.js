@@ -74,6 +74,21 @@ const options = {
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
+  Bus16: {
+    title: "Pilares - CU - Terminal",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
+  Bus17: {
+    title: "Seminatio - Los Sauces",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
+  Bus18: {
+    title: "Pilares - Cacalomacán",
+    headerLeft: () => <Arrow onPress={() => router.back()} />,
+    headerRight: () => <AboutRoutes />,
+  },
 };
 
 export default function descriptionsLayout() {
@@ -93,6 +108,9 @@ export default function descriptionsLayout() {
       <Stack.Screen name="13" options={options.Bus13} />
       <Stack.Screen name="14" options={options.Bus14} />
       <Stack.Screen name="15" options={options.Bus15} />
+      <Stack.Screen name="16" options={options.Bus16} />
+      <Stack.Screen name="17" options={options.Bus17} />
+      <Stack.Screen name="18 " options={options.Bus18} />
     </Stack>
   );
 }

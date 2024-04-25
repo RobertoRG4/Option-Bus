@@ -211,6 +211,37 @@ export const Bus18 = [
 ];
 
 export const Data = {
+  Lugares: [
+    {
+      key: 1,
+      title: "San Jerónimo Chicahualco",
+      coords: { latitude: 19.283305, longitude: -99.588219 },
+    },
+    {
+      key: 2,
+      title: "IMSS Hospital General",
+      coords: { latitude: 19.2830397, longitude: -99.6435167 },
+    },
+    {
+      key: 3,
+      title: "Centro",
+      coords: { latitude: 19.290417, longitude: -99.655502 },
+    },
+    {
+      key: 4,
+      title: "Prepa 1",
+      coords: { latitude: 19.2819513, longitude: -99.6561714 },
+    },
+    {
+      key: 5,
+      title: "Ocho Cedros",
+      coords: { latitude: 19.26048, longitude: -99.665975 },
+    },
+    {
+      key: 6,
+      title: "Cacalomacán",
+      coords: { latitude: 19.249743, longitude: -99.702336 },
+    },
+  ],
   paradasSubidas: [{ title: "", coords: {}, description: "" }],
-  Lugares: [{ key: 1, title: "", coords: {} }],
 };

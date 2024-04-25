@@ -107,7 +107,7 @@ export const Bus = {
     color: "#42ddf5",
     directions: "/Descriptions/7",
     marks: Bus7,
-    points: { inicio: {}, fin: {} },
+    points: { inicio: { latitude: 19.243203, longitude: -99.578024 }, fin: {} },
   },
   /*8: {
     key: 8,

@@ -293,6 +293,37 @@ export const Bus13 = [
   { latitude: 19.18732, longitude: -99.651284 },
 ];
 export const Data = {
-  Lugares: [{ key: 1, title: "", coords: {} }],
+  Lugares: [
+    {
+      key: 1,
+      title: "San Lorenzo Cuauhtenco",
+      coords: { latitude: 19.197946, longitude: -99.630072 },
+    },
+    {
+      key: 2,
+      title: "Santa Mariá Nativitas",
+      coords: { latitude: 19.209664, longitude: -99.629926 },
+    },
+    {
+      key: 3,
+      title: "San Bartolomé",
+      coords: { latitude: 19.22761, longitude: -99.631056 },
+    },
+    {
+      key: 4,
+      title: "UAEM Facultad",
+      coords: { latitude: 19.2754659, longitude: -99.655419 },
+    },
+    {
+      key: 5,
+      title: "Centro",
+      coords: { latitude: 19.290325, longitude: -99.65537 },
+    },
+    {
+      key: 6,
+      title: "La Jet",
+      coords: { latitude: 19.2758656, longitude: -99.6457778 },
+    },
+  ],
   paradasSubidas: [{ title: "", coords: {}, description: "" }],
 };

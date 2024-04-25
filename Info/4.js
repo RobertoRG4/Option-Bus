@@ -293,30 +293,34 @@ export const Data = {
   Lugares: [
     {
       key: 1,
-      title: "San Lorenzo Coacalco",
+      title: "San Lorenzo",
       coords: { latitude: 19.242106, longitude: -99.597725 },
     },
     {
       key: 2,
+      title: "Tenango",
+      coords: { latitude: 19.205706, longitude: -99.587993 },
+    },
+    {
+      key: 3,
       title: "San Mateo Mexicaltzingo",
       coords: { latitude: 19.213156, longitude: -99.585506 },
     },
     {
-      key: 3,
+      key: 4,
       title: "Chapultepec",
       coords: { latitude: 19.203683, longitude: -99.547743 },
     },
     {
-      key: 4,
+      key: 5,
       title: "Santiago Tianguistenco",
       coords: { latitude: 19.182367, longitude: -99.46784 },
     },
     {
-      key: 5,
+      key: 6,
       title: "Santiago Tilapa",
       coords: { latitude: 19.187682, longitude: -99.419378 },
     },
-    { key: 6, title: "lugar", coords: { latitude: 12, longitude: 12 } },
   ],
   paradasSubidas: [
     {

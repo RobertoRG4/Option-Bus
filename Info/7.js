@@ -207,11 +207,31 @@ export const Bus7 = [
 
 export const Data = {
   Lugares: [
-    { key: 1, title: "", coords: {} },
-    { key: 2, title: "", coords: {} },
-    { key: 3, title: "", coords: {} },
-    { key: 4, title: "", coords: {} },
-    { key: 5, title: "", coords: {} },
+    {
+      key: 1,
+      title: "TecNM Instituto Tecnológico de Toluca",
+      coords: { latitude: 19.257721, longitude: -99.577585 },
+    },
+    {
+      key: 2,
+      title: "Oficinas SAT Regional",
+      coords: { latitude: 19.2737477, longitude: -99.6030611 },
+    },
+    {
+      key: 3,
+      title: "IMSS Hospital General",
+      coords: { latitude: 19.2774267, longitude: -99.6428713 },
+    },
+    {
+      key: 4,
+      title: "Centro",
+      coords: { latitude: 19.29031, longitude: -99.655259 },
+    },
+    {
+      key: 5,
+      title: "Terminal",
+      coords: { latitude: 19.2784975, longitude: -99.6474718 },
+    },
     { key: 6, title: "", coords: {} },
   ],
   paradasSubidas: [

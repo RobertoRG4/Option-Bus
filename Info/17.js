@@ -212,12 +212,37 @@ export const Bus17 = [
 ];
 export const Data = {
   Lugares: [
-    { key: 1, title: "", coords: {} },
-    { key: 2, title: "", coords: {} },
-    { key: 3, title: "", coords: {} },
-    { key: 4, title: "", coords: {} },
-    { key: 5, title: "", coords: {} },
-    { key: 6, title: "", coords: {} },
+    {
+      key: 1,
+      title: "El Seminario Primera Sección",
+      coords: { latitude: 19.269227, longitude: -99.674823 },
+    },
+    {
+      key: 2,
+      title: "Centro",
+      coords: { latitude: 19.290464, longitude: -99.655374 },
+    },
+    {
+      key: 3,
+      title: "Barrio de Tlacopa",
+      coords: { latitude: 19.306266, longitude: -99.641279 },
+    },
+    {
+      key: 4,
+      title: "Central de Abasto",
+      coords: { latitude: 19.3430038, longitude: -99.5983212 },
+    },
+    {
+      key: 5,
+      title: "Col. Guadalupe",
+      coords: { latitude: 19.355589, longitude: -99.595921 },
+    },
+
+    {
+      key: 6,
+      title: "Los Sauces",
+      coords: { latitude: 19.367334, longitude: -99.586512 },
+    },
   ],
   paradasSubidas: [
     { title: "", coords: {}, description: "" },
