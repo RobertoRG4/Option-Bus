@@ -5,10 +5,10 @@ const Actualizaciones = () => {
     <AboutUSContainer>
       <ScrollView>
         <Title>Versión 1.0</Title>
-        <VersionText>20 - Abril - 2024</VersionText>
+        <VersionText>25 - Abril - 2024</VersionText>
         <Text>
-          Incluye 20 rutas en el valle de Toluca, cuidadosamente seleccionadas
-          para ofrecer una experiencia diversa.
+          Incluye rutas en el valle de Toluca, cuidadosamente seleccionadas para
+          ofrecer una experiencia diversa.
         </Text>
         <Text></Text>
         <Text>

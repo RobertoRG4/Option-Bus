@@ -240,7 +240,7 @@ export const Bus4 = [
   { latitude: 19.186693, longitude: -99.427963 },
   { latitude: 19.186827, longitude: -99.430127 },
   { latitude: 19.186933, longitude: -99.43219 },
-  { latitude: 19.186939, longitude: -99.432854 },
+  /*{ latitude: 19.186939, longitude: -99.432854 },
   { latitude: 19.186927, longitude: -99.4335 },
   { latitude: 19.186893, longitude: -99.434011 },
   { latitude: 19.186973, longitude: -99.434566 },
@@ -287,7 +287,7 @@ export const Bus4 = [
   { latitude: 19.17887, longitude: -99.458541 },
   { latitude: 19.179102, longitude: -99.459646 },
   { latitude: 19.178969, longitude: -99.45966 },
-  { latitude: 19.178695, longitude: -99.459721 },
+  { latitude: 19.178695, longitude: -99.459721 },*/
 ];
 export const Data = {
   Lugares: [

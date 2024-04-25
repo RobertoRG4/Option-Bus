@@ -5,6 +5,7 @@ import { Bus4 } from "./4.js";
 import { Bus5 } from "./5.js";
 import { Bus6 } from "./6.js";
 import { Bus7 } from "./7.js";
+import { Bus8 } from "./8.js";
 import { Bus9 } from "./9.js";
 import { Bus10 } from "./10.js";
 import { Bus11 } from "./11.js";
@@ -13,6 +14,8 @@ import { Bus13 } from "./13.js";
 import { Bus14 } from "./14.js";
 import { Bus15 } from "./15.js";
 import { Bus16 } from "./16.js";
+import { Bus17 } from "./17.js";
+import { Bus18 } from "./18.js";
 export const Bus = {
   1: {
     key: 1,
@@ -100,12 +103,26 @@ export const Bus = {
     titulo: "Centro - Las Torres - La Pila",
     tiempo: "5 - 7 min",
     costo: "$12",
-    img: "",
+    img: require("../assets/7.jpg"),
     color: "#42ddf5",
     directions: "/Descriptions/7",
     marks: Bus7,
     points: { inicio: {}, fin: {} },
   },
+  /*8: {
+    key: 8,
+    titulo: "La Pila - Centro - Metepec",
+    tiempo: "8 - 15 min",
+    costo: "$12",
+    img: require("../assets/8.png"),
+    color: "#ff0000",
+    directions: "/Descriptions/8",
+    marks: Bus8,
+    points: {
+      inicio: {},
+      fin: {},
+    },
+  },*/
   9: {
     key: 9,
     titulo: "San Felipe - Centro - La Joya",
@@ -171,7 +188,10 @@ export const Bus = {
     color: "#0000FF",
     directions: "/Descriptions/13",
     marks: Bus13,
-    points: { inicio: {}, fin: {} },
+    points: {
+      inicio: {},
+      fin: { latitude: 19.18732, longitude: -99.651284 },
+    },
   },
   14: {
     key: 14,
@@ -213,6 +233,34 @@ export const Bus = {
     points: {
       inicio: { latitude: 19.261508, longitude: -99.7160746 },
       fin: { latitude: 19.243351, longitude: -99.578242 },
+    },
+  },
+  17: {
+    key: 17,
+    titulo: "Seminario - La Maquinita - Los Sauces",
+    tiempo: "12 - 14 min",
+    costo: "$12",
+    img: "",
+    color: "#DD07FF",
+    directions: "/Descriptions/17",
+    marks: Bus17,
+    points: {
+      inicio: { latitude: 19.261462, longitude: -99.683165 },
+      fin: { latitude: 19.368694, longitude: -99.586169 },
+    },
+  },
+  18: {
+    key: 18,
+    titulo: "Pilares - Cacalomacán",
+    tiempo: "8 - 14 min",
+    costo: "$12",
+    img: require("../assets/18.png"),
+    color: "#8fcc99",
+    directions: "/Descriptions/18",
+    marks: Bus18,
+    points: {
+      inicio: { latitude: 19.280152, longitude: -99.584164 },
+      fin: { latitude: 19.245275, longitude: -99.713062 },
     },
   },
 };

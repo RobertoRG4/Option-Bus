@@ -33,7 +33,7 @@ const SobreNosotros = () => {
           Nuestro objetivo principal es brindar un servicio útil y transparente
           que beneficie tanto a los usuarios como a los posibles transportistas.
         </TextDescription>
-        <Footer>© 2024 Roberto Romero Guadarrama</Footer>
+        <Footer>© 2024 All rights reserved</Footer>
       </ScrollView>
     </AboutUSContainer>
   );
