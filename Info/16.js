@@ -353,13 +353,142 @@ export const Data = {
     },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'Ciber Lulu's'",
+      coords: { latitude: 19.263697, longitude: -99.712114 },
+      description:
+        "Calz. al Campo Manzana 045, San Antonio Buenavista, 50110 San Antonio Buenavista, Méx.",
+    },
+    {
+      title: "Enfrente de 'RiveSan'",
+      coords: { latitude: 19.259801, longitude: -99.711642 },
+      description:
+        "C. Santos Degollado 114, San Antonio Buenavista, 51110 San Antonio Buenavista, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oxxo Heredia'",
+      coords: { latitude: 19.26597, longitude: -99.706852 },
+      description:
+        "Camino Real Y Rio Verdiguel 200, José María Heredia, San Antonio Buenavista, 78426 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Super Crepa Veritos'",
+      coords: { latitude: 19.270611, longitude: -99.695914 },
+      description:
+        "Juan Aldama 116, Delegación San Buenaventura, 50110 San Buenaventura, Méx.",
+    },
+    {
+      title: "Enfrente de 'Red Line'",
+      coords: { latitude: 19.282637, longitude: -99.683334 },
+      description:
+        "Lago Caimanero 513, Nueva Oxtotitlán, 50100 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Mariscos Saúl'",
+      coords: { latitude: 19.276057, longitude: -99.672095 },
+      description:
+        "Av. Paseo Tollocan 1099, El Seminario Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Polanco'",
+      coords: { latitude: 19.272862, longitude: -99.661919 },
+      description:
+        "Av. Paseo Tollocan 703, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Facultad de Enfermeria y Obstetricia, UAEMéx'",
+      coords: { latitude: 19.272615, longitude: -99.658536 },
+      description:
+        "Cd Altamirano - Toluca 317-782, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hospital Materno Mónica Pretilini'",
+      coords: { latitude: 19.272619, longitude: -99.657113 },
+      description:
+        "Av. Paseo Tollocan 1926, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bicentenario'",
+      coords: { latitude: 19.272279, longitude: -99.654155 },
+      description:
+        "Av. Paseo Tollocan ＃131, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Ferretería Carredana'",
+      coords: { latitude: 19.274558, longitude: -99.647048 },
+      description:
+        "Av. Paseo Tollocan Sn, Sta María de las Rosas, 50140 Toluca de Lerdo, 50140 México, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias del ahorro Juárez'",
+      coords: { latitude: 19.2810535, longitude: -99.6419928 },
+      description:
+        "Av. Paseo Tollocan 520 A, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'manuel j clutier tollocan'",
+      coords: { latitude: 19.276208, longitude: -99.594346 },
+      description:
+        "C. Manuel J. Clouthier, Las Marinas, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega Aurrerá'",
+      coords: { latitude: 19.268932, longitude: -99.597243 },
+      description:
+        "Av. de los Gobernadores 308, Providencia, La-colonia-, Coaxustenco, 52162 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Dulcería ConfiMex Metepec'",
+      coords: { latitude: 19.268385, longitude: -99.597622 },
+      description:
+        "C. Manuel J. Clouthier 1247 Norte, Providencia, La-colonia-, La Providencia, 52176 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Rojo Casi Cereza'",
+      coords: { latitude: 19.267569, longitude: -99.598072 },
+      description:
+        "Av. de los Gobernadores, Providencia, La-colonia-, INFONAVIT San Francisco, 52140 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Base de Taxis Trebol'",
+      coords: { latitude: 19.266627, longitude: -99.597229 },
+      description:
+        "Manzana 003, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Perfiles Estética'",
+      coords: { latitude: 19.265362, longitude: -99.59607 },
+      description:
+        "Av. de los Gobernadores Manzana 016, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'WILDRAPTOR VIDEOJUEGOS'",
+      coords: { latitude: 19.261212, longitude: -99.597681 },
+      description:
+        "Manzana 021, Izcalli V, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Preescolar Irene Fabela'",
+      coords: { latitude: 19.258897, longitude: -99.597796 },
+      description:
+        "Av. de los Gobernadores 11, INFONAVIT San Francisco, 52176 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'IMSS'",
+      coords: { latitude: 19.259348, longitude: -99.595851 },
+      description:
+        "Av. Hacienda la Quemada 19, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Tecnológico Nacional De México",
+      coords: { latitude: 19.257913, longitude: -99.577337 },
+      description:
+        "Av Tecnológico Manzana 013, San Salvador Tizatlali, 52172 Metepec, Méx.",
+    },
+    {
+      title: "Espejo de agua",
+      coords: { latitude: 19.246797, longitude: -99.577949 },
+      description: "6CW9+GR, Manzana 009, 52140 Metepec, Méx.",
+    },
   ],
 };

@@ -324,34 +324,69 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Enfrente de 'La Cabaña del Pescador'",
+      coords: { latitude: 19.269596, longitude: -99.640623 },
+      description:
+        "José Ma, Blvr. José María Pino Suárez 1710, Sta María de las Rosas, 50140 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Esquina con 'Leyes de Reforma'",
+      coords: { latitude: 19.268227, longitude: -99.639059 },
+      description:
+        "Blvr. José María Pino Suárez 1872-1964, Benito Juárez, 50190 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'Blvrd Toluca Metepec 719 Parking'",
+      coords: { latitude: 19.260749, longitude: -99.629035 },
+      description:
+        "Blvrd Toluca Metepec 719, La Purisima, 50160 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de 'Chedraui Selecto Metepec'",
+      coords: { latitude: 19.259494, longitude: -99.627154 },
+      description:
+        "Calle Guadalupe Victoria 471, La Purisima, 52160 San Jorge Pueblo Nuevo, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'Potzolcalli Metepec'",
+      coords: { latitude: 19.258701, longitude: -99.626014 },
+      description:
+        "Esq, Calle Guadalupe Victoria, Las Americas, 52167 San Francisco Coaxusco, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Telas Junco'",
+      coords: { latitude: 19.258172, longitude: -99.625222 },
+      description:
+        "Via Rápida Metepec S/N, Lote 9, La Purisima, 52124 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Garis'",
+      coords: { latitude: 19.257547, longitude: -99.62428 },
+      description: "Manzana 021, La Michoacana, 50260 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'La Cabañita'",
+      coords: { latitude: 19.256078, longitude: -99.622059 },
+      description:
+        "Vialidad, Toluca - Tenango De Arista 96, La Michoacana, 52169 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Nissan Metepec Seminuevos'",
+      coords: { latitude: 19.25221, longitude: -99.616387 },
+      description:
+        "Toluca - Tenango De Arista 113, La Michoacana, 52140 San Jorge Pueblo Nuevo, Méx.",
+    },
+    {
+      title: "Enfrente de 'El Taco Loco Oficial Toluca-Tenango'",
+      coords: { latitude: 19.23933, longitude: -99.599435 },
+      description:
+        "Toluca - Tenango De Arista 94, San Lorenzo Coacalco, 52140 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Grupo azulejero de mayoristas'",
+      coords: { latitude: 19.230683, longitude: -99.59621 },
+      description:
+        "Fco. Javier Mina 52143, San Miguel Totocuitlapilco, 52143 Las Minas, Méx.",
     },
   ],
 };

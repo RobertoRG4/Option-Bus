@@ -245,15 +245,77 @@ export const Data = {
     },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'La Onda Fit Toluca'",
+      coords: { latitude: 19.266344, longitude: -99.680908 },
+      description:
+        "C. Lago Sayula Manzana 037, El Seminario Cuarta Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Ferretería Teo'",
+      coords: { latitude: 19.269566, longitude: -99.678971 },
+      description:
+        "C. Lago Sayula 825, El Seminario Cuarta Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Taqueria Hermanos Jaimes'",
+      coords: { latitude: 19.272409, longitude: -99.677415 },
+      description:
+        "C. Lago San Andrés 207, El Seminario Cuarta Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Servicio Caleva E.S. 10702'",
+      coords: { latitude: 19.276487, longitude: -99.678226 },
+      description:
+        "Calle Gral. Venustiano Carranza 20 Pte. 2725, El Seminario Quinta Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Thrifta'",
+      coords: { latitude: 19.282852, longitude: -99.662561 },
+      description:
+        "Quintana Roo Sur 541, Francisco Murguía, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Credito Familiar'",
+      coords: { latitude: 19.2879078, longitude: -99.6587015 },
+      description:
+        "José Vicente Villada 701 PONIENTE, esq. con Villada, Barrio de la Merced, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Guadalajara Central De Abastos Toluca'",
+      coords: { latitude: 19.341401, longitude: -99.600265 },
+      description:
+        "San Jose Guadalupe Otzacatipan, 50230 San José Guadalupe Otzacatipan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Transmisiones automáticas SHUMA'",
+      coords: { latitude: 19.347514, longitude: -99.592626 },
+      description:
+        "Via José López Portillo Manzana 003, San Jose Guadalupe Otzacatipan, 50220 San José Guadalupe Otzacatipan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Little Caesars Pizza'",
+      coords: { latitude: 19.349942, longitude: -99.593306 },
+      description:
+        "Carr. Toluca-Naucalpan 1101-Int 5, Santin, San Mateo Otzacatipan, 50220 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Zherry's Pizza'",
+      coords: { latitude: 19.357058, longitude: -99.592422 },
+      description:
+        "P.º de Los Eucaliptos 106, Santin, 50210 San Nicolás Tolentino, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tienda Comex Los Sauces'",
+      coords: { latitude: 19.361236, longitude: -99.591362 },
+      description:
+        "Hda. Antigua SN, Conj U los Sauces IV, 50210 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hamburguesas Gaby'",
+      coords: { latitude: 19.367765, longitude: -99.586733 },
+      description:
+        "Paseo de Las Palmas 3, Conj U los Sauces V, 50210 Sauces, Méx.",
+    },
   ],
 };

@@ -243,5 +243,72 @@ export const Data = {
       coords: { latitude: 19.249743, longitude: -99.702336 },
     },
   ],
-  paradasSubidas: [{ title: "", coords: {}, description: "" }],
+  paradasSubidas: [
+    {
+      title: "Enfrente de 'Heineken México Toluca'",
+      coords: { latitude: 19.287882, longitude: -99.598031 },
+      description:
+        "Av. Paseo Tollocan, Delegación Santa María Totoltepec, 50245 Santa María Totoltepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Paqutería Trasguerras'",
+      coords: { latitude: 19.288, longitude: -99.601361 },
+      description:
+        "Av. Paseo Tollocan 1005, Delegación Santa María Totoltepec, 50240 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Stellantis TAP'",
+      coords: { latitude: 19.288092, longitude: -99.606386 },
+      description:
+        "Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Parada Caminante - Comonfort",
+      coords: { latitude: 19.2881854, longitude: -99.6098459 },
+      description:
+        "C. Alberto Einstein 281, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Nescafé'",
+      coords: { latitude: 19.288415, longitude: -99.61768 },
+      description:
+        "Av. Paseo Tollocan, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Radio Taxis'",
+      coords: { latitude: 19.288439, longitude: -99.619694 },
+      description:
+        "Av. Paseo Tollocan 1195, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Galerias Toluca'",
+      coords: { latitude: 19.288528, longitude: -99.623053 },
+      description:
+        "Av. Paseo Tollocan 267, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pfizer'",
+      coords: { latitude: 19.288584, longitude: -99.626128 },
+      description:
+        "Héroe de Nacozari, Delegación Sta Ana Tlapaltitlán, 50071 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Dif del Estado de México'",
+      coords: { latitude: 19.272823, longitude: -99.660022 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hospital del Niño'",
+      coords: { latitude: 19.271528, longitude: -99.660256 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Diforoma'",
+      coords: { latitude: 19.264954, longitude: -99.661553 },
+      description:
+        "Toluca - Cd Altamirano 620-670, Villa Hogar, 50170 Toluca de Lerdo, Méx.",
+    },
+  ],
 };

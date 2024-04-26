@@ -40,10 +40,10 @@ export const Bus7 = [
   { latitude: 19.261652, longitude: -99.589395 },
   { latitude: 19.26155, longitude: -99.590629 },
   { latitude: 19.26151, longitude: -99.591201 },
-  { latitude: 19.261475, longitude: -99.59215 },
-  { latitude: 19.261215, longitude: -99.592139 },
-  { latitude: 19.260762, longitude: -99.592112 },
-  { latitude: 19.259995, longitude: -99.592078 },
+  { latitude: 19.26147, longitude: -99.5922 },
+  { latitude: 19.261215, longitude: -99.59218 },
+  { latitude: 19.260762, longitude: -99.59217 },
+  { latitude: 19.259995, longitude: -99.59215 },
   { latitude: 19.26, longitude: -99.592547 },
   { latitude: 19.25999, longitude: -99.593009 },
   { latitude: 19.25996, longitude: -99.593434 },
@@ -197,12 +197,100 @@ export const Bus7 = [
   { latitude: 19.276338, longitude: -99.64568 },
   { latitude: 19.278473, longitude: -99.643983 },
   { latitude: 19.279671, longitude: -99.643047 },
-  { latitude: 19.281781, longitude: -99.641444 },
-  { latitude: 19.283195, longitude: -99.640327 },
-  { latitude: 19.283583, longitude: -99.640028 },
-  { latitude: 19.283717, longitude: -99.639834 },
-  { latitude: 19.28377, longitude: -99.639675 },
-  { latitude: 19.283809, longitude: -99.639389 },
+  { latitude: 19.281235, longitude: -99.641888 },
+  { latitude: 19.281235, longitude: -99.641791 },
+  { latitude: 19.281205, longitude: -99.641646 },
+  { latitude: 19.281075, longitude: -99.641532 },
+  { latitude: 19.280774, longitude: -99.641182 },
+  { latitude: 19.279827, longitude: -99.64011 },
+  { latitude: 19.279376, longitude: -99.639532 },
+  { latitude: 19.27887, longitude: -99.638951 },
+  { latitude: 19.277796, longitude: -99.637802 },
+  { latitude: 19.277688, longitude: -99.637629 },
+  { latitude: 19.277613, longitude: -99.637532 },
+  { latitude: 19.276823, longitude: -99.636698 },
+  { latitude: 19.275531, longitude: -99.635297 },
+  { latitude: 19.274946, longitude: -99.634598 },
+  { latitude: 19.273582, longitude: -99.633086 },
+  { latitude: 19.272262, longitude: -99.631693 },
+  { latitude: 19.272179, longitude: -99.631588 },
+  { latitude: 19.272738, longitude: -99.629202 },
+  { latitude: 19.273033, longitude: -99.627841 },
+  { latitude: 19.273515, longitude: -99.625849 },
+  { latitude: 19.273764, longitude: -99.624719 },
+  { latitude: 19.27394, longitude: -99.623205 },
+  { latitude: 19.274199, longitude: -99.620417 },
+  { latitude: 19.274422, longitude: -99.618031 },
+  { latitude: 19.27466, longitude: -99.615589 },
+  { latitude: 19.274862, longitude: -99.613553 },
+  { latitude: 19.275116, longitude: -99.610953 },
+  { latitude: 19.275292, longitude: -99.609005 },
+  { latitude: 19.275561, longitude: -99.606816 },
+  { latitude: 19.275561, longitude: -99.606536 },
+  { latitude: 19.275552, longitude: -99.606173 },
+  { latitude: 19.275738, longitude: -99.604411 },
+  { latitude: 19.275901, longitude: -99.602942 },
+  { latitude: 19.275975, longitude: -99.601652 },
+  { latitude: 19.27609, longitude: -99.598821 },
+  { latitude: 19.276226, longitude: -99.596219 },
+  { latitude: 19.276293, longitude: -99.594742 },
+  { latitude: 19.276253, longitude: -99.594456 },
+  { latitude: 19.276104, longitude: -99.59414 },
+  { latitude: 19.274818, longitude: -99.59376 },
+  { latitude: 19.27471, longitude: -99.593725 },
+  { latitude: 19.274602, longitude: -99.593757 },
+  { latitude: 19.274247, longitude: -99.593882 },
+  { latitude: 19.273296, longitude: -99.594255 },
+  { latitude: 19.272904, longitude: -99.59447 },
+  { latitude: 19.271797, longitude: -99.595151 },
+  { latitude: 19.270938, longitude: -99.595696 },
+  { latitude: 19.270299, longitude: -99.596129 },
+  { latitude: 19.269152, longitude: -99.597081 },
+  { latitude: 19.267824, longitude: -99.598072 },
+  { latitude: 19.267668, longitude: -99.598194 },
+  { latitude: 19.26656, longitude: -99.597159 },
+  { latitude: 19.265527, longitude: -99.596199 },
+  { latitude: 19.265225, longitude: -99.59598 },
+  { latitude: 19.264903, longitude: -99.595665 },
+  { latitude: 19.264797, longitude: -99.59559 },
+  { latitude: 19.263455, longitude: -99.59565 },
+  { latitude: 19.263074, longitude: -99.595703 },
+  { latitude: 19.262918, longitude: -99.595863 },
+  { latitude: 19.26231, longitude: -99.596572 },
+  { latitude: 19.261407, longitude: -99.59765 },
+  { latitude: 19.258884, longitude: -99.597789 },
+  { latitude: 19.258456, longitude: -99.597735 },
+  { latitude: 19.259035, longitude: -99.596423 },
+  { latitude: 19.25991, longitude: -99.594983 },
+  { latitude: 19.259861, longitude: -99.594887 },
+  { latitude: 19.259882, longitude: -99.594111 },
+  { latitude: 19.259936, longitude: -99.592964 },
+  { latitude: 19.259968, longitude: -99.592078 },
+  { latitude: 19.261426, longitude: -99.592158 },
+  { latitude: 19.261533, longitude: -99.590023 },
+  { latitude: 19.26164, longitude: -99.589205 },
+  { latitude: 19.26164, longitude: -99.588955 },
+  { latitude: 19.261726, longitude: -99.587127 },
+  { latitude: 19.261769, longitude: -99.586036 },
+  { latitude: 19.261812, longitude: -99.584617 },
+  { latitude: 19.26186, longitude: -99.58328 },
+  { latitude: 19.260997, longitude: -99.58326 },
+  { latitude: 19.259839, longitude: -99.5832 },
+  { latitude: 19.259024, longitude: -99.583163 },
+  { latitude: 19.258435, longitude: -99.58312 },
+  { latitude: 19.258248, longitude: -99.583043 },
+  { latitude: 19.258198, longitude: -99.582946 },
+  { latitude: 19.258097, longitude: -99.581177 },
+  { latitude: 19.257872, longitude: -99.577322 },
+  { latitude: 19.256738, longitude: -99.57737 },
+  { latitude: 19.254014, longitude: -99.577543 },
+  { latitude: 19.253327, longitude: -99.577612 },
+  { latitude: 19.25037, longitude: -99.57775 },
+  { latitude: 19.249394, longitude: -99.57775 },
+  { latitude: 19.248777, longitude: -99.577798 },
+  { latitude: 19.245526, longitude: -99.578029 },
+  { latitude: 19.243931, longitude: -99.578146 },
+  { latitude: 19.24325, longitude: -99.578208 },
 ];
 
 export const Data = {
@@ -232,14 +320,207 @@ export const Data = {
       title: "Terminal",
       coords: { latitude: 19.2784975, longitude: -99.6474718 },
     },
-    { key: 6, title: "", coords: {} },
+    {
+      key: 6,
+      title: "La Pila",
+      coords: { latitude: 19.259512, longitude: -99.592095 },
+    },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'IMSS Hospital General Regional 251 Metepec'",
+      coords: { latitude: 19.246228, longitude: -99.577842 },
+      description: "Bosques de Metepec Manzana 003, 52148 Llano Grande, Méx.",
+    },
+    {
+      title: "Enfrente de 'Banco BBVA'",
+      coords: { latitude: 19.275828, longitude: -99.5939876 },
+      description:
+        "C. Manuel J. Clouthier 318, Las Marinas, 52140 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hojalateria y Pintura Pro Shine Metepec Toluca'",
+      coords: { latitude: 19.277187, longitude: -99.597955 },
+      description:
+        "Blvd Solidaridad Las Torres 127 Metepec, San Jeronimo Chicahualco, 52170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'LLANTAS EL GALLO TIRE & SERVICE'",
+      coords: { latitude: 19.276774, longitude: -99.604341 },
+      description:
+        "Blvd. Solidaridad las Torres 50, Pilares, 52179 San Jerónimo Chicahualco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pirelli Tires'",
+      coords: { latitude: 19.275563, longitude: -99.616645 },
+      description:
+        "Blvd. Solidaridad las Torres 89, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Casa Ejidal'",
+      coords: { latitude: 19.274825, longitude: -99.624303 },
+      description:
+        "Francisco I. Madero Manzana 013, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Turcio Primera Cecion'",
+      coords: { latitude: 19.273436, longitude: -99.630035 },
+      description:
+        "Manzana 017, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Estacion eléctrica'",
+      coords: { latitude: 19.273168, longitude: -99.631465 },
+      description:
+        "Blvd. Solidaridad las Torres Manzana 018, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Jardín Zaragoza'",
+      coords: { latitude: 19.289964, longitude: -99.652862 },
+      description:
+        "Jardín Zaragoza, Av. Miguel Hidalgo Ote. 201, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega D Rosy Novias'",
+      coords: { latitude: 19.292193, longitude: -99.654414 },
+      description:
+        "Avenida de La Independencia 107-Interior 303, Barrio de Sta Clara, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'travelbtoc'",
+      coords: { latitude: 19.286231, longitude: -99.654256 },
+      description: "Manzana 029, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Monumento a los Maestros'",
+      coords: { latitude: 19.286066, longitude: -99.654251 },
+      description:
+        "Av. Benito Juárez Garcia Sur 300B, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Computer System Mafer'",
+      coords: { latitude: 19.284287, longitude: -99.654231 },
+      description:
+        "Av. Benito Juárez Garcia Sur 414-A, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Relojería Certina'",
+      coords: { latitude: 19.279091, longitude: -99.654019 },
+      description:
+        "Av. Benito Juárez Garcia Sur 760-814, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Deportiva Professor Heriberto Henriquez'",
+      coords: { latitude: 19.273221, longitude: -99.648832 },
+      description:
+        "Av. Prof. H. Enríquez 4 Sur 358, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Ferretería Carredana'",
+      coords: { latitude: 19.274558, longitude: -99.647048 },
+      description:
+        "Av. Paseo Tollocan Sn, Sta María de las Rosas, 50140 Toluca de Lerdo, 50140 México, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias del ahorro Juárez'",
+      coords: { latitude: 19.2810535, longitude: -99.6419928 },
+      description:
+        "Av. Paseo Tollocan 520 A, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Plaza Estado de México'",
+      coords: { latitude: 19.280072, longitude: -99.640371 },
+      description:
+        "Calle 5 de Mayo 2 Ote. 815, Progreso, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Burger Lab'",
+      coords: { latitude: 19.273884, longitude: -99.62418 },
+      description:
+        "Blvd. Solidaridad las Torres 736, San Francisco Coaxusco, 52158 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Santa Ana Hospital Veterinario'",
+      coords: { latitude: 19.274555, longitude: -99.617163 },
+      description:
+        "Infonavit, Fuente de Ninfas, Blvd. Solidaridad las Torres 101 esq, San Gabriel, 50160 Méx.",
+    },
+    {
+      title: "Enfrente de 'Libertad Servicios Financieros'",
+      coords: { latitude: 19.275426, longitude: -99.607674 },
+      description:
+        "Blvd. Solidaridad las Torres 466 Col, Rincon de las Fuentes, 52177 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oficinas SAT REGIONAL'",
+      coords: { latitude: 19.275628, longitude: -99.60574 },
+      description:
+        "Blvd. Solidaridad las Torres 109, Providencia, La-colonia-, Residencial la Providencia, 52177 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'manuel j clutier tollocan'",
+      coords: { latitude: 19.276208, longitude: -99.594346 },
+      description:
+        "C. Manuel J. Clouthier, Las Marinas, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega Aurrerá'",
+      coords: { latitude: 19.268932, longitude: -99.597243 },
+      description:
+        "Av. de los Gobernadores 308, Providencia, La-colonia-, Coaxustenco, 52162 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Dulcería ConfiMex Metepec'",
+      coords: { latitude: 19.268385, longitude: -99.597622 },
+      description:
+        "C. Manuel J. Clouthier 1247 Norte, Providencia, La-colonia-, La Providencia, 52176 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Rojo Casi Cereza'",
+      coords: { latitude: 19.267569, longitude: -99.598072 },
+      description:
+        "Av. de los Gobernadores, Providencia, La-colonia-, INFONAVIT San Francisco, 52140 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Base de Taxis Trebol'",
+      coords: { latitude: 19.266627, longitude: -99.597229 },
+      description:
+        "Manzana 003, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Perfiles Estética'",
+      coords: { latitude: 19.265362, longitude: -99.59607 },
+      description:
+        "Av. de los Gobernadores Manzana 016, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'WILDRAPTOR VIDEOJUEGOS'",
+      coords: { latitude: 19.261212, longitude: -99.597681 },
+      description:
+        "Manzana 021, Izcalli V, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Preescolar Irene Fabela'",
+      coords: { latitude: 19.258897, longitude: -99.597796 },
+      description:
+        "Av. de los Gobernadores 11, INFONAVIT San Francisco, 52176 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'IMSS'",
+      coords: { latitude: 19.259348, longitude: -99.595851 },
+      description:
+        "Av. Hacienda la Quemada 19, INFONAVIT San Francisco, 52176 San Salvador Tizatlalli, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tecnológico Nacional De México'",
+      coords: { latitude: 19.257913, longitude: -99.577337 },
+      description:
+        "Av Tecnológico Manzana 013, San Salvador Tizatlali, 52172 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Espejo de agua'",
+      coords: { latitude: 19.246797, longitude: -99.577949 },
+      description: "6CW9+GR, Manzana 009, 52140 Metepec, Méx.",
+    },
   ],
 };

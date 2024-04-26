@@ -435,106 +435,6 @@ export const Bus2 = [
   { latitude: 19.21591, longitude: -99.659468 },
   { latitude: 19.216141, longitude: -99.659724 },
   { latitude: 19.216236, longitude: -99.659155 },
-
-  /*
-
-  { latitude: 19.246814, longitude: -99.663387 },
-  { latitude: 19.246837, longitude: -99.660808 },
-  { latitude: 19.244968, longitude: -99.66085 },
-  { latitude: 19.243032, longitude: -99.660984 },
-  { latitude: 19.240704, longitude: -99.661201 },
-  { latitude: 19.238966, longitude: -99.661491 },
-  { latitude: 19.236589, longitude: -99.661334 },
-  { latitude: 19.233944, longitude: -99.661491 },
-  { latitude: 19.231802, longitude: -99.661858 },
-  { latitude: 19.22804, longitude: -99.661373 },
-  { latitude: 19.226794, longitude: -99.661348 },
-  { latitude: 19.225908, longitude: -99.661247 },
-  { latitude: 19.224596, longitude: -99.661002 },
-  { latitude: 19.223632, longitude: -99.661077 },
-  { latitude: 19.221605, longitude: -99.661229 },
-  { latitude: 19.220277, longitude: -99.66146 },
-  { latitude: 19.219352, longitude: -99.661456 },
-  { latitude: 19.21845, longitude: -99.661356 },
-  { latitude: 19.2179959, longitude: -99.6613569 },
-  { latitude: 19.217885, longitude: -99.660703 },
-  { latitude: 19.218347, longitude: -99.660692 },
-  { latitude: 19.218858, longitude: -99.660485 },
-  { latitude: 19.218832, longitude: -99.658224 },
-  { latitude: 19.218217, longitude: -99.657006 },
-  { latitude: 19.218022, longitude: -99.657223 },
-  { latitude: 19.217373, longitude: -99.657022 },
-  { latitude: 19.216649, longitude: -99.65692 },
-  { latitude: 19.216156, longitude: -99.659772 },
-  { latitude: 19.215701, longitude: -99.659333 },
-  { latitude: 19.215237, longitude: -99.659074 },
-  { latitude: 19.213675, longitude: -99.659012 },
-  { latitude: 19.212881, longitude: -99.65822 },
-  { latitude: 19.20873, longitude: -99.657347 },
-  { latitude: 19.208286, longitude: -99.656984 },
-  { latitude: 19.207695, longitude: -99.656051 },
-  { latitude: 19.205109, longitude: -99.653749 },
-  { latitude: 19.202859, longitude: -99.649324 },
-  { latitude: 19.202463, longitude: -99.649084 },
-  { latitude: 19.202463, longitude: -99.649084 },
-  { latitude: 19.202859, longitude: -99.649324 },
-  { latitude: 19.205109, longitude: -99.653749 },
-  { latitude: 19.207695, longitude: -99.656051 },
-  { latitude: 19.208286, longitude: -99.656984 },
-  { latitude: 19.20873, longitude: -99.657347 },
-  { latitude: 19.212881, longitude: -99.65822 },
-  { latitude: 19.213675, longitude: -99.659012 },
-  { latitude: 19.215237, longitude: -99.659074 },
-  { latitude: 19.215701, longitude: -99.659333 },
-  { latitude: 19.216156, longitude: -99.659772 },
-  { latitude: 19.216649, longitude: -99.65692 },
-  { latitude: 19.217373, longitude: -99.657022 },
-  { latitude: 19.218022, longitude: -99.657223 },
-  { latitude: 19.218217, longitude: -99.657006 },
-  { latitude: 19.218832, longitude: -99.658224 },
-  { latitude: 19.218858, longitude: -99.660485 },
-  { latitude: 19.218857, longitude: -99.660782 },
-  { latitude: 19.221668, longitude: -99.660565 },
-  { latitude: 19.221605, longitude: -99.661229 },
-  { latitude: 19.223632, longitude: -99.661077 },
-  { latitude: 19.224596, longitude: -99.661002 },
-  { latitude: 19.225908, longitude: -99.661247 },
-  { latitude: 19.226794, longitude: -99.661348 },
-  { latitude: 19.22804, longitude: -99.661373 },
-  { latitude: 19.231802, longitude: -99.661858 },
-  { latitude: 19.233944, longitude: -99.661491 },
-  { latitude: 19.236589, longitude: -99.661334 },
-  { latitude: 19.238966, longitude: -99.661491 },
-  { latitude: 19.240704, longitude: -99.661201 },
-  { latitude: 19.243032, longitude: -99.660984 },
-  { latitude: 19.243032, longitude: -99.660984 },
-  { latitude: 19.244968, longitude: -99.66085 },
-  { latitude: 19.246837, longitude: -99.660808 },
-
-  { latitude: 19.252243, longitude: -99.660874 },
-  { latitude: 19.253566, longitude: -99.660809 },
-  { latitude: 19.254223, longitude: -99.660601 },
-  { latitude: 19.25649, longitude: -99.660013 },
-  { latitude: 19.258945, longitude: -99.659697 },
-  { latitude: 19.259109, longitude: -99.659727 },
-  { latitude: 19.260932, longitude: -99.659578 },
-  { latitude: 19.262812, longitude: -99.659461 },
-  { latitude: 19.264633, longitude: -99.659336 },
-  { latitude: 19.266956, longitude: -99.65914 },
-  { latitude: 19.268872, longitude: -99.658921 },
-  { latitude: 19.272829, longitude: -99.658532 },
-  { latitude: 19.271843, longitude: -99.650309 },
-  { latitude: 19.271911, longitude: -99.649814 },
-  { latitude: 19.272005, longitude: -99.649509 },
-  { latitude: 19.272142, longitude: -99.649258 },
-  { latitude: 19.272349, longitude: -99.648958 },
-  { latitude: 19.272867, longitude: -99.648383 },
-  { latitude: 19.283582, longitude: -99.640027 },
-  { latitude: 19.283698, longitude: -99.639865 },
-  { latitude: 19.283819, longitude: -99.639379 },
-  { latitude: 19.283951, longitude: -99.633991 },
-  { latitude: 19.284123, longitude: -99.633889 },
-  { latitude: 19.284275, longitude: -99.634049 },*/
 ];
 
 export const Data = {
@@ -572,34 +472,159 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Adelante de 'Base'",
+      coords: { latitude: 19.21651, longitude: -99.65745 },
+      description: "",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Enfrente de 'Farmacia Pharmamedic's'",
+      coords: { latitude: 19.218999, longitude: -99.66077 },
+      description: "16 de Septiembre 46, 50290 San Juan Tilapa, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'FARMACIAS SIMILARES'",
+      coords: { latitude: 19.221583, longitude: -99.660575 },
+      description: "Manzana 013, 50255 San Juan Tilapa, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de ' Tienda Telcel '",
+      coords: { latitude: 19.264674, longitude: -99.659323 },
+      description:
+        "C. Gral. Marcelino García Barragán, Moderna de la Cruz, 50180 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'Facultad de Enfermeria y Obstetricia, UAEMéx'",
+      coords: { latitude: 19.272615, longitude: -99.658536 },
+      description:
+        "Cd Altamirano - Toluca 317-782, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Hospital Materno Mónica Pretilini'",
+      coords: { latitude: 19.272619, longitude: -99.657113 },
+      description:
+        "Av. Paseo Tollocan 1926, Residencial Colón y Col Ciprés, 50120 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bicentenario'",
+      coords: { latitude: 19.272279, longitude: -99.654155 },
+      description:
+        "Av. Paseo Tollocan ＃131, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Ferretería Carredana'",
+      coords: { latitude: 19.274558, longitude: -99.647048 },
+      description:
+        "Av. Paseo Tollocan Sn, Sta María de las Rosas, 50140 Toluca de Lerdo, 50140 México, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacias del ahorro Juárez'",
+      coords: { latitude: 19.2810535, longitude: -99.6419928 },
+      description:
+        "Av. Paseo Tollocan 520 A, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Instituto de Investigación'",
+      coords: { latitude: 19.283857, longitude: -99.637746 },
+      description: "Urawa 629, Progreso, 50150 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrenre de 'Car Wash Pa'",
+      coords: { latitude: 19.28099, longitude: -99.642549 },
+      description:
+        "Toluca - Cd Altamirano Manzana 031, Américas Cárdenas, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Clínicas de Azúcar'",
+      coords: { latitude: 19.2757522, longitude: -99.6465086 },
+      description:
+        "Av. Paseo Tollocan 310, Altamirano, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Centro de rehabilitación física'",
+      coords: { latitude: 19.274723, longitude: -99.647321 },
+      description:
+        "Toluca - Cd Altamirano, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Santo Domingo'",
+      coords: { latitude: 19.2725819, longitude: -99.6534012 },
+      description:
+        "Av. Paseo Tollocan 101-LOCAL 4, entre PABLO SIDAR Y AV. JUÁREZ, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Oxxo Juarez'",
+      coords: { latitude: 19.272659, longitude: -99.653822 },
+      description:
+        "Av. Benito Juárez Garcia Sur 1200B, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Torre Colón'",
+      coords: { latitude: 19.273134, longitude: -99.658404 },
+      description:
+        "Toluca - Cd Altamirano, Residencial Colón y Col Ciprés, Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Uniformes Gallantfale'",
+      coords: { latitude: 19.273203, longitude: -99.659123 },
+      description:
+        "Avenida Paseo Tollocan 504 Col. Universidad, Residencial Colón y Col Ciprés, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Dif del Estado de México'",
+      coords: { latitude: 19.272823, longitude: -99.660022 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hospital del Niño'",
+      coords: { latitude: 19.271528, longitude: -99.660256 },
+      description:
+        "Toluca - Cd Altamirano, Isidro Fabela Primera Secc, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Diforoma'",
+      coords: { latitude: 19.264954, longitude: -99.661553 },
+      description:
+        "Toluca - Cd Altamirano 620-670, Villa Hogar, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Registro Civil'",
+      coords: { latitude: 19.263007, longitude: -99.661925 },
+      description:
+        "Calle Gral Eduardo Hernández Cházaro Manzana 036, Col del Parque, 50170 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Papeleria Gomita'",
+      coords: { latitude: 19.254686, longitude: -99.663519 },
+      description:
+        "P.º Cristóbal Colón, Delegación Capultitlán, 50263 Capultitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Coppel Canada Colón'",
+      coords: { latitude: 19.24712, longitude: -99.663666 },
+      description:
+        "P.º Cristóbal Colón 220-276, Delegación Capultitlán, 50264 Capultitlán, Méx.",
+    },
+    {
+      title: "Esquina de 'Laura Pavon'",
+      coords: { latitude: 19.223325, longitude: -99.661162 },
+      description:
+        "Laura Pavón 12, San Juan Tilapa, 50290 San Juan Tilapa, Méx.",
+    },
+    {
+      title: "Enfrente de 'maya and tala travel the world'",
+      coords: { latitude: 19.216525, longitude: -99.657662 },
+      description: "Ignacio Esquivel Manzana 007, 50255 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Entrada de 'Zoologico de Zacango'",
+      coords: { latitude: 19.202477, longitude: -99.649159 },
+      description: "MEX 3, 52236 Lolo l Llano, Méx.",
+    },
+    {
+      title: "Enfrente de 'Base'",
+      coords: { latitude: 19.216232, longitude: -99.659198 },
+      description: "",
     },
   ],
 };

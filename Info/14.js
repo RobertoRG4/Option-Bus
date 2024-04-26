@@ -315,7 +315,7 @@ export const Data = {
         "C. Jesús Carranza 203, Universidad, 50130 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Enfrente de 'Autotrnasportes Flecha'",
+      title: "Enfrente de 'Autotransportes Flecha'",
       coords: { latitude: 19.278994, longitude: -99.648593 },
       description:
         "Calle Gral. Venustiano Carranza 20 Pte., Universidad, 50130 Toluca de Lerdo, Méx.",

@@ -80,7 +80,7 @@ const options = {
     headerRight: () => <AboutRoutes />,
   },
   Bus17: {
-    title: "Seminatio - Los Sauces",
+    title: "Seminario - Los Sauces",
     headerLeft: () => <Arrow onPress={() => router.back()} />,
     headerRight: () => <AboutRoutes />,
   },
@@ -110,7 +110,7 @@ export default function descriptionsLayout() {
       <Stack.Screen name="15" options={options.Bus15} />
       <Stack.Screen name="16" options={options.Bus16} />
       <Stack.Screen name="17" options={options.Bus17} />
-      <Stack.Screen name="18 " options={options.Bus18} />
+      <Stack.Screen name="18" options={options.Bus18} />
     </Stack>
   );
 }

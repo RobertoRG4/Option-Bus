@@ -156,11 +156,11 @@ export const Bus15 = [
   { latitude: 19.281349, longitude: -99.65406 },
   { latitude: 19.280976, longitude: -99.654056 },
   { latitude: 19.279931, longitude: -99.654014 },
-  { latitude: 19.279026, longitude: -99.653973 },
-  { latitude: 19.27903, longitude: -99.653287 },
-  { latitude: 19.27906, longitude: -99.652599 },
-  { latitude: 19.279076, longitude: -99.651847 },
-  { latitude: 19.279074, longitude: -99.651465 },
+  { latitude: 19.27886, longitude: -99.653973 },
+  { latitude: 19.27886, longitude: -99.653287 },
+  { latitude: 19.27889, longitude: -99.652599 },
+  { latitude: 19.27889, longitude: -99.65186 },
+  { latitude: 19.2789, longitude: -99.65141 },
   { latitude: 19.27816, longitude: -99.651087 },
   { latitude: 19.276971, longitude: -99.650569 },
   { latitude: 19.275893, longitude: -99.650069 },
@@ -231,6 +231,133 @@ export const Bus15 = [
   { latitude: 19.237363, longitude: -99.643624 },
 ];
 export const Data = {
-  Lugares: [{ key: 1, title: "", coords: {} }],
-  paradasSubidas: [{ title: "", coords: {}, description: "" }],
+  Lugares: [
+    {
+      key: 1,
+      title: "San Marcos",
+      coords: { latitude: 19.321973, longitude: -99.677288 },
+    },
+    {
+      key: 2,
+      title: "La Maquinita",
+      coords: { latitude: 19.306813, longitude: -99.644634 },
+    },
+    {
+      key: 3,
+      title: "Centro",
+      coords: { latitude: 19.290469, longitude: -99.655347 },
+    },
+    {
+      key: 4,
+      title: "Prepa 5",
+      coords: { latitude: 19.261022, longitude: -99.645291 },
+    },
+    {
+      key: 5,
+      title: "Colonia Dos Ríos",
+      coords: { latitude: 19.247699, longitude: -99.644525 },
+    },
+    {
+      key: 6,
+      title: "San Felipe",
+      coords: { latitude: 19.240279, longitude: -99.641983 },
+    },
+  ],
+  paradasSubidas: [
+    {
+      title: "Enfrente de 'FARMACIA GENERICOS SAN JOSE'",
+      coords: { latitude: 19.323416, longitude: -99.678079 },
+      description:
+        "Centenario Manzana 005, San Marcos Yachihuacaltepec, 50217 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Hostal Peña de Carlo'",
+      coords: { latitude: 19.321698, longitude: -99.67038 },
+      description:
+        "Miguel Hidalgo y Costilla 517, 50285 San Marcos Yachihuacaltepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Colegio Springfield'",
+      coords: { latitude: 19.313664, longitude: -99.649106 },
+      description:
+        "Blvd. Isidro Fabela 1061, Delegación Santa Cruz Atzcapotzaltongo, 50020 Santiago Miltepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Orejas de elefante (Milanesas gigantes)'",
+      coords: { latitude: 19.293664, longitude: -99.642814 },
+      description:
+        "Av. Sebastián Lerdo de Tejada Poniente 901, Reforma y FFCC Nacionales, 50070 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Price Shoes'",
+      coords: { latitude: 19.286513, longitude: -99.654268 },
+      description:
+        "Av. Benito Juarez García Sur # 128 Col, 5 de Mayo, 50090 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega D Rosy Novias'",
+      coords: { latitude: 19.292193, longitude: -99.654414 },
+      description:
+        "Avenida de La Independencia 107-Interior 303, Barrio de Sta Clara, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'travelbtoc'",
+      coords: { latitude: 19.286231, longitude: -99.654256 },
+      description: "Manzana 029, Centro, 50000 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Monumento a los Maestros'",
+      coords: { latitude: 19.286066, longitude: -99.654251 },
+      description:
+        "Av. Benito Juárez Garcia Sur 300B, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Computer System Mafer'",
+      coords: { latitude: 19.284287, longitude: -99.654231 },
+      description:
+        "Av. Benito Juárez Garcia Sur 414-A, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Relojería Certina'",
+      coords: { latitude: 19.279091, longitude: -99.654019 },
+      description:
+        "Av. Benito Juárez Garcia Sur 760-814, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Deportiva Professor Heriberto Henriquez'",
+      coords: { latitude: 19.273221, longitude: -99.648832 },
+      description:
+        "Av. Prof. H. Enríquez 4 Sur 358, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Montoneras'",
+      coords: { latitude: 19.277858, longitude: -99.653977 },
+      description:
+        "Av. Benito Juárez Garcia Sur 858-998, Universidad, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Bodega Aurrera'",
+      coords: { latitude: 19.262731, longitude: -99.644767 },
+      description:
+        "Av. Prof. Heriberto Enríquez 4 Sur, Amp Lázaro Cárdenas, 50180 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pulqueria del Sur'",
+      coords: { latitude: 19.2417218, longitude: -99.6420843 },
+      description:
+        "Independencia 217, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Taco Eat'",
+      coords: { latitude: 19.2407786, longitude: -99.6433937 },
+      description:
+        "Adolfo López Mateos 4, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Pulimentos de Toluca'",
+      coords: { latitude: 19.239311, longitude: -99.643535 },
+      description:
+        "Libertad 15-24, San Felipe Tlalmimilolpan, 50250 San Felipe Tlalmimilolpan, Méx.",
+    },
+  ],
 };

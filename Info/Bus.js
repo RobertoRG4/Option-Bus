@@ -68,7 +68,10 @@ export const Bus = {
     color: "#00ffbf",
     directions: "/Descriptions/4",
     marks: Bus4,
-    points: { inicio: {}, fin: {} },
+    points: {
+      inicio: { latitude: 19.276209, longitude: -99.645038 },
+      fin: { latitude: 19.186933, longitude: -99.43219 },
+    },
   },
   5: {
     key: 5,
@@ -107,7 +110,10 @@ export const Bus = {
     color: "#42ddf5",
     directions: "/Descriptions/7",
     marks: Bus7,
-    points: { inicio: { latitude: 19.243203, longitude: -99.578024 }, fin: {} },
+    points: {
+      inicio: { latitude: 19.243203, longitude: -99.578024 },
+      fin: { latitude: 19.24325, longitude: -99.578208 },
+    },
   },
   /*8: {
     key: 8,
@@ -181,15 +187,15 @@ export const Bus = {
   },
   13: {
     key: 13,
-    titulo: "Centro - San Bartolomé",
+    titulo: "Centro - San Bartolomé ",
     tiempo: "8 - 14 min",
     costo: "$12",
-    img: "",
+    img: require("../assets/13.png"),
     color: "#0000FF",
     directions: "/Descriptions/13",
     marks: Bus13,
     points: {
-      inicio: {},
+      inicio: { latitude: 19.187138, longitude: -99.652475 },
       fin: { latitude: 19.18732, longitude: -99.651284 },
     },
   },
@@ -240,7 +246,7 @@ export const Bus = {
     titulo: "Seminario - La Maquinita - Los Sauces",
     tiempo: "12 - 14 min",
     costo: "$12",
-    img: "",
+    img: require("../assets/17.jpeg"),
     color: "#DD07FF",
     directions: "/Descriptions/17",
     marks: Bus17,

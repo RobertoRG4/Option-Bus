@@ -281,34 +281,64 @@ export const Data = {
   ],
   paradasSubidas: [
     {
-      title: "Parada 1",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 1",
+      title: "Enfrente de '%100 Farma'",
+      coords: { latitude: 19.276554, longitude: -99.6419455 },
+      description:
+        "Blvd. Isidro Fabela 828, Valle Verde y Terminal, 50140 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 2",
-      coords: { latitude: 19.219948, longitude: -99.670889 },
-      description: "Descripción de la parada 2",
+      title: "Enfrente de 'Talacheria'",
+      coords: { latitude: 19.271239, longitude: -99.636676 },
+      description:
+        "Blvd. Solidaridad las Torres 1612, La Magdalena, 50010 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 3",
-      coords: { latitude: 19.223653, longitude: -99.670738 },
-      description: "Descripción de la parada 3",
+      title: "Enfrente de 'AR REFACCIONES FARI'",
+      coords: { latitude: 19.27205, longitude: -99.632204 },
+      description:
+        "Blvd. Solidaridad las Torres, Unidad Victoria, 50190 Toluca de Lerdo, Méx.",
     },
     {
-      title: "Parada 5",
-      coords: { latitude: 19.228566, longitude: -99.670497 },
-      description: "Descripción de la parada 5",
+      title: "Enfrente de 'Patio TOE'",
+      coords: { latitude: 19.274623, longitude: -99.630839 },
+      description:
+        "Salvador Díaz Mirón 734, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 6",
-      coords: { latitude: 19.230003, longitude: -99.670398 },
-      description: "Descripción de la parada 6",
+      title: "Enfrente de 'OXXO DIAZ MIRÓN'",
+      coords: { latitude: 19.284133, longitude: -99.63161 },
+      description:
+        "Salvador Diaz Miron S/N Esq, Calle Pino Suarez Y Priv Jose Ma. Pino Suarez, Salvador Díaz Mirón 296, Delegación Sta Ana Tlapaltitlán, 50160 Santa Ana Tlapaltitlán, Méx.",
     },
     {
-      title: "Parada 7",
-      coords: { latitude: 19.233983, longitude: -99.669539 },
-      description: "Descripción de la parada 7",
+      title: "Enfrente de 'Vento Toluca'",
+      coords: { latitude: 19.297085, longitude: -99.627645 },
+      description:
+        "Alfredo del Mazo 416, Delegación Sta Juan Buenavista, 50273 San Lorenzo Tepaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Suburbia'",
+      coords: { latitude: 19.305692, longitude: -99.629505 },
+      description:
+        "Via Alfredo del Mazo 608, Delegación San Lorenzo Tepaltitlán I, Delegación San Lorenzo Tepaltitlán, 50010 San Lorenzo Tepaltitlán, Méx.",
+    },
+    {
+      title: "Enfrente de 'Farmacia Guadalajara Central De Abastos Toluca'",
+      coords: { latitude: 19.341401, longitude: -99.600265 },
+      description:
+        "San Jose Guadalupe Otzacatipan, 50230 San José Guadalupe Otzacatipan, Méx.",
+    },
+    {
+      title: "Enfrente de 'Transmisiones automáticas SHUMA'",
+      coords: { latitude: 19.347514, longitude: -99.592626 },
+      description:
+        "Via José López Portillo Manzana 003, San Jose Guadalupe Otzacatipan, 50220 San José Guadalupe Otzacatipan, Méx.",
+    },
+    {
+      title: "Enfrente de 'BanBajío Sucursal Plaza Santín'",
+      coords: { latitude: 19.349564, longitude: -99.59272 },
+      description:
+        "1101, Vialidad toluca-naucalpan no, San Mateo Otzacatipan, 50220 Estado de México, Méx.",
     },
   ],
 };

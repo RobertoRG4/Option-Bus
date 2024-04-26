@@ -465,7 +465,135 @@ export const Data = {
     },
   ],
   paradasSubidas: [
-    { title: "", coords: {}, description: "" },
-    { title: "", coords: {}, description: "" },
+    {
+      title: "Enfrente de 'Cocina Economica 'Lupita''",
+      coords: { latitude: 19.103333, longitude: -99.586648 },
+      description: "Manzana 002, San Isidro, 52300 Tenango de Arista, Méx.",
+    },
+    {
+      title: "Enfrente de 'The Home Depot'",
+      coords: { latitude: 19.252188, longitude: -99.615436 },
+      description:
+        "Vía Metepec esq, P.º San Isidro 2 Nte, Santa Cruz, 52140 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Atención a clientes AT&t'",
+      coords: { latitude: 19.256465, longitude: -99.621759 },
+      description:
+        "México 55, Zona Sin Asignación de Nombre de Col 1, 52169 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Santander'",
+      coords: { latitude: 19.25917, longitude: -99.625796 },
+      description:
+        "México 55 Manzana 018, Zona Sin Asignación de Nombre de Col 1, 52169 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'McDonald's'",
+      coords: { latitude: 19.260758, longitude: -99.628166 },
+      description:
+        "Toluca, Tenango De Arista - Toluca 554, 52140 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'SEAT Trakehnen'",
+      coords: { latitude: 19.262566, longitude: -99.630809 },
+      description:
+        "Blvrd Toluca Metepec S/N, El Hipico, 52156 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'sucursal de movistar'",
+      coords: { latitude: 19.264646, longitude: -99.634171 },
+      description:
+        "Blvr. José María Pino Suárez, El Hipico, 52156 Hipico, Méx.",
+    },
+    {
+      title: "Enfrente de 'Super Kompras ® | Pino Suárez'",
+      coords: { latitude: 19.268066, longitude: -99.638546 },
+      description:
+        "Pino Suárez Sur #1909 Colonia Magdalena Metepec, 50190 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Tavares Suspensiones'",
+      coords: { latitude: 19.269603, longitude: -99.640394 },
+      description:
+        "Blvr. José María Pino Suárez Sur 1603-L7, La Magdalena, 50190 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'OXXO INSTITUTO LITERARIO'",
+      coords: { latitude: 19.286183, longitude: -99.656365 },
+      description:
+        "Instituto Literario, C. Mariano Matamoros 301 Esq, Francisco Murguía, 50130 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'La Cabaña del Pescador'",
+      coords: { latitude: 19.269596, longitude: -99.640623 },
+      description:
+        "José Ma, Blvr. José María Pino Suárez 1710, Sta María de las Rosas, 50140 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Esquina con 'Leyes de Reforma'",
+      coords: { latitude: 19.268227, longitude: -99.639059 },
+      description:
+        "Blvr. José María Pino Suárez 1872-1964, Benito Juárez, 50190 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Blvrd Toluca Metepec 719 Parking'",
+      coords: { latitude: 19.260749, longitude: -99.629035 },
+      description:
+        "Blvrd Toluca Metepec 719, La Purisima, 50160 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Chedraui Selecto Metepec'",
+      coords: { latitude: 19.259494, longitude: -99.627154 },
+      description:
+        "Calle Guadalupe Victoria 471, La Purisima, 52160 San Jorge Pueblo Nuevo, Méx.",
+    },
+    {
+      title: "Enfrente de 'Potzolcalli Metepec'",
+      coords: { latitude: 19.258701, longitude: -99.626014 },
+      description:
+        "Esq, Calle Guadalupe Victoria, Las Americas, 52167 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Telas Junco'",
+      coords: { latitude: 19.258172, longitude: -99.625222 },
+      description:
+        "Via Rápida Metepec S/N, Lote 9, La Purisima, 52124 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Garis'",
+      coords: { latitude: 19.257547, longitude: -99.62428 },
+      description: "Manzana 021, La Michoacana, 50260 Toluca de Lerdo, Méx.",
+    },
+    {
+      title: "Enfrente de 'La Cabañita'",
+      coords: { latitude: 19.256078, longitude: -99.622059 },
+      description:
+        "Vialidad, Toluca - Tenango De Arista 96, La Michoacana, 52169 San Francisco Coaxusco, Méx.",
+    },
+    {
+      title: "Enfrente de 'Nissan Metepec Seminuevos'",
+      coords: { latitude: 19.25221, longitude: -99.616387 },
+      description:
+        "Toluca - Tenango De Arista 113, La Michoacana, 52140 San Jorge Pueblo Nuevo, Méx.",
+    },
+    {
+      title: "Enfrente de 'El Taco Loco Oficial Toluca-Tenango'",
+      coords: { latitude: 19.23933, longitude: -99.599435 },
+      description:
+        "Toluca - Tenango De Arista 94, San Lorenzo Coacalco, 52140 Metepec, Méx.",
+    },
+    {
+      title: "Enfrente de 'Grupo azulejero de mayoristas'",
+      coords: { latitude: 19.230683, longitude: -99.59621 },
+      description:
+        "Fco. Javier Mina 52143, San Miguel Totocuitlapilco, 52143 Las Minas, Méx.",
+    },
+    {
+      title: "Enfrente de 'FARMACIAS DEL AHORRO Tenango Del Valle'",
+      coords: { latitude: 19.103349, longitude: -99.586731 },
+      description:
+        "Miguel Hidalgo Esq, Blvd. Narciso Bassols S/N, Centro, 52305 Tenango de Arista, Méx.",
+    },
   ],
 };
